@@ -1,8 +1,8 @@
 import requests
 import time
-import html2text
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
+import re
 
 def flatten_boe(data:dict) -> list:
     """
@@ -233,3 +233,28 @@ def extraer_texto_de_html(html):
         return md(str(main))
     else:
         return md(str(html))
+
+def metricas_de_textos(dataframe, columna='markdown'):
+    """
+    Calcula métricas de texto en una columna de un DataFrame: número de párrafos, caracteres y palabras,
+    excluyendo los caracteres y símbolos de formato Markdown.
+
+    Parámetros:
+        dataframe (pd.DataFrame): El DataFrame que contiene la columna de texto.
+        columna (str): El nombre de la columna que contiene el texto Markdown. Por defecto es 'markdown'.
+
+    Devuelve:
+        tuple: Tres pd.Series con el conteo de caracteres, palabras y párrafos para cada fila.
+    """
+    def limpiar_markdown(texto):
+        texto_sin_markdown = re.sub(r'[#*_\[\]`]', '', texto)
+        texto_sin_markdown = re.sub(r'\n', ' ', texto_sin_markdown)  # Reemplazar saltos de línea por espacios
+        texto_sin_markdown = re.sub(r'\\', '', texto_sin_markdown)  # Eliminar caracteres de escape
+        return texto_sin_markdown
+
+    num_parrafos = dataframe[columna].apply(lambda texto: texto.count('\n\n') + 1)
+    texto_limpio = dataframe[columna].apply(limpiar_markdown)
+    num_caracteres = texto_limpio.apply(len)
+    num_palabras = texto_limpio.apply(lambda texto: len(texto.split()))
+    
+    return num_caracteres, num_palabras, num_parrafos
