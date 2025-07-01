@@ -189,20 +189,17 @@ def process_item(item, all_items, metadatos, diario_num, sumario_diario, seccion
                     time.sleep(retry_delay)
             
             # Si la respuesta es exitosa, procesar el HTML
+        except Exception as e:
+            print(f"Error obteniendo HTML {item_url_html}: {str(e)}")
+        else:
             if response.status_code == 200:
                 item_html = response.text
-                h = html2text.HTML2Text()
-                h.ignore_links = True
-                h.ignore_images = True
-                h.ignore_tables = False
-                h.ignore_emphasis = False
-                item_markdown = h.handle(item_html)
+                # Convertir HTML a Markdown
+                item_markdown = extraer_texto_de_html(item_html)
             else:
                 print(f"fetch HTML fallido tras {max_retries} intentos: {item_url_html}")
                 item_markdown = ''
-        except Exception as e:
-            print(f"Error obteniendo HTML {item_url_html}: {str(e)}")
-
+    
     # URL al documento XML
     item_url_xml = item.get('url_xml', '')
 
@@ -233,5 +230,6 @@ def extraer_texto_de_html(html):
     # Intenta extraer el contenido principal (ajusta según la estructura de tus datos)
     main = soup.find('div', id='textoxslt')
     if main:
-        return str(md(main))
-    return str(md(html))
+        return md(str(main))
+    else:
+        return md(str(html))
