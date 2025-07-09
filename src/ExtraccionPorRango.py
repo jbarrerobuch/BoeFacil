@@ -3,8 +3,8 @@ from datetime import datetime as dt, timedelta
 import pandas as pd
 
 # Configuración de la fecha de extracción y el rango de fechas
-extract_date = "2024-01-01"
-END_DATE = "2024-01-01"
+extract_date = "2023-07-22"
+END_DATE = "2023-12-31"
 
 end_dt = dt.strptime(END_DATE, '%Y-%m-%d')
 extract_dt = dt.strptime(extract_date, '%Y-%m-%d')

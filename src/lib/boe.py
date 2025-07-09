@@ -9,8 +9,11 @@ import logging
 from . import utils_boe
 from . import utils
 
+# Configuración del logger
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
-def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_csv", log_level=logging.INFO):
+def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_csv"):
     """
     Obtener datos del BOE para una fecha especifica y lo guarda en el entorno especificado (local o S3).
     
@@ -43,12 +46,12 @@ def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_csv", l
     try:
         response = requests.get(url, headers=headers)
         if response.status_code != 200:
-            print(f"Error: código {response.status_code}")
-        
+            logger.error(f"Error: código {response.status_code}")
+
         datos_json = response.json()
 
     except requests.exceptions.RequestException as e:
-        print(f"Error en la request de la API: {e}")
+        logger.error(f"Error en la request de la API: {e}")
         return pd.DataFrame()
     
     else:
@@ -70,10 +73,10 @@ def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_csv", l
                 key = output_path,
                 content_type='application/json'
             )
-            print(f"Datos JSON guardados en S3 {s3_bucket} with key {output_path}")
+            logger.info(f"Datos JSON guardados en S3 {s3_bucket} with key {output_path}")
 
     # Process the nested structure
-    print("Aplanando datos del BOE...")
+    logger.info("Aplanando datos del BOE...")
     flattened_data = utils_boe.flatten_boe(datos_json)
     
     # Convert to DataFrame
@@ -93,10 +96,10 @@ def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_csv", l
             key = parquet_output_path,
             content_type='application/octet-stream'
         )
-        print(f"Datos guardados en S3 {s3_bucket} with key {parquet_output_path}")
+        logger.info(f"Datos guardados en S3 {s3_bucket} with key {parquet_output_path}")
     else:
         os.makedirs(parquet_subdir, exist_ok=True)
         df.to_parquet(parquet_output_path, index=False)
-        print(f"Datos guardado en local {parquet_output_path}")
-    
+        logger.info(f"Datos guardado en local {parquet_output_path}")
+
     return df

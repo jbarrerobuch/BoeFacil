@@ -1,6 +1,14 @@
 import boto3
 import os
 import json
+import pandas as pd
+import json
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md
+import logging
+
+# Configuración del logger
+logger = logging.getLogger(__name__)
 
 def guardar_en_s3(body, bucket, key, content_type = None):
     """
@@ -41,3 +49,42 @@ def guardar_en_json(json_data: str, output_path: str):
             data = json_data
         json.dump(data, f, ensure_ascii=False, indent=4)
     print(f"Datos JSON guardados en {output_path}")
+
+def dataframes_a_json(lista_dfs):
+    """
+    Convierte una lista de DataFrames en un solo objeto JSON (lista de diccionarios).
+    Soporta DataFrames con columnas MultiIndex convirtiendo las claves a string.
+    Args:
+        lista_dfs (list): Lista de pandas.DataFrame
+    Returns:
+        str: Cadena JSON representando la lista de DataFrames como lista de listas de diccionarios.
+    """
+    def dict_keys_to_str(d):
+        if isinstance(d, dict):
+            return {str(k): dict_keys_to_str(v) for k, v in d.items()}
+        elif isinstance(d, list):
+            return [dict_keys_to_str(i) for i in d]
+        else:
+            return d
+    lista_dicts = [dict_keys_to_str(df.to_dict(orient='records')) for df in lista_dfs]
+    return json.dumps(lista_dicts, ensure_ascii=False, indent=4)
+
+def extraer_texto_de_html(html):
+    """
+    Extrae el texto de un HTML, buscando el div con id 'textoxslt'.
+    Si no se encuentra, devuelve todo el HTML convertido a Markdown.
+    Args:
+        html (str): El contenido HTML del que se extraerá el texto.
+    
+    Returns:
+        str: El texto extraído del HTML, convertido a Markdown.
+    """
+
+    soup = BeautifulSoup(html, 'html.parser')
+    main = soup.find('div', id='textoxslt')
+    if main:
+        logger.debug("Texto extraído del HTML")
+        return md(str(main))
+    else:
+        logger.warning("No se encontró el div con id 'textoxslt', extrayendo todo el HTML")
+        return md(str(html))

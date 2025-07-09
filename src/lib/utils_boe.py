@@ -2,7 +2,13 @@ import requests
 import time
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
-import re
+import logging
+
+from . import utils_markdown
+from . import utils
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def flatten_boe(data:dict) -> list:
     """
@@ -179,25 +185,31 @@ def process_item(item, all_items, metadatos, diario_num, sumario_diario, seccion
                         break
                     elif response.status_code == 429:
                         sleep_time = retry_delay * (2 ** retry)
-                        print(f"Limite de requests alcanzado. Esperando {sleep_time} segundos antes de reintentar...")
+                        logger.warning(f"Limite de requests alcanzado. Esperando {sleep_time} segundos antes de reintentar...")
                         time.sleep(sleep_time)
                     else:
-                        print(f"Request fallido con status code {response.status_code}, reintento en {retry_delay} segundos...")
+                        logger.warning(f"Request fallido con status code {response.status_code}, reintento en {retry_delay} segundos...")
                         time.sleep(retry_delay)
                 except requests.exceptions.RequestException as e:
-                    print(f"Request error: {str(e)}, reintento en {retry_delay} segundos...")
+                    logger.error(f"Request error: {str(e)}, reintento en {retry_delay} segundos...")
                     time.sleep(retry_delay)
-            
             # Si la respuesta es exitosa, procesar el HTML
         except Exception as e:
-            print(f"Error obteniendo HTML {item_url_html}: {str(e)}")
+            logger.error(f"Error obteniendo HTML {item_url_html}: {str(e)}")
         else:
             if response.status_code == 200:
                 item_html = response.text
                 # Convertir HTML a Markdown
-                item_markdown = extraer_texto_de_html(item_html)
+                item_markdown = utils.extraer_texto_de_html(item_html)
+                # Extraer tablas del Markdown
+                tablas_markdown = utils_markdown.extraer_tablas_markdown(item_markdown)
+                # Eliminar tablas del Markdown
+                if len(tablas_markdown) > 0:
+                    texto_markdown = utils_markdown.eliminar_tablas_markdown(item_markdown)
+                else:
+                    texto_markdown = item_markdown
             else:
-                print(f"fetch HTML fallido tras {max_retries} intentos: {item_url_html}")
+                logger.error(f"fetch HTML fallido tras {max_retries} intentos: {item_url_html}")
                 item_markdown = ''
     
     # URL al documento XML
@@ -218,9 +230,10 @@ def process_item(item, all_items, metadatos, diario_num, sumario_diario, seccion
         'item_titulo': item.get('titulo', ''),
         'item_url_pdf': url_pdf_text,
         'item_url_html': item_url_html,
-        'item_url_xml': item_url_xml,  # Se incluye la URL al XML sin hacer request
+        'item_url_xml': item_url_xml,
         'html': item_html,
-        'markdown': item_markdown,
+        'markdown': texto_markdown,
+        'tablas': tablas_markdown,
         'szKBytes': pdf_kbytes,
     }
     all_items.append(item_data)
@@ -230,8 +243,10 @@ def extraer_texto_de_html(html):
     # Intenta extraer el contenido principal (ajusta según la estructura de tus datos)
     main = soup.find('div', id='textoxslt')
     if main:
+        logger.debug("Texto extraído del HTML")
         return md(str(main))
     else:
+        logger.warning("No se encontró el div con id 'textoxslt', extrayendo todo el HTML")
         return md(str(html))
 
 def metricas_de_textos(dataframe, columna='markdown'):
@@ -246,14 +261,9 @@ def metricas_de_textos(dataframe, columna='markdown'):
     Devuelve:
         tuple: Tres pd.Series con el conteo de caracteres, palabras y párrafos para cada fila.
     """
-    def limpiar_markdown(texto):
-        texto_sin_markdown = re.sub(r'[#*_\[\]`]', '', texto)
-        texto_sin_markdown = re.sub(r'\n', ' ', texto_sin_markdown)  # Reemplazar saltos de línea por espacios
-        texto_sin_markdown = re.sub(r'\\', '', texto_sin_markdown)  # Eliminar caracteres de escape
-        return texto_sin_markdown
 
     num_parrafos = dataframe[columna].apply(lambda texto: texto.count('\n\n') + 1)
-    texto_limpio = dataframe[columna].apply(limpiar_markdown)
+    texto_limpio = dataframe[columna].apply(utils_markdown.limpiar_markdown)
     num_caracteres = texto_limpio.apply(len)
     num_palabras = texto_limpio.apply(lambda texto: len(texto.split()))
     
