@@ -1,0 +1,1527 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "20231209"
+            },
+            "diario": [
+                {
+                    "numero": "294",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-2023-294",
+                        "url_pdf": {
+                            "szBytes": "274648",
+                            "szKBytes": "268",
+                            "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-S-2023-294.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "1",
+                            "nombre": "I. Disposiciones generales",
+                            "departamento": [
+                                {
+                                    "codigo": "9279",
+                                    "nombre": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Tabaco. Precios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25073",
+                                                "control": "2023/25324",
+                                                "titulo": "Resolución de 7 de diciembre de 2023, de la Presidencia del Comisionado para el Mercado de Tabacos, por la que se publican los precios de venta al público de determinadas labores de tabaco en Expendedurías de Tabaco y Timbre del área del Monopolio.",
+                                                "url_pdf": {
+                                                    "szBytes": "208374",
+                                                    "szKBytes": "203",
+                                                    "pagina_inicial": "163440",
+                                                    "pagina_final": "163441",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25073.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25073",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25073"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "8170",
+                                    "nombre": "COMUNIDAD FORAL DE NAVARRA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Créditos extraordinarios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25074",
+                                                    "control": "2023/25022",
+                                                    "titulo": "Ley Foral 19/2023, de 14 de noviembre, de concesión de un crédito extraordinario para el abono de las subvenciones a partidos y formaciones políticas para la financiación de los gastos de las elecciones al Parlamento Foral de Navarra celebradas el 28 de mayo de 2023 y para la modificación de la denominación de diversas partidas presupuestarias.",
+                                                    "url_pdf": {
+                                                        "szBytes": "198610",
+                                                        "szKBytes": "194",
+                                                        "pagina_inicial": "163442",
+                                                        "pagina_final": "163443",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25074.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25074",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25074"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25075",
+                                                    "control": "2023/25023",
+                                                    "titulo": "Ley Foral 20/2023, de 23 de noviembre, de concesión de un crédito extraordinario para el Departamento de Universidad, Innovación y Transformación Digital.",
+                                                    "url_pdf": {
+                                                        "szBytes": "204635",
+                                                        "szKBytes": "200",
+                                                        "pagina_inicial": "163444",
+                                                        "pagina_final": "163445",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25075.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25075",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25075"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2A",
+                            "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+                            "departamento": [
+                                {
+                                    "codigo": "1820",
+                                    "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Situaciones",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25076",
+                                                    "control": "2023/22807",
+                                                    "titulo": "Acuerdo de 28 de junio de 2023, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación forzosa del Magistrado don Luis Carlos Pelluz Robles.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191089",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "163446",
+                                                        "pagina_final": "163446",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25076.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25076",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25076"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25077",
+                                                    "control": "2023/22809",
+                                                    "titulo": "Acuerdo de 21 de septiembre de 2023, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación forzosa del Magistrado don José Godino Izquierdo.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191005",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "163447",
+                                                        "pagina_final": "163447",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25077.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25077",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25077"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1810",
+                                    "nombre": "CONSEJO DE ESTADO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25078",
+                                                "control": "2023/25195",
+                                                "titulo": "Resolución de 5 de diciembre de 2023, de la Presidencia del Consejo de Estado, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 27 de septiembre de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "192516",
+                                                    "szKBytes": "188",
+                                                    "pagina_inicial": "163448",
+                                                    "pagina_final": "163448",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25078.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25078",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25078"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25079",
+                                                "control": "2023/24871",
+                                                "titulo": "Resolución de 28 de noviembre de 2023, de la Universidad de Barcelona, por la que se nombran Profesoras y Profesores Titulares de Universidad.",
+                                                "url_pdf": {
+                                                    "szBytes": "191990",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "163449",
+                                                    "pagina_final": "163449",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25079.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25079",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25079"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2B",
+                            "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+                            "departamento": [
+                                {
+                                    "codigo": "9585",
+                                    "nombre": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpo de Letrados de la Administración de Justicia",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25080",
+                                                "control": "2023/25198",
+                                                "titulo": "Orden PJC/1321/2023, de 5 de diciembre, por la que se convoca concurso de traslado para la provisión de puestos de trabajo para el Cuerpo de Letrados de la Administración de Justicia.",
+                                                "url_pdf": {
+                                                    "szBytes": "1141165",
+                                                    "szKBytes": "1114",
+                                                    "pagina_inicial": "163450",
+                                                    "pagina_final": "163481",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25080.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25080",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25080"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpo Facultativo de Sanidad Penitenciaria",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25081",
+                                                "control": "2023/25047",
+                                                "titulo": "Resolución de 30 de noviembre de 2023, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo Facultativo de Sanidad Penitenciaria.",
+                                                "url_pdf": {
+                                                    "szBytes": "294675",
+                                                    "szKBytes": "288",
+                                                    "pagina_inicial": "163482",
+                                                    "pagina_final": "163498",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25081.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25081",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25081"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9525",
+                                    "nombre": "ADMINISTRACIÓN LOCAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal funcionario y laboral",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25082",
+                                                    "control": "2023/25059",
+                                                    "titulo": "Resolución de 28 de noviembre de 2023, del Ayuntamiento de Riells i Viabrea (Girona), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190417",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "163499",
+                                                        "pagina_final": "163499",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25082.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25082",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25082"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25083",
+                                                    "control": "2023/25075",
+                                                    "titulo": "Resolución de 30 de noviembre de 2023, del Ayuntamiento de Priego de Córdoba (Córdoba), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191020",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "163500",
+                                                        "pagina_final": "163500",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25083.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25083",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25083"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25084",
+                                                    "control": "2023/25077",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, del Ayuntamiento de San Juan de Aznalfarache (Sevilla), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192746",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "163501",
+                                                        "pagina_final": "163501",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25084.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25084",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25084"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25085",
+                                                    "control": "2023/25236",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, del Ayuntamiento de Chozas de Abajo (León), de corrección de errores de la de 22 de noviembre de 2023, referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190283",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "163502",
+                                                        "pagina_final": "163502",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25085.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25085",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25085"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpos docentes universitarios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25086",
+                                                "control": "2023/24950",
+                                                "titulo": "Resolución de 29 de noviembre de 2023, de la Universidad Jaume I, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                "url_pdf": {
+                                                    "szBytes": "460455",
+                                                    "szKBytes": "450",
+                                                    "pagina_inicial": "163503",
+                                                    "pagina_final": "163513",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25086.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25086",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25086"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "3",
+                            "nombre": "III. Otras disposiciones",
+                            "departamento": [
+                                {
+                                    "codigo": "9585",
+                                    "nombre": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad de Castilla y León. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25087",
+                                                "control": "2023/25079",
+                                                "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica la segunda Adenda de modificación al Convenio entre la Mutualidad General de Funcionarios Civiles del Estado, el Instituto Social de las Fuerzas Armadas, la Mutualidad General Judicial y la Gerencia Regional de Salud de Castilla y León, para la prestación de determinados servicios sanitarios a los mutualistas y demás beneficiarios adscritos a entidades de seguro de asistencia sanitaria concertada con dichas mutualidades.",
+                                                "url_pdf": {
+                                                    "szBytes": "1683659",
+                                                    "szKBytes": "1644",
+                                                    "pagina_inicial": "163514",
+                                                    "pagina_final": "163577",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25087.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25087",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25087"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25088",
+                                                    "control": "2023/25080",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio de asistencia jurídica entre la Abogacía General del Estado y las entidades públicas promotoras de la Plataforma Logístico-Industrial de Salvaterra-As Neves, representadas por el Consorcio de la Zona Franca de Vigo.",
+                                                    "url_pdf": {
+                                                        "szBytes": "221850",
+                                                        "szKBytes": "217",
+                                                        "pagina_inicial": "163578",
+                                                        "pagina_final": "163582",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25088.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25088",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25088"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25089",
+                                                    "control": "2023/25081",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio entre el Instituto Nacional de Estadística y el Ministerio de Inclusión, Seguridad Social y Migraciones, para la cesión de uso del sistema IRIA.",
+                                                    "url_pdf": {
+                                                        "szBytes": "223838",
+                                                        "szKBytes": "219",
+                                                        "pagina_inicial": "163583",
+                                                        "pagina_final": "163588",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25089.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25089",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25089"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25090",
+                                                    "control": "2023/25082",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio entre la Secretaría General de Administración Digital y el Instituto de Estudios Fiscales, para la asignación de equipos portátiles y/o separables dentro de la iniciativa «Puesto de Trabajo Inteligente», en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+                                                    "url_pdf": {
+                                                        "szBytes": "543176",
+                                                        "szKBytes": "530",
+                                                        "pagina_inicial": "163589",
+                                                        "pagina_final": "163604",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25090.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25090",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25090"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25091",
+                                                    "control": "2023/25083",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio entre la Secretaría General de Administración Digital y el Instituto de las Mujeres, O.A., para la prestación de los servicios asociados a la utilización de la «Gestión Integrada de Servicios de Registro» como Aplicación Integral de Registro.",
+                                                    "url_pdf": {
+                                                        "szBytes": "250523",
+                                                        "szKBytes": "245",
+                                                        "pagina_inicial": "163605",
+                                                        "pagina_final": "163614",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25091.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25091",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25091"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25092",
+                                                    "control": "2023/25084",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio entre la Secretaría General de Administración Digital y la Confederación Hidrográfica del Júcar, O.A., para la asignación de equipos portátiles y/o separables dentro de la iniciativa «Puesto de Trabajo Inteligente», en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+                                                    "url_pdf": {
+                                                        "szBytes": "411609",
+                                                        "szKBytes": "402",
+                                                        "pagina_inicial": "163615",
+                                                        "pagina_final": "163628",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25092.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25092",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25092"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25093",
+                                                    "control": "2023/25085",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio entre la Secretaría General de Administración Digital y el Instituto de Salud Carlos III, O.A., M.P., para la asignación de equipos portátiles y/o separables dentro de la iniciativa «Puesto de Trabajo Inteligente», en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+                                                    "url_pdf": {
+                                                        "szBytes": "445453",
+                                                        "szKBytes": "435",
+                                                        "pagina_inicial": "163629",
+                                                        "pagina_final": "163642",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25093.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25093",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25093"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25094",
+                                                    "control": "2023/25086",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica el Convenio entre la Universidad Internacional Menéndez Pelayo, O.A., la Comisión Nacional del Mercado de Valores y la Fundación Alfonso Martín Escudero, para la realización del encuentro «Finanzas sostenibles y su importancia en la Agenda 2030 para el Desarrollo Sostenible: retos y oportunidades».",
+                                                    "url_pdf": {
+                                                        "szBytes": "244278",
+                                                        "szKBytes": "239",
+                                                        "pagina_inicial": "163643",
+                                                        "pagina_final": "163651",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25094.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25094",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25094"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25095",
+                                                    "control": "2023/25087",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Secretaría de Estado de Justicia y el Museo Nacional Centro de Arte Reina Sofía, en materia de colaboración y coordinación en la gestión de obras de arte encomendadas a la Dirección General de Modernización de la Justicia, Desarrollo Tecnológico y Recuperación y Gestión de Activos.",
+                                                    "url_pdf": {
+                                                        "szBytes": "207503",
+                                                        "szKBytes": "203",
+                                                        "pagina_inicial": "163652",
+                                                        "pagina_final": "163654",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25095.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25095",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25095"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25096",
+                                                    "control": "2023/25088",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Subsecretaría, por la que se publica la Adenda de prórroga del Convenio entre el Ministerio de Sanidad, el Instituto de Salud Carlos III, O.A., M.P., y la Sociedad Española de Informática para la Salud, para la promoción y ejecución de acciones formativas ante la trasformación digital del Sistema Nacional de Salud.",
+                                                    "url_pdf": {
+                                                        "szBytes": "207145",
+                                                        "szKBytes": "202",
+                                                        "pagina_inicial": "163655",
+                                                        "pagina_final": "163657",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25096.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25096",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25096"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "6110",
+                                    "nombre": "MINISTERIO DE DEFENSA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Homologaciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25097",
+                                                "control": "2023/24899",
+                                                "titulo": "Resolución 320/38465/2023, de 28 de noviembre, de la Dirección General de Armamento y Material, por la que se renueva la homologación del cartucho de 5,56 X 45 mm Ball NATO de Fiocchi Munizioni, SpA.",
+                                                "url_pdf": {
+                                                    "szBytes": "193202",
+                                                    "szKBytes": "189",
+                                                    "pagina_inicial": "163658",
+                                                    "pagina_final": "163658",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25097.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25097",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25097"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25098",
+                                                "control": "2023/25093",
+                                                "titulo": "Resolución de 4 de diciembre de 2023, de la Secretaría General Técnica, por la que se publica el Convenio con Eserp, Centro Universitario de Turismo, para el desarrollo de prácticas académicas externas.",
+                                                "url_pdf": {
+                                                    "szBytes": "255090",
+                                                    "szKBytes": "249",
+                                                    "pagina_inicial": "163659",
+                                                    "pagina_final": "163667",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25098.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25098",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25098"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "3120",
+                                    "nombre": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25099",
+                                                    "control": "2023/25108",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Dirección General de Desarrollo Rural, Innovación y Formación Agroalimentaria, por la que se publica el Convenio con la Sociedad Mercantil Estatal de Infraestructuras Agrarias, SA, en relación con las obras de modernización de regadíos del \"Plan para la mejora de la eficiencia y la sostenibilidad en regadíos\" incluido en el Plan de Recuperación, Transformación y Resiliencia de la economía española. Fase III.",
+                                                    "url_pdf": {
+                                                        "szBytes": "405379",
+                                                        "szKBytes": "396",
+                                                        "pagina_inicial": "163668",
+                                                        "pagina_final": "163698",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25099.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25099",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25099"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25100",
+                                                    "control": "2023/25109",
+                                                    "titulo": "Resolución de 1 de diciembre de 2023, de la Dirección General de Desarrollo Rural, Innovación y Formación Agroalimentaria, por la que se publica la Adenda al Convenio con la Sociedad Mercantil Estatal de Infraestructuras Agrarias, SA, en relación con las obras de modernización de regadíos del \"Plan para la mejora de la eficiencia y la sostenibilidad en regadíos\" incluido en el Plan de Recuperación, Transformación y Resiliencia de la economía española. Fase II.",
+                                                    "url_pdf": {
+                                                        "szBytes": "414756",
+                                                        "szKBytes": "405",
+                                                        "pagina_inicial": "163699",
+                                                        "pagina_final": "163714",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25100.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25100",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25100"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Impacto ambiental",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25101",
+                                                    "control": "2023/24908",
+                                                    "titulo": "Resolución de 27 de noviembre de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del «Parque Eólico \"Levante\", de 106,4 MW, y su infraestructura de evacuación, en la provincia de Lugo».",
+                                                    "url_pdf": {
+                                                        "szBytes": "1171467",
+                                                        "szKBytes": "1144",
+                                                        "pagina_inicial": "163715",
+                                                        "pagina_final": "163744",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25101.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25101",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25101"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25102",
+                                                    "control": "2023/24910",
+                                                    "titulo": "Resolución de 27 de noviembre de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Parque eólico \"Tages\" de 42 MW, y su infraestructura de evacuación, en la provincia de Zaragoza».",
+                                                    "url_pdf": {
+                                                        "szBytes": "862999",
+                                                        "szKBytes": "843",
+                                                        "pagina_inicial": "163745",
+                                                        "pagina_final": "163760",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25102.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25102",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25102"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4335",
+                                    "nombre": "MINISTERIO DE SANIDAD",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma de Extremadura. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25103",
+                                                "control": "2023/25138",
+                                                "titulo": "Resolución de 29 de noviembre de 2023, de la Secretaría de Estado de Sanidad, por la que se publica Convenio para el año 2023 entre la Delegación del Gobierno para el Plan Nacional sobre Drogas y la Comunidad Autónoma de Extremadura, en materia de drogodependencias y con cargo al fondo de bienes decomisados.",
+                                                "url_pdf": {
+                                                    "szBytes": "213495",
+                                                    "szKBytes": "208",
+                                                    "pagina_inicial": "163761",
+                                                    "pagina_final": "163763",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25103.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25103",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25103"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9577",
+                                    "nombre": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma del Principado de Asturias. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25104",
+                                                "control": "2023/25139",
+                                                "titulo": "Resolución de 2 de noviembre de 2023, del Instituto de Mayores y Servicios Sociales, por la que se publica el Convenio con la Comunidad Autónoma del Principado de Asturias, para el desarrollo del Marco de cooperación interadministrativa previsto en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las Personas en situación de dependencia, y para el establecimiento y financiación del nivel de protección acordado para el ejercicio 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "340347",
+                                                    "szKBytes": "332",
+                                                    "pagina_inicial": "163764",
+                                                    "pagina_final": "163781",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25104.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25104",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25104"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9588",
+                                    "nombre": "MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25105",
+                                                "control": "2023/25274",
+                                                "titulo": "Resolución de 30 de noviembre de 2023, de la Dirección General de Ordenación del Juego, por la que se publica el Convenio con la Real Federación Española de Fútbol, en materia de adhesión al Servicio de investigación global del mercado de apuestas.",
+                                                "url_pdf": {
+                                                    "szBytes": "242756",
+                                                    "szKBytes": "237",
+                                                    "pagina_inicial": "163782",
+                                                    "pagina_final": "163790",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25105.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25105",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25105"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9565",
+                                    "nombre": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma de Cataluña. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25106",
+                                                "control": "2023/25140",
+                                                "titulo": "Resolución de 27 de noviembre de 2023, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se publica el Convenio con la Generalitat de Catalunya, para la realización del proyecto \"Seguimiento, análisis y evaluación de datos pesqueros y oceanográficos en el marco del Fondo Europeo Marítimo, de Pesca y de Acuicultura\".",
+                                                "url_pdf": {
+                                                    "szBytes": "331911",
+                                                    "szKBytes": "324",
+                                                    "pagina_inicial": "163791",
+                                                    "pagina_final": "163807",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25106.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25106",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25106"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9579",
+                                    "nombre": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25107",
+                                                "control": "2023/25009",
+                                                "titulo": "Resolución de 27 de noviembre de 2023, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de la Seguridad Social y Pensiones, el Instituto Nacional de la Seguridad Social, el Instituto Social de la Marina, la Tesorería General de la Seguridad Social, la Gerencia de Informática de la Seguridad Social y la Secretaría General de Objetivos y Políticas de Inclusión y Previsión Social, para el suministro de datos necesarios para la evaluación de las estrategias de inclusión.",
+                                                "url_pdf": {
+                                                    "szBytes": "254299",
+                                                    "szKBytes": "248",
+                                                    "pagina_inicial": "163808",
+                                                    "pagina_final": "163817",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25107.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25107",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25107"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9592",
+                                    "nombre": "MINISTERIO DE JUVENTUD E INFANCIA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25108",
+                                                "control": "2023/25143",
+                                                "titulo": "Resolución de 30 de noviembre de 2023, del Instituto de la Juventud, por la que se publica el Convenio con la Federación Española de Municipios y Provincias, por el que se canaliza la subvención nominativa establecida en los Presupuestos Generales del Estado para el año 2023, para la realización de actuaciones dirigidas a los/as jóvenes mediante el desarrollo de programas en el ámbito local.",
+                                                "url_pdf": {
+                                                    "szBytes": "241689",
+                                                    "szKBytes": "236",
+                                                    "pagina_inicial": "163818",
+                                                    "pagina_final": "163824",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25108.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25108",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25108"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1020",
+                                    "nombre": "BANCO DE ESPAÑA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Préstamos hipotecarios. Índices",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25109",
+                                                "control": "2023/25145",
+                                                "titulo": "Resolución de 1 de diciembre de 2023, del Banco de España, por la que publican los índices y tipos de referencia aplicables para el cálculo del valor de mercado en la compensación por riesgo de tipo de interés de los préstamos hipotecarios, así como para el cálculo del diferencial a aplicar para la obtención del valor de mercado de los préstamos o créditos que se cancelan anticipadamente.",
+                                                "url_pdf": {
+                                                    "szBytes": "201355",
+                                                    "szKBytes": "197",
+                                                    "pagina_inicial": "163825",
+                                                    "pagina_final": "163825",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25109.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25109",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25109"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1840",
+                                    "nombre": "CONSEJO DE SEGURIDAD NUCLEAR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma del País Vasco. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-25110",
+                                                "control": "2023/25144",
+                                                "titulo": "Resolución de 1 de diciembre de 2023, del Consejo de Seguridad Nuclear, por la que se publica el Convenio con la Universidad del País Vasco-Euskal Herriko Unibertsitatea, para la participación en el programa internacional \"Radiation Protection Computer Code Analysis and Maintenance Program (RAMP)\" de la Nuclear Regulatory Commission de los Estados Unidos de América.",
+                                                "url_pdf": {
+                                                    "szBytes": "222757",
+                                                    "szKBytes": "218",
+                                                    "pagina_inicial": "163826",
+                                                    "pagina_final": "163830",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25110.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25110",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25110"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Planes de estudios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-25111",
+                                                    "control": "2023/24919",
+                                                    "titulo": "Resolución de 9 de noviembre de 2023, de la Universitat Abat Oliba CEU, por la que se publica el plan de estudios de Máster Universitario en Formación del Profesorado de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanza de Idiomas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "223754",
+                                                        "szKBytes": "219",
+                                                        "pagina_inicial": "163831",
+                                                        "pagina_final": "163832",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25111.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25111",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25111"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-25112",
+                                                    "control": "2023/24920",
+                                                    "titulo": "Resolución de 28 de noviembre de 2023, de la Universidad Internacional de la Empresa, por la que se publican planes de estudios de Graduado o Graduada.",
+                                                    "url_pdf": {
+                                                        "szBytes": "484886",
+                                                        "szKBytes": "474",
+                                                        "pagina_inicial": "163833",
+                                                        "pagina_final": "163840",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-A-2023-25112.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25112",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-25112"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "4",
+                            "nombre": "IV. Administración de Justicia",
+                            "departamento": [
+                                {
+                                    "codigo": "9546",
+                                    "nombre": "JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-36893",
+                                            "titulo": "ALMERIA",
+                                            "url_pdf": {
+                                                "szBytes": "141707",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59828",
+                                                "pagina_final": "59828",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36893.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36893",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36893"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36894",
+                                            "titulo": "ARONA",
+                                            "url_pdf": {
+                                                "szBytes": "141697",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59829",
+                                                "pagina_final": "59829",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36894.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36894",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36894"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36895",
+                                            "titulo": "ARONA",
+                                            "url_pdf": {
+                                                "szBytes": "141569",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59830",
+                                                "pagina_final": "59830",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36895.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36895",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36895"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36896",
+                                            "titulo": "BARAKALDO",
+                                            "url_pdf": {
+                                                "szBytes": "141977",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59831",
+                                                "pagina_final": "59831",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36896.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36896",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36896"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36897",
+                                            "titulo": "BARBASTRO",
+                                            "url_pdf": {
+                                                "szBytes": "142024",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59832",
+                                                "pagina_final": "59832",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36897.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36897",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36897"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36898",
+                                            "titulo": "BURGOS",
+                                            "url_pdf": {
+                                                "szBytes": "142076",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59833",
+                                                "pagina_final": "59833",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36898.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36898",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36898"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36899",
+                                            "titulo": "CORUÑA (A)",
+                                            "url_pdf": {
+                                                "szBytes": "142413",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59834",
+                                                "pagina_final": "59834",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36899.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36899",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36899"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36900",
+                                            "titulo": "DENIA",
+                                            "url_pdf": {
+                                                "szBytes": "141703",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59835",
+                                                "pagina_final": "59835",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36900.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36900",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36900"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36901",
+                                            "titulo": "FIGUERES",
+                                            "url_pdf": {
+                                                "szBytes": "142197",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59836",
+                                                "pagina_final": "59836",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36901.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36901",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36901"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36902",
+                                            "titulo": "GETAFE",
+                                            "url_pdf": {
+                                                "szBytes": "141777",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59837",
+                                                "pagina_final": "59837",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36902.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36902",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36902"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36903",
+                                            "titulo": "GRANOLLERS",
+                                            "url_pdf": {
+                                                "szBytes": "141992",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59838",
+                                                "pagina_final": "59838",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36903.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36903",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36903"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36904",
+                                            "titulo": "HARO",
+                                            "url_pdf": {
+                                                "szBytes": "141662",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59839",
+                                                "pagina_final": "59839",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36904.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36904",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36904"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36905",
+                                            "titulo": "JAEN",
+                                            "url_pdf": {
+                                                "szBytes": "141539",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59840",
+                                                "pagina_final": "59840",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36905.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36905",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36905"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36906",
+                                            "titulo": "LINEA CONCEPCION",
+                                            "url_pdf": {
+                                                "szBytes": "141967",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59841",
+                                                "pagina_final": "59841",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36906.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36906",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36906"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36907",
+                                            "titulo": "MADRID",
+                                            "url_pdf": {
+                                                "szBytes": "141870",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59842",
+                                                "pagina_final": "59842",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36907.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36907",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36907"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36908",
+                                            "titulo": "MANRESA",
+                                            "url_pdf": {
+                                                "szBytes": "141982",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59843",
+                                                "pagina_final": "59843",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36908.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36908",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36908"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36909",
+                                            "titulo": "MANRESA",
+                                            "url_pdf": {
+                                                "szBytes": "142055",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59844",
+                                                "pagina_final": "59844",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36909.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36909",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36909"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36910",
+                                            "titulo": "ORIHUELA",
+                                            "url_pdf": {
+                                                "szBytes": "141911",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59845",
+                                                "pagina_final": "59845",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36910.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36910",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36910"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36911",
+                                            "titulo": "OVIEDO",
+                                            "url_pdf": {
+                                                "szBytes": "141625",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59846",
+                                                "pagina_final": "59846",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36911.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36911",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36911"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36912",
+                                            "titulo": "PALMA CONDADO",
+                                            "url_pdf": {
+                                                "szBytes": "142203",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59847",
+                                                "pagina_final": "59847",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36912.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36912",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36912"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36913",
+                                            "titulo": "PALMA CONDADO",
+                                            "url_pdf": {
+                                                "szBytes": "142210",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59848",
+                                                "pagina_final": "59848",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36913.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36913",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36913"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36914",
+                                            "titulo": "PALMA CONDADO",
+                                            "url_pdf": {
+                                                "szBytes": "142202",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59849",
+                                                "pagina_final": "59849",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36914.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36914",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36914"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36915",
+                                            "titulo": "REUS",
+                                            "url_pdf": {
+                                                "szBytes": "141736",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59850",
+                                                "pagina_final": "59850",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36915.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36915",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36915"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36916",
+                                            "titulo": "ROQUETAS DE MAR",
+                                            "url_pdf": {
+                                                "szBytes": "142488",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59851",
+                                                "pagina_final": "59851",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36916.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36916",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36916"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36917",
+                                            "titulo": "SAN BARTOLOME DE TIRAJANA",
+                                            "url_pdf": {
+                                                "szBytes": "142490",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59852",
+                                                "pagina_final": "59852",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36917.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36917",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36917"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36918",
+                                            "titulo": "SEGORBE",
+                                            "url_pdf": {
+                                                "szBytes": "142148",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59853",
+                                                "pagina_final": "59853",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36918.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36918",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36918"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36919",
+                                            "titulo": "SEVILLA",
+                                            "url_pdf": {
+                                                "szBytes": "141697",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59854",
+                                                "pagina_final": "59854",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36919.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36919",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36919"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36920",
+                                            "titulo": "SUECA",
+                                            "url_pdf": {
+                                                "szBytes": "141914",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59855",
+                                                "pagina_final": "59855",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36920.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36920",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36920"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36921",
+                                            "titulo": "TORREMOLINOS",
+                                            "url_pdf": {
+                                                "szBytes": "142016",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59856",
+                                                "pagina_final": "59856",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36921.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36921",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36921"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36922",
+                                            "titulo": "ZARAGOZA",
+                                            "url_pdf": {
+                                                "szBytes": "142040",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59857",
+                                                "pagina_final": "59857",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36922.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36922",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36922"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9547",
+                                    "nombre": "JUZGADOS DE LO MERCANTIL",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-36923",
+                                        "titulo": "PAMPLONA/IRUÑA",
+                                        "url_pdf": {
+                                            "szBytes": "141901",
+                                            "szKBytes": "139",
+                                            "pagina_inicial": "59858",
+                                            "pagina_final": "59858",
+                                            "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36923.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36923",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36923"
+                                    }
+                                },
+                                {
+                                    "codigo": "9548",
+                                    "nombre": "JUZGADOS DE LO SOCIAL",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-36924",
+                                            "titulo": "BARCELONA",
+                                            "url_pdf": {
+                                                "szBytes": "141466",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59859",
+                                                "pagina_final": "59859",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36924.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36924",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36924"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36925",
+                                            "titulo": "BARCELONA",
+                                            "url_pdf": {
+                                                "szBytes": "141538",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59860",
+                                                "pagina_final": "59860",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36925.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36925",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36925"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36926",
+                                            "titulo": "GIRONA",
+                                            "url_pdf": {
+                                                "szBytes": "141316",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59861",
+                                                "pagina_final": "59861",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36926.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36926",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36926"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36927",
+                                            "titulo": "TERUEL",
+                                            "url_pdf": {
+                                                "szBytes": "141120",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59862",
+                                                "pagina_final": "59862",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36927.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36927",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36927"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9571",
+                                    "nombre": "SERVICIOS COMUNES PROCESALES",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-36928",
+                                            "titulo": "MURCIA",
+                                            "url_pdf": {
+                                                "szBytes": "141553",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59863",
+                                                "pagina_final": "59863",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36928.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36928",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36928"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36929",
+                                            "titulo": "VALENCIA",
+                                            "url_pdf": {
+                                                "szBytes": "141330",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59864",
+                                                "pagina_final": "59864",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36929.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36929",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36929"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36930",
+                                            "titulo": "VALENCIA",
+                                            "url_pdf": {
+                                                "szBytes": "141556",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59865",
+                                                "pagina_final": "59865",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36930.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36930",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36930"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36931",
+                                            "titulo": "VALENCIA",
+                                            "url_pdf": {
+                                                "szBytes": "141382",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59866",
+                                                "pagina_final": "59866",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36931.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36931",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36931"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "5B",
+                            "nombre": "V. Anuncios. - B. Otros anuncios oficiales",
+                            "departamento": {
+                                "codigo": "9525",
+                                "nombre": "ADMINISTRACIÓN LOCAL",
+                                "texto": {
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-36932",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142412",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59867",
+                                                "pagina_final": "59867",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36932.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36932",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36932"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36933",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142398",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59868",
+                                                "pagina_final": "59868",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36933.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36933",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36933"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36934",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142400",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59869",
+                                                "pagina_final": "59869",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36934.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36934",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36934"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36935",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142471",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59870",
+                                                "pagina_final": "59870",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36935.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36935",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36935"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36936",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142468",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59871",
+                                                "pagina_final": "59871",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36936.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36936",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36936"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36937",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142470",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59872",
+                                                "pagina_final": "59872",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36937.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36937",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36937"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36938",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142469",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59873",
+                                                "pagina_final": "59873",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36938.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36938",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36938"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36939",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142469",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59874",
+                                                "pagina_final": "59874",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36939.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36939",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36939"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36940",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142476",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59875",
+                                                "pagina_final": "59875",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36940.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36940",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36940"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36941",
+                                            "titulo": "SUMA GESTIÓN TRIBUTARIA. DIPUTACIÓN DE ALICANTE",
+                                            "url_pdf": {
+                                                "szBytes": "142469",
+                                                "szKBytes": "139",
+                                                "pagina_inicial": "59876",
+                                                "pagina_final": "59876",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36941.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36941",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36941"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-36942",
+                                            "titulo": "AYUNTAMIENTO DE LLEIDA",
+                                            "url_pdf": {
+                                                "szBytes": "141603",
+                                                "szKBytes": "138",
+                                                "pagina_inicial": "59877",
+                                                "pagina_final": "59877",
+                                                "texto": "https://www.boe.es/boe/dias/2023/12/09/pdfs/BOE-B-2023-36942.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36942",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36942"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

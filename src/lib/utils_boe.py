@@ -205,8 +205,10 @@ def process_item(item, all_items, metadatos, diario_num, sumario_diario, seccion
                 tablas_markdown = utils_markdown.extraer_tablas_markdown(item_markdown)
                 # Eliminar tablas del Markdown
                 if len(tablas_markdown) > 0:
+                    tablas_json = utils.dataframes_a_json(tablas_markdown)
                     texto_markdown = utils_markdown.eliminar_tablas_markdown(item_markdown)
                 else:
+                    tablas_json = None
                     texto_markdown = item_markdown
             else:
                 logger.error(f"fetch HTML fallido tras {max_retries} intentos: {item_url_html}")
@@ -233,7 +235,7 @@ def process_item(item, all_items, metadatos, diario_num, sumario_diario, seccion
         'item_url_xml': item_url_xml,
         'html': item_html,
         'markdown': texto_markdown,
-        'tablas': tablas_markdown,
+        'tablas': tablas_json,
         'szKBytes': pdf_kbytes,
     }
     all_items.append(item_data)

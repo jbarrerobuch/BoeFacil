@@ -1,0 +1,1306 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "20230831"
+            },
+            "diario": [
+                {
+                    "numero": "208",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-2023-208",
+                        "url_pdf": {
+                            "szBytes": "267742",
+                            "szKBytes": "261",
+                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-S-2023-208.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "1",
+                            "nombre": "I. Disposiciones generales",
+                            "departamento": [
+                                {
+                                    "codigo": "9574",
+                                    "nombre": "MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Dominio público hidráulico. Calidad de las aguas. Suelos contaminados",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18806",
+                                                "control": "2023/18894",
+                                                "titulo": "Real Decreto 665/2023, de 18 de julio, por el que se modifica el Reglamento del Dominio Público Hidráulico, aprobado por Real Decreto 849/1986, de 11 de abril; el Reglamento de la Administración Pública del Agua, aprobado por Real Decreto 927/1988, de 29 de julio; y el Real Decreto 9/2005, de 14 de enero, por el que se establece la relación de actividades potencialmente contaminantes del suelo y los criterios y estándares para la declaración de suelos contaminados.",
+                                                "url_pdf": {
+                                                    "szBytes": "3680604",
+                                                    "szKBytes": "3594",
+                                                    "pagina_inicial": "121618",
+                                                    "pagina_final": "121825",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18806.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18806",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18806"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "8070",
+                                    "nombre": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Violencia de género",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18807",
+                                                "control": "2023/18895",
+                                                "titulo": "Ley 10/2023, de 7 de agosto, de modificación de la Ley 5/2008, de 24 de abril, del derecho de las mujeres a erradicar la violencia machista.",
+                                                "url_pdf": {
+                                                    "szBytes": "223180",
+                                                    "szKBytes": "218",
+                                                    "pagina_inicial": "121826",
+                                                    "pagina_final": "121831",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18807.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18807",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18807"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2A",
+                            "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+                            "departamento": [
+                                {
+                                    "codigo": "1820",
+                                    "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Situaciones",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-18808",
+                                                    "control": "2023/16950",
+                                                    "titulo": "Acuerdo de 22 de febrero de 2023, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación voluntaria anticipada del Magistrado don Luis Fernando Andino Axpe.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190766",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121832",
+                                                        "pagina_final": "121832",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18808.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18808",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18808"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18809",
+                                                    "control": "2023/16953",
+                                                    "titulo": "Acuerdo de 11 de mayo de 2023, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación voluntaria del Magistrado don Miguel Ángel Callejo Sánchez.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190973",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121833",
+                                                        "pagina_final": "121833",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18809.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18809",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18809"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4245",
+                                    "nombre": "MINISTERIO DE CIENCIA E INNOVACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18810",
+                                                "control": "2023/18854",
+                                                "titulo": "Resolución de 23 de agosto de 2023, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se resuelve el concurso general, convocado por Resolución de 21 de marzo de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "972979",
+                                                    "szKBytes": "950",
+                                                    "pagina_inicial": "121834",
+                                                    "pagina_final": "121857",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18810.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18810",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18810"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-18811",
+                                                    "control": "2023/17950",
+                                                    "titulo": "Resolución de 19 de julio de 2023, de la Universidad Politécnica de Cataluña, por la que se nombra Catedrática de Universidad a doña Rosa Rodríguez Montañés.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192492",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "121858",
+                                                        "pagina_final": "121858",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18811.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18811",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18811"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18812",
+                                                    "control": "2023/17953",
+                                                    "titulo": "Resolución de 19 de julio de 2023, de la Universidad Politécnica de Cataluña, por la que se nombra Catedrático de Universidad a don Jose Carmona Vargas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192306",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "121859",
+                                                        "pagina_final": "121859",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18812.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18812",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18812"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18813",
+                                                    "control": "2023/17955",
+                                                    "titulo": "Resolución de 19 de julio de 2023, de la Universidad Politécnica de Cataluña, por la que se nombra Catedrático de Universidad a don Xavier Colom Fajula.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192300",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "121860",
+                                                        "pagina_final": "121860",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18813.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18813",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18813"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2B",
+                            "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+                            "departamento": [
+                                {
+                                    "codigo": "9579",
+                                    "nombre": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18814",
+                                                "control": "2023/18241",
+                                                "titulo": "Resolución de 31 de julio de 2023, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas y se anuncia fecha, hora y lugar de celebración del primer ejercicio del proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social, convocado por Resolución de 2 de junio de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "215880",
+                                                    "szKBytes": "211",
+                                                    "pagina_inicial": "121861",
+                                                    "pagina_final": "121862",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18814.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18814",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18814"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Escala de Médicos Inspectores del Cuerpo de Inspección Sanitaria de la Administración de la Seguridad Social",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18815",
+                                                "control": "2023/18901",
+                                                "titulo": "Resolución de 23 de agosto de 2023, de la Subsecretaría, por la que se publica la relación de aspirantes que han aprobado la fase de oposición del proceso selectivo para ingreso, por el sistema general de acceso libre, en la Escala de Médicos Inspectores del Cuerpo de Inspección Sanitaria de la Administración de la Seguridad Social, convocado por Resolución de 30 de diciembre de 2022.",
+                                                "url_pdf": {
+                                                    "szBytes": "296782",
+                                                    "szKBytes": "290",
+                                                    "pagina_inicial": "121863",
+                                                    "pagina_final": "121866",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18815.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18815",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18815"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "8140",
+                                    "nombre": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Especialidades sanitarias",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-18816",
+                                                    "control": "2023/18904",
+                                                    "titulo": "Resolución 549/2023, de 11 de mayo, de la Dirección Gerencia de la Organización Sanitaria Integrada Donostialdea, por la que se convoca concurso para la provisión de puesto de trabajo de Jefe/a de la Sección Sanitaria de Neurología (Área de Hospitalización).",
+                                                    "url_pdf": {
+                                                        "szBytes": "236068",
+                                                        "szKBytes": "231",
+                                                        "pagina_inicial": "121867",
+                                                        "pagina_final": "121874",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18816.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18816",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18816"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18817",
+                                                    "control": "2023/18902",
+                                                    "titulo": "Resolución 1701/2023, de 16 de junio, de la Dirección Gerencia de la Organización Sanitaria Integrada Araba, por la que se convoca concurso para la provisión de puesto de trabajo de Jefe/a de Servicio Sanitario de Endocrinología y Nutrición.",
+                                                    "url_pdf": {
+                                                        "szBytes": "237047",
+                                                        "szKBytes": "231",
+                                                        "pagina_inicial": "121875",
+                                                        "pagina_final": "121882",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18817.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18817",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18817"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18818",
+                                                    "control": "2023/18903",
+                                                    "titulo": "Resolución 1707/2023, de 19 de junio, de la Dirección Gerencia de la Organización Sanitaria Integrada Araba, por la que se convoca concurso para la provisión de puesto de trabajo de Jefe/a de Sección Sanitaria de Radiodiagnóstico (Área Radiología Mamaria).",
+                                                    "url_pdf": {
+                                                        "szBytes": "239089",
+                                                        "szKBytes": "233",
+                                                        "pagina_inicial": "121883",
+                                                        "pagina_final": "121890",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18818.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18818",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18818"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9525",
+                                    "nombre": "ADMINISTRACIÓN LOCAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal funcionario y laboral",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-18819",
+                                                    "control": "2023/18856",
+                                                    "titulo": "Resolución de 3 de agosto de 2023, del Ayuntamiento de Graus (Huesca), Organismo Autónomo Residencia de Mayores Doctor José Luis Cudós, referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191378",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121891",
+                                                        "pagina_final": "121891",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18819.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18819",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18819"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18820",
+                                                    "control": "2023/18857",
+                                                    "titulo": "Resolución de 9 de agosto de 2023, del Ayuntamiento de La Pesquera (Cuenca), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191601",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121892",
+                                                        "pagina_final": "121892",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18820.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18820",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18820"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18821",
+                                                    "control": "2023/18858",
+                                                    "titulo": "Resolución de 10 de agosto de 2023, del Ayuntamiento de Puebla del Salvador (Cuenca), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190892",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121893",
+                                                        "pagina_final": "121893",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18821.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18821",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18821"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18822",
+                                                    "control": "2023/18859",
+                                                    "titulo": "Resolución de 14 de agosto de 2023, del Ayuntamiento de Alcoy (Alicante), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190995",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121894",
+                                                        "pagina_final": "121894",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18822.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18822",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18822"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18823",
+                                                    "control": "2023/18860",
+                                                    "titulo": "Resolución de 14 de agosto de 2023, del Ayuntamiento de Haro (La Rioja), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190886",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121895",
+                                                        "pagina_final": "121895",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18823.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18823",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18823"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18824",
+                                                    "control": "2023/18861",
+                                                    "titulo": "Resolución de 18 de agosto de 2023, del Ayuntamiento de Albacete, Gerencia Municipal de Urbanismo y Vivienda, referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191415",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121896",
+                                                        "pagina_final": "121896",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18824.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18824",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18824"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18825",
+                                                    "control": "2023/18862",
+                                                    "titulo": "Resolución de 23 de agosto de 2023, de la Diputación Provincial de Palencia, referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190492",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121897",
+                                                        "pagina_final": "121897",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18825.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18825",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18825"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18826",
+                                                    "control": "2023/18863",
+                                                    "titulo": "Resolución de 23 de agosto de 2023, del Ayuntamiento de Benidorm (Alicante), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191237",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121898",
+                                                        "pagina_final": "121898",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18826.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18826",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18826"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18827",
+                                                    "control": "2023/18864",
+                                                    "titulo": "Resolución de 23 de agosto de 2023, del Ayuntamiento de Crevillent (Alicante), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190920",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121899",
+                                                        "pagina_final": "121899",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18827.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18827",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18827"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18828",
+                                                    "control": "2023/18865",
+                                                    "titulo": "Resolución de 23 de agosto de 2023, del Ayuntamiento de El Pinar de El Hierro (Santa Cruz de Tenerife), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190822",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121900",
+                                                        "pagina_final": "121900",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18828.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18828",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18828"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18829",
+                                                    "control": "2023/18866",
+                                                    "titulo": "Resolución de 23 de agosto de 2023, del Ayuntamiento de El Valle (Granada), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192775",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "121901",
+                                                        "pagina_final": "121901",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18829.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18829",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18829"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18830",
+                                                    "control": "2023/18867",
+                                                    "titulo": "Resolución de 23 de agosto de 2023, del Ayuntamiento de Oñati (Gipuzkoa), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191535",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121902",
+                                                        "pagina_final": "121902",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18830.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18830",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18830"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18831",
+                                                    "control": "2023/18868",
+                                                    "titulo": "Resolución de 24 de agosto de 2023, del Ayuntamiento de Arroyo de San Serván (Badajoz), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191437",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "121903",
+                                                        "pagina_final": "121903",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18831.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18831",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18831"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18832",
+                                                    "control": "2023/18869",
+                                                    "titulo": "Resolución de 24 de agosto de 2023, del Ayuntamiento de Casatejada (Cáceres), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192157",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "121904",
+                                                        "pagina_final": "121904",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18832.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18832",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18832"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18833",
+                                                    "control": "2023/18870",
+                                                    "titulo": "Resolución de 24 de agosto de 2023, del Ayuntamiento de Gata de Gorgos (Alicante), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190683",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121905",
+                                                        "pagina_final": "121905",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18833.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18833",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18833"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-18834",
+                                                    "control": "2023/18912",
+                                                    "titulo": "Resolución de 24 de agosto de 2023, de la Diputación Provincial de Huesca, referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190569",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "121906",
+                                                        "pagina_final": "121906",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18834.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18834",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18834"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "3",
+                            "nombre": "III. Otras disposiciones",
+                            "departamento": [
+                                {
+                                    "codigo": "6110",
+                                    "nombre": "MINISTERIO DE DEFENSA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Homologaciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18835",
+                                                "control": "2023/18871",
+                                                "titulo": "Resolución 320/38354/2023, de 23 de agosto, de la Dirección General de Armamento y Material, por la que se renueva la homologación del disparo de 40 x 53 mm TP-T SB-994, fabricado por Nammo Palencia, SL.",
+                                                "url_pdf": {
+                                                    "szBytes": "192773",
+                                                    "szKBytes": "188",
+                                                    "pagina_inicial": "121907",
+                                                    "pagina_final": "121907",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18835.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18835",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18835"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5250",
+                                    "nombre": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Fiestas de interés turístico",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18836",
+                                                "control": "2023/18793",
+                                                "titulo": "Resolución de 21 de agosto de 2023, de la Secretaría de Estado de Turismo, por la que se concede el título de Fiesta de Interés Turístico Nacional a la fiesta \"Jornadas Medievales de Ávila\".",
+                                                "url_pdf": {
+                                                    "szBytes": "192768",
+                                                    "szKBytes": "188",
+                                                    "pagina_inicial": "121908",
+                                                    "pagina_final": "121908",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18836.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18836",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18836"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9570",
+                                    "nombre": "MINISTERIO DE CULTURA Y DEPORTE",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Patrimonio histórico",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18837",
+                                                "control": "2023/18848",
+                                                "titulo": "Orden CUD/1001/2023, de 24 de agosto, por la que se otorga la garantía del Estado al depósito de la escultura \"San Sebastián\" de Giovanni Lorenzo Bernini, para su exhibición en la colección permanente del Museo Nacional Thyssen-Bornemisza.",
+                                                "url_pdf": {
+                                                    "szBytes": "212086",
+                                                    "szKBytes": "207",
+                                                    "pagina_inicial": "121909",
+                                                    "pagina_final": "121911",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18837.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18837",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18837"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1020",
+                                    "nombre": "BANCO DE ESPAÑA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Mercado de divisas",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-18838",
+                                                "control": "2023/18973",
+                                                "titulo": "Resolución de 30 de agosto de 2023, del Banco de España, por la que se publican los cambios del euro correspondientes al día 30 de agosto de 2023, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
+                                                "url_pdf": {
+                                                    "szBytes": "216905",
+                                                    "szKBytes": "212",
+                                                    "pagina_inicial": "121912",
+                                                    "pagina_final": "121913",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-A-2023-18838.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18838",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-18838"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "5A",
+                            "nombre": "V. Anuncios. - A. Contratación del Sector Público",
+                            "departamento": [
+                                {
+                                    "codigo": "4810",
+                                    "nombre": "MINISTERIO DE JUSTICIA",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24729",
+                                        "titulo": "Anuncio de formalización de contratos de: Subsecretaría del Ministerio de Justicia. Objeto: Obras para la mejora de la eficiencia energética de los edificios judiciales afectados al Ministerio de Justicia. Grupo 2. Expediente: AOB/2023/056.",
+                                        "url_pdf": {
+                                            "szBytes": "211185",
+                                            "szKBytes": "206",
+                                            "pagina_inicial": "40760",
+                                            "pagina_final": "40766",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24729.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24729",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24729"
+                                    }
+                                },
+                                {
+                                    "codigo": "6110",
+                                    "nombre": "MINISTERIO DE DEFENSA",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24730",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos del Estado Mayor de la Defensa. Objeto: Sostenimiento del material criptológico del EMAD. Expediente: 2023/SP02002001/00001337E.",
+                                            "url_pdf": {
+                                                "szBytes": "159258",
+                                                "szKBytes": "156",
+                                                "pagina_inicial": "40767",
+                                                "pagina_final": "40768",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24730.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24730",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24730"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24731",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos del Estado Mayor de la Defensa. Objeto: Asistencia técnica consultoría DIVESTRA. Expediente: 2023/SP02002001/00000897E .",
+                                            "url_pdf": {
+                                                "szBytes": "161083",
+                                                "szKBytes": "157",
+                                                "pagina_inicial": "40769",
+                                                "pagina_final": "40770",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24731.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24731",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24731"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24732",
+                                            "titulo": "Anuncio de formalización de contratos de: Dirección de Adquisiciones del Mando de Apoyo Logístico del Ejército del Aire. Objeto: 20232030 Repuestos de Célula Para el Avión C-101 E.25. Expediente: 2023/EA02/00000152E.",
+                                            "url_pdf": {
+                                                "szBytes": "161449",
+                                                "szKBytes": "158",
+                                                "pagina_inicial": "40771",
+                                                "pagina_final": "40772",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24732.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24732",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24732"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24733",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos del Estado Mayor de la Defensa. Objeto: Sustitución e instalación de dos compresores del sistema de refrigeración del CoE C-IED. Expediente: 2023/SP02002001/00001398E.",
+                                            "url_pdf": {
+                                                "szBytes": "158412",
+                                                "szKBytes": "155",
+                                                "pagina_inicial": "40773",
+                                                "pagina_final": "40774",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24733.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24733",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24733"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24734",
+                                            "titulo": "Anuncio de formalización de contratos de: Sección de Asuntos Económicos del Parque y Centro de Mantenimiento de Vehículos Ruedas Nº 1. Objeto: Mantenimiento de turismos y de vehículos todoterreno blindados. Expediente: 2023/ETSAE0114/00000103E.",
+                                            "url_pdf": {
+                                                "szBytes": "158969",
+                                                "szKBytes": "155",
+                                                "pagina_inicial": "40775",
+                                                "pagina_final": "40776",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24734.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24734",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24734"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24735",
+                                            "titulo": "Anuncio de licitación de: Inspección General de Sanidad de la Defensa. Objeto: Acuerdo Marco Servicio de mantenimiento de equipamiento sanitario en centros de la red sanitaria militar. Expediente: 2023/SP01400010/000000199E.",
+                                            "url_pdf": {
+                                                "szBytes": "166369",
+                                                "szKBytes": "162",
+                                                "pagina_inicial": "40777",
+                                                "pagina_final": "40779",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24735.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24735",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24735"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24736",
+                                            "titulo": "Anuncio de formalización de contratos de: Intendencia de Madrid. Objeto: Gestión de la coordinación de actividades empresariales en unidades de la Armada en Madrid. Expediente: 2023/AR21U/00001207E.",
+                                            "url_pdf": {
+                                                "szBytes": "155474",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "40780",
+                                                "pagina_final": "40781",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24736.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24736",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24736"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24737",
+                                            "titulo": "Anuncio de licitación de: Dirección de Adquisiciones del Mando de Apoyo Logístico del Ejército del Aire. Objeto: 20237184 Granada/ Armilla/ B.A. Armilla/ Construcción de edificio simuladores para el HE-26 (H-135). Expediente: 2023/EA02/00001648E.",
+                                            "url_pdf": {
+                                                "szBytes": "168464",
+                                                "szKBytes": "165",
+                                                "pagina_inicial": "40782",
+                                                "pagina_final": "40784",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24737.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24737",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24737"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9279",
+                                    "nombre": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24738",
+                                            "titulo": "Anuncio de licitación de: Delegación Especial de la Agencia Tributaria en Illes Balears. Objeto: Custodia y vigilancia para las embarcaciones de Vigilancia Aduanera de la Delegación Especial en Illes Balears. Expediente: 23A40075000.",
+                                            "url_pdf": {
+                                                "szBytes": "150400",
+                                                "szKBytes": "147",
+                                                "pagina_inicial": "40785",
+                                                "pagina_final": "40785",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24738.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24738",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24738"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24739",
+                                            "titulo": "Anuncio de formalización de contratos de: Delegación Especial de la Agencia Tributaria en Castilla y León. Objeto: Obras restauración fachadas y sustitución carpinterías exteriores Delegación AEAT Zamora. Expediente: 23A80056900.",
+                                            "url_pdf": {
+                                                "szBytes": "159504",
+                                                "szKBytes": "156",
+                                                "pagina_inicial": "40786",
+                                                "pagina_final": "40787",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24739.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24739",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24739"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24740",
+                                            "titulo": "Anuncio de formalización de contratos de: Delegación Especial de la Agencia Tributaria en Galicia. Objeto: Cambio de caldera en la Administración de Monforte. Expediente: 23B10054300.",
+                                            "url_pdf": {
+                                                "szBytes": "158167",
+                                                "szKBytes": "154",
+                                                "pagina_inicial": "40788",
+                                                "pagina_final": "40789",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24740.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24740",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24740"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24741",
+                                            "titulo": "Anuncio de formalización de contratos de: Subdirección General de Planificación y Gestión Económica. Objeto: Acuerdo Marco de suminsitro de DOVATO para los Centros Penitenciarios dependientes de la Secretaria General de Instituciones Penitenciarias. Expediente: 02012023AF50.",
+                                            "url_pdf": {
+                                                "szBytes": "160573",
+                                                "szKBytes": "157",
+                                                "pagina_inicial": "40790",
+                                                "pagina_final": "40791",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24741.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24741",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24741"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24742",
+                                            "titulo": "Anuncio de formalización de contratos de: Subdirección General de Planificación y Gestión Económica. Objeto: Suministro de Aripiprazol a los centro penitenciarios de la Secretaria General de Instituciones Penitenciarias. Expediente: 020120230076.",
+                                            "url_pdf": {
+                                                "szBytes": "165012",
+                                                "szKBytes": "161",
+                                                "pagina_inicial": "40792",
+                                                "pagina_final": "40793",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24742.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24742",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24742"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24743",
+                                            "titulo": "Anuncio de formalización de contratos de: Subdirección General de Planificación y Gestión Económica. Objeto: Adquisición de aparatos de aire acondicionado para varios centros penitenciarios dependientes de la Secretaría General de Instituciones Penitenciarias. Expediente: 020120230018.",
+                                            "url_pdf": {
+                                                "szBytes": "159801",
+                                                "szKBytes": "156",
+                                                "pagina_inicial": "40794",
+                                                "pagina_final": "40795",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24743.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24743",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24743"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24744",
+                                            "titulo": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Transportes, Movilidad y Agenda Urbana. Objeto: Servicio de limpieza en el edificio sito en la calle de la Marquesa nº 12 de Barcelona, donde tiene su sede la Demarcación de Carreteras del Estado en Cataluña. Expediente: 23IHS2OM0042.",
+                                            "url_pdf": {
+                                                "szBytes": "166837",
+                                                "szKBytes": "163",
+                                                "pagina_inicial": "40796",
+                                                "pagina_final": "40798",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24744.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24744",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24744"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24745",
+                                            "titulo": "Anuncio de formalización de contratos de: ADIF -Consejo de Administración. Objeto: Suministro y transporte de aparatos de vía destinados a la conexión en ancho estándar al corredor mediterráneo de la plataforma multimodal de La Llagosta (Barcelona). Expediente: 3.23/06110.0099.",
+                                            "url_pdf": {
+                                                "szBytes": "158932",
+                                                "szKBytes": "155",
+                                                "pagina_inicial": "40799",
+                                                "pagina_final": "40800",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24745.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24745",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24745"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24746",
+                                            "titulo": "Anuncio de formalización de contratos de: Centro de Estudios y Experimentación de Obras Públicas (CEDEX). Objeto: Suministro de combustible Gasóleo tipo C para calefacción en el Centro de Estudios Hidrográficos, en el Laboratorio de Interoperabilidad Ferroviaria y en el Laboratorio Central de Estructuras y Materiales del CEDEX. Expediente: 2022Z7Z00112.",
+                                            "url_pdf": {
+                                                "szBytes": "161729",
+                                                "szKBytes": "158",
+                                                "pagina_inicial": "40801",
+                                                "pagina_final": "40802",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24746.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24746",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24746"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24747",
+                                            "titulo": "Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: 30.1090/22-6; AT-PO-4680 \"Control y vigilancia de las obras clave: 15-PO-4690. Remodelación del enlace de Pontevedra norte de la autopista AP-9 (P.K. 129,000). Provincia de Pontevedra. Expediente: 630223646800.",
+                                            "url_pdf": {
+                                                "szBytes": "163474",
+                                                "szKBytes": "160",
+                                                "pagina_inicial": "40803",
+                                                "pagina_final": "40804",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24747.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24747",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24747"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24748",
+                                            "titulo": "Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: 30.1099/22-6; AT-O-6420 Control y vigilancia de las obras. Adecuación al Real Decreto 635/2006 de los túneles de la autopista AP-66 Plan de Recuperación, Transformación y Resiliencia, Next Generation EU. Expediente: 630223328898.",
+                                            "url_pdf": {
+                                                "szBytes": "163832",
+                                                "szKBytes": "160",
+                                                "pagina_inicial": "40805",
+                                                "pagina_final": "40806",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24748.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24748",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24748"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24749",
+                                            "titulo": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro de engrasadores de pestaña para las obras de renovación de la línea Zafra-Huelva. Expediente: 3.23/27510.0025.",
+                                            "url_pdf": {
+                                                "szBytes": "157662",
+                                                "szKBytes": "154",
+                                                "pagina_inicial": "40807",
+                                                "pagina_final": "40808",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24749.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24749",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24749"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24750",
+                                            "titulo": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Transportes, Movilidad y Agenda Urbana. Objeto: \"Seguro de responsabilidad civil /patrimonial\" para el Ministerio de Transportes, Movilidad y Agenda Urbana, la Agencia Estatal de Seguridad Aérea (AESA), la Agencia Estatal de Seguridad Ferroviaria (AESF), el Centro de Estudios y Experimentación de Obras Públicas (CEDEX) y el O.A. Centro Nacional de Información Geográfica (CNIG) y el personal dependiente de ellos. Expediente: 23RHS2VV0035.",
+                                            "url_pdf": {
+                                                "szBytes": "165296",
+                                                "szKBytes": "161",
+                                                "pagina_inicial": "40809",
+                                                "pagina_final": "40810",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24750.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24750",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24750"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24751",
+                                            "titulo": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Transportes, Movilidad y Agenda Urbana. Objeto: Explotación de los servicios de cafetería-restaurante y máquinas expendedoras en la Sede Central del Ministerio de Transportes, Movilidad y Agenda Urbana. Expediente: 23RHN2OM0003.",
+                                            "url_pdf": {
+                                                "szBytes": "152448",
+                                                "szKBytes": "149",
+                                                "pagina_inicial": "40811",
+                                                "pagina_final": "40811",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24751.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24751",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24751"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5250",
+                                    "nombre": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24752",
+                                        "titulo": "Anuncio de licitación de: Dirección General de Política Comercial. Objeto: Adquisición de un sistema automático de cromatografía de líquidos acoplado a cromatografía de gases para análisis de esteroles y alcoholes en aceites y grasas para el laboratorio de la Dirección Territorial de Comercio de Sevilla. Expediente: M23.007.07.",
+                                        "url_pdf": {
+                                            "szBytes": "170979",
+                                            "szKBytes": "167",
+                                            "pagina_inicial": "40812",
+                                            "pagina_final": "40814",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24752.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24752",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24752"
+                                    }
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24753",
+                                        "titulo": "Anuncio de formalización de contratos de: Secretaría de Estado de Medio Ambiente. Objeto: Recuperación de la continuidad fluvial y defensa de inundaciones del río Casaño en Poo, T.M. de Cabrales en el Marco del Plan de Recuperación, Transformación y Resiliencia (PRTR). Expediente: P02.C05.I2.P02.S01.A02.01.",
+                                        "url_pdf": {
+                                            "szBytes": "160312",
+                                            "szKBytes": "157",
+                                            "pagina_inicial": "40815",
+                                            "pagina_final": "40816",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24753.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24753",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24753"
+                                    }
+                                },
+                                {
+                                    "codigo": "9570",
+                                    "nombre": "MINISTERIO DE CULTURA Y DEPORTE",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24754",
+                                            "titulo": "Anuncio de formalización de contratos de: Dirección General del Instituto Nacional de las Artes Escénicas y de la Música. Objeto: Seis representaciones del espectáculo teatral \"Misterio del Cristo de los Gascones\". Expediente: 2023AC000105.",
+                                            "url_pdf": {
+                                                "szBytes": "151524",
+                                                "szKBytes": "148",
+                                                "pagina_inicial": "40817",
+                                                "pagina_final": "40817",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24754.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24754",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24754"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24755",
+                                            "titulo": "Anuncio de licitación de: Dirección General de la Biblioteca Nacional. Objeto: Concesión de explotación de un servicio de Tienda-Librería en la Biblioteca Nacional de España . Expediente: M230081.",
+                                            "url_pdf": {
+                                                "szBytes": "149593",
+                                                "szKBytes": "146",
+                                                "pagina_inicial": "40818",
+                                                "pagina_final": "40818",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24755.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24755",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24755"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4335",
+                                    "nombre": "MINISTERIO DE SANIDAD",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24756",
+                                            "titulo": "Anuncio de licitación de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Suministro de reactivos para técnicas de biología molecular y serología de los laboratorios del Hospital Universitario de Ceuta. Expediente: PA/2023/018/GCE.",
+                                            "url_pdf": {
+                                                "szBytes": "187998",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "40819",
+                                                "pagina_final": "40823",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24756.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24756",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24756"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24757",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Suministro de equipamientos médicos para los Servicios de Rehabilitación, Reumatología, Oftalmología y Anestesia y Reanimación del Hospital Universitario de Ceuta . Expediente: PA/2023/032/GCE.",
+                                            "url_pdf": {
+                                                "szBytes": "191283",
+                                                "szKBytes": "187",
+                                                "pagina_inicial": "40824",
+                                                "pagina_final": "40828",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24757.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24757",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24757"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24758",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Suministro de equipos médicos para los Servicios de Pediatría, Anestesia y Reanimación y Unidad de Cuidados Intensivos del Hospital Universitario de Ceuta. Expediente: PA/2023/021/GCE.",
+                                            "url_pdf": {
+                                                "szBytes": "174995",
+                                                "szKBytes": "171",
+                                                "pagina_inicial": "40829",
+                                                "pagina_final": "40831",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24758.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24758",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24758"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9577",
+                                    "nombre": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24759",
+                                        "titulo": "Anuncio de formalización de contratos de: Subdirección General de la Oficina Presupuestaria y de la Gestión Económica. Objeto: Servicios de formación, la impartición de ocho cursos, en modalidad online, que se encuentran incluidos dentro del Plan de Formación del año 2023 de Servicios Sociales, Familias, Infancia y Adolescencia. Expediente: 232904PSS002.",
+                                        "url_pdf": {
+                                            "szBytes": "152121",
+                                            "szKBytes": "149",
+                                            "pagina_inicial": "40832",
+                                            "pagina_final": "40832",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24759.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24759",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24759"
+                                    }
+                                },
+                                {
+                                    "codigo": "4245",
+                                    "nombre": "MINISTERIO DE CIENCIA E INNOVACIÓN",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24760",
+                                            "titulo": "Anuncio de formalización de contratos de: Dirección General del Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT). Objeto: Servicio de soporte a operaciones de instalaciones de I+D+I y mantenimiento de las infraestructuras generales del CEDER-CIEMAT. Expediente: 294713.",
+                                            "url_pdf": {
+                                                "szBytes": "162816",
+                                                "szKBytes": "159",
+                                                "pagina_inicial": "40833",
+                                                "pagina_final": "40834",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24760.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24760",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24760"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24761",
+                                            "titulo": "Anuncio de formalización de contratos de: Consorcio para la Construcción, Equipamiento y Explotación del Laboratorio de Luz Sincrotrón. Objeto: Servicios de diversas pólizas de seguros para el Consorcio para la Construcción, Equipamiento y Explotación del Laboratorio de Luz Sincrotrón. Expediente: 15/23.",
+                                            "url_pdf": {
+                                                "szBytes": "175344",
+                                                "szKBytes": "171",
+                                                "pagina_inicial": "40835",
+                                                "pagina_final": "40837",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24761.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24761",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24761"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24762",
+                                            "titulo": "Anuncio de licitación de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Concesión del servicio de cafetería-comedor destinado a la Organización Central de la Agencia Estatal Consejo Superior de Investigaciones Científicas. Expediente: 30958/23.",
+                                            "url_pdf": {
+                                                "szBytes": "150294",
+                                                "szKBytes": "147",
+                                                "pagina_inicial": "40838",
+                                                "pagina_final": "40838",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24762.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24762",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24762"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9579",
+                                    "nombre": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24763",
+                                            "titulo": "Anuncio de formalización de contratos de: TGSS-Dirección provincial de Barcelona. Objeto: Servicio de reconocimientos médicos urológicos, ginecológicos, otorrinolaringológicos y de analíticas específicas para el personal dependiente de la DP de la TGSS de Barcelona. Expediente: PAS 2023/140 RI.",
+                                            "url_pdf": {
+                                                "szBytes": "161764",
+                                                "szKBytes": "158",
+                                                "pagina_inicial": "40839",
+                                                "pagina_final": "40840",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24763.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24763",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24763"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24764",
+                                            "titulo": "Anuncio de licitación de: INSS-Dirección provincial de Valencia. Objeto: servicios integrales de mantenimiento de los inmuebles dependientes de la Dirección Provincial del INSS en Valencia durante 2024. Expediente: 46/VC-350/23.",
+                                            "url_pdf": {
+                                                "szBytes": "168611",
+                                                "szKBytes": "165",
+                                                "pagina_inicial": "40841",
+                                                "pagina_final": "40843",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24764.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24764",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24764"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24765",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Informática de la Seguridad Social. Objeto: Suministro de licencias para los firewalls y el equipamiento auxiliar de las plataformas de internet y conexiones externas de la Gerencia de Informática de la Seguridad Social y el suministro de nuevo equipamiento para renovación de elementos obsoletos y para la ampliación de funcionalidades. Expediente: 2023/7008.",
+                                            "url_pdf": {
+                                                "szBytes": "161950",
+                                                "szKBytes": "158",
+                                                "pagina_inicial": "40844",
+                                                "pagina_final": "40845",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24765.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24765",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24765"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "5B",
+                            "nombre": "V. Anuncios. - B. Otros anuncios oficiales",
+                            "departamento": [
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24766",
+                                            "titulo": "Anuncio de la Demarcación de Carreteras del Estado en Galicia por el que se publica la Resolución del Ministerio de Transportes, Movilidad y Agenda Urbana por la que se aprueba provisionalmente el Proyecto: \"Remodelación de intersección en el P.K. 148+650 de la carretera N-550. T.M. de Mos. Provincia de Pontevedra\" Clave: 33-PO-50115.",
+                                            "url_pdf": {
+                                                "szBytes": "195687",
+                                                "szKBytes": "191",
+                                                "pagina_inicial": "40846",
+                                                "pagina_final": "40848",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24766.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24766",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24766"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24767",
+                                            "titulo": "Anuncio de la Autoridad Portuaria de Huelva referente al trámite de competencia de proyectos, relativo a la solicitud presentada por la empresa \"WPI Huelva, S.L.\", de una concesión administrativa en la Zona de Servicio del Puerto de Huelva.",
+                                            "url_pdf": {
+                                                "szBytes": "145418",
+                                                "szKBytes": "142",
+                                                "pagina_inicial": "40849",
+                                                "pagina_final": "40849",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24767.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24767",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24767"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-24768",
+                                            "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A., por el que se somete a información pública el \"Proyecto de renovación de las infraestructuras de saneamiento en la travesía de Santa María La Real de A Terrachá. Ayuntamiento de Entrimo (Ourense), PdM Miño-Sil ES010_3_ALCH0SCET29SP2536\". Clave: M1332-072/2111.",
+                                            "url_pdf": {
+                                                "szBytes": "147684",
+                                                "szKBytes": "144",
+                                                "pagina_inicial": "40850",
+                                                "pagina_final": "40850",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24768.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24768",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24768"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-24769",
+                                            "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A., por el que se somete a información pública el \"Proyecto para la sustitución del puente sobre el río Sarria en el núcleo de Supena, T.m. de Láncara (Lugo), PdM Miño-Sil ES010_3_CHCH0XCET29WP2537\". Clave: M1.444-279/2111.",
+                                            "url_pdf": {
+                                                "szBytes": "147741",
+                                                "szKBytes": "144",
+                                                "pagina_inicial": "40851",
+                                                "pagina_final": "40851",
+                                                "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24769.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24769",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24769"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9579",
+                                    "nombre": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24770",
+                                        "titulo": "Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla por la que se anuncia segunda subasta pública de un bien inmueble de su propiedad.",
+                                        "url_pdf": {
+                                            "szBytes": "152782",
+                                            "szKBytes": "149",
+                                            "pagina_inicial": "40852",
+                                            "pagina_final": "40853",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24770.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24770",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24770"
+                                    }
+                                },
+                                {
+                                    "codigo": "8010",
+                                    "nombre": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24771",
+                                        "titulo": "Anuncio de 25 de julio de 2023, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Sevilla, por el que se somete a información pública la solicitud de modificación de autorización administrativa previa y de autorización administrativa de construcción. (PP. 2520/2023).",
+                                        "url_pdf": {
+                                            "szBytes": "191641",
+                                            "szKBytes": "187",
+                                            "pagina_inicial": "40854",
+                                            "pagina_final": "40856",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24771.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24771",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24771"
+                                    }
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-24772",
+                                        "titulo": "Anuncio de la Facultade de Economía e Empresa de la Universidade da Coruña sobre extravío de título universitario.",
+                                        "url_pdf": {
+                                            "szBytes": "143259",
+                                            "szKBytes": "140",
+                                            "pagina_inicial": "40857",
+                                            "pagina_final": "40857",
+                                            "texto": "https://www.boe.es/boe/dias/2023/08/31/pdfs/BOE-B-2023-24772.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-24772",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-24772"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

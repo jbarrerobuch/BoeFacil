@@ -1,0 +1,939 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "20230407"
+            },
+            "diario": [
+                {
+                    "numero": "83",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-2023-83",
+                        "url_pdf": {
+                            "szBytes": "244753",
+                            "szKBytes": "239",
+                            "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-S-2023-83.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "1",
+                            "nombre": "I. Disposiciones generales",
+                            "departamento": [
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Carreteras",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8749",
+                                                "control": "2023/8757",
+                                                "titulo": "Orden TMA/338/2023, de 29 de marzo, por la que se modifica la Orden TMA/1160/2021, de 8 de octubre, por la que se establece el marco para la celebración de acuerdos de entrega a los Ayuntamientos de vías urbanas de la red estatal.",
+                                                "url_pdf": {
+                                                    "szBytes": "202287",
+                                                    "szKBytes": "198",
+                                                    "pagina_inicial": "50899",
+                                                    "pagina_final": "50900",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8749.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8749",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8749"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9523",
+                                    "nombre": "MINISTERIO DE POLÍTICA TERRITORIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Foral de Navarra. Traspaso de funciones y servicios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8750",
+                                                "control": "2023/8869",
+                                                "titulo": "Real Decreto 252/2023, de 4 de abril, de traspaso de funciones y servicios de la Administración del Estado a la Comunidad Foral de Navarra en materia de tráfico y circulación de vehículos a motor.",
+                                                "url_pdf": {
+                                                    "szBytes": "328887",
+                                                    "szKBytes": "321",
+                                                    "pagina_inicial": "50901",
+                                                    "pagina_final": "50909",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8750.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8750",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8750"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Patrimonio natural y de la biodiversidad",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8751",
+                                                "control": "2023/8896",
+                                                "titulo": "Orden TED/339/2023, de 30 de marzo, por la que se modifica el anexo del Real Decreto 139/2011, de 4 de febrero, para el desarrollo del Listado de Especies Silvestres en Régimen de Protección Especial y del Catálogo Español de Especies Amenazadas, y el anexo del Real Decreto 630/2013, de 2 de agosto, por el que se regula el Catálogo Español de Especies Exóticas Invasoras.",
+                                                "url_pdf": {
+                                                    "szBytes": "254193",
+                                                    "szKBytes": "248",
+                                                    "pagina_inicial": "50910",
+                                                    "pagina_final": "50915",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8751.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8751",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8751"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "8030",
+                                    "nombre": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Medidas tributarias. Organización. Medidas urgentes",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8752",
+                                                "control": "2023/8237",
+                                                "titulo": "Decreto-ley 11/2022, de 29 de septiembre, por el que se prorroga la vigencia de determinadas medidas tributarias contenidas en el Decreto-ley 12/2021, de 30 de septiembre, por el que se adoptan medidas tributarias, organizativas y de gestión como consecuencia de la erupción volcánica en la isla de La Palma, y por el que se modifica el Decreto-ley 1/2022, de 20 de enero, por el que se adoptan medidas urgentes en materia urbanística y económica para la construcción o reconstrucción de viviendas habituales afectadas por la erupción volcánica en la isla de La Palma.",
+                                                "url_pdf": {
+                                                    "szBytes": "230032",
+                                                    "szKBytes": "225",
+                                                    "pagina_inicial": "50916",
+                                                    "pagina_final": "50922",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8752.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8752",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8752"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2A",
+                            "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+                            "departamento": [
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8753",
+                                                    "control": "2023/8759",
+                                                    "titulo": "Orden TMA/340/2023, de 1 de abril, por la que se publica el cese del Presidente de la Autoridad Portuaria de Castellón.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194047",
+                                                        "szKBytes": "189",
+                                                        "pagina_inicial": "50923",
+                                                        "pagina_final": "50923",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8753.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8753",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8753"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8754",
+                                                    "control": "2023/8760",
+                                                    "titulo": "Orden TMA/341/2023, de 1 de abril, por la que se publica el cese del Presidente de la Autoridad Portuaria de Valencia.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194148",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "50924",
+                                                        "pagina_final": "50924",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8754.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8754",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8754"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8755",
+                                                    "control": "2023/8761",
+                                                    "titulo": "Orden TMA/342/2023, de 1 de abril, por la que se publica el nombramiento del Presidente de la Autoridad Portuaria de Castellón.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194215",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "50925",
+                                                        "pagina_final": "50925",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8755.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8755",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8755"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8756",
+                                                    "control": "2023/8762",
+                                                    "titulo": "Orden TMA/343/2023, de 1 de abril, por la que se publica el nombramiento del Presidente de la Autoridad Portuaria de Valencia.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194312",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "50926",
+                                                        "pagina_final": "50926",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8756.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8756",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8756"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8757",
+                                                    "control": "2023/8599",
+                                                    "titulo": "Resolución de 15 de marzo de 2023, de la Presidencia de la Agencia Estatal de Seguridad Aérea, por la que se publica el nombramiento de titulares de órganos operativos de la agencia.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195410",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "50927",
+                                                        "pagina_final": "50927",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8757.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8757",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8757"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9576",
+                                    "nombre": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8758",
+                                                "control": "2023/8899",
+                                                "titulo": "Resolución de 4 de abril de 2023, de la Subsecretaría, por la que se corrigen errores en la de 23 de marzo de 2023, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 26 de enero de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "195992",
+                                                    "szKBytes": "191",
+                                                    "pagina_inicial": "50928",
+                                                    "pagina_final": "50928",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8758.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8758",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8758"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9577",
+                                    "nombre": "MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8759",
+                                                    "control": "2023/8604",
+                                                    "titulo": "Resolución de 29 de marzo de 2023, de la Secretaría de Estado de Derechos Sociales, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 12 de enero de 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "217568",
+                                                        "szKBytes": "212",
+                                                        "pagina_inicial": "50929",
+                                                        "pagina_final": "50930",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8759.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8759",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8759"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8760",
+                                                    "control": "2023/8605",
+                                                    "titulo": "Resolución de 30 de marzo de 2023, de la Secretaría de Estado de Derechos Sociales, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 12 de enero de 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "213000",
+                                                        "szKBytes": "208",
+                                                        "pagina_inicial": "50931",
+                                                        "pagina_final": "50932",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8760.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8760",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8760"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9534",
+                                    "nombre": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8761",
+                                                "control": "2023/8610",
+                                                "titulo": "Resolución de 30 de marzo de 2023, de la Comisión Nacional de los Mercados y la Competencia, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 21 de febrero de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "209187",
+                                                    "szKBytes": "204",
+                                                    "pagina_inicial": "50933",
+                                                    "pagina_final": "50933",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8761.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8761",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8761"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1840",
+                                    "nombre": "CONSEJO DE SEGURIDAD NUCLEAR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8762",
+                                                "control": "2023/8609",
+                                                "titulo": "Resolución de 30 de marzo de 2023, del Consejo de Seguridad Nuclear, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 26 de enero de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "221956",
+                                                    "szKBytes": "217",
+                                                    "pagina_inicial": "50934",
+                                                    "pagina_final": "50935",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8762.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8762",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8762"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8763",
+                                                    "control": "2023/8270",
+                                                    "titulo": "Resolución de 27 de marzo de 2023, de la Universidad de León, por la que se nombra Catedrática de Universidad a doña Marta Elena Sánchez Morán.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195156",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "50936",
+                                                        "pagina_final": "50936",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8763.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8763",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8763"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8764",
+                                                    "control": "2023/8271",
+                                                    "titulo": "Resolución de 27 de marzo de 2023, de la Universidad de León, por la que se nombran Profesores y Profesoras Titulares de Universidad.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195414",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "50937",
+                                                        "pagina_final": "50937",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8764.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8764",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8764"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8765",
+                                                    "control": "2023/8272",
+                                                    "titulo": "Resolución de 27 de marzo de 2023, de la Universidad de Málaga, por la que se nombra Profesor Titular de Universidad a don Francisco Ángel Moreno Dueñas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "193149",
+                                                        "szKBytes": "189",
+                                                        "pagina_inicial": "50938",
+                                                        "pagina_final": "50938",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8765.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8765",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8765"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2B",
+                            "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+                            "departamento": [
+                                {
+                                    "codigo": "9563",
+                                    "nombre": "MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal laboral",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8766",
+                                                "control": "2023/8613",
+                                                "titulo": "Resolución de 30 de marzo de 2023, de la Subsecretaría, por la que se aprueba la relación definitiva de personas admitidas y excluidas y se corrigen errores en la Resolución de 27 de febrero de 2023, por la que se aprueba la relación de personas admitidas y excluidas del proceso selectivo para la estabilización de empleo temporal como personal laboral fijo en los grupos profesionales G3, G4, M1, E2 y E1, sujetos al IV Convenio Único para el personal laboral de la Administración General del Estado, en el Ministerio de Educación y Formación Profesional, convocado por Resolución de 22 de diciembre de 2022.",
+                                                "url_pdf": {
+                                                    "szBytes": "248803",
+                                                    "szKBytes": "243",
+                                                    "pagina_inicial": "50939",
+                                                    "pagina_final": "50942",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8766.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8766",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8766"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1011",
+                                    "nombre": "AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Funcionarios de los Subgrupos A2, C1 y C2",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8767",
+                                                "control": "2023/8617",
+                                                "titulo": "Resolución de 30 de marzo de 2023, de la Agencia Española de Protección de Datos, por la que se convoca concurso general para la provisión de puestos de trabajo.",
+                                                "url_pdf": {
+                                                    "szBytes": "432127",
+                                                    "szKBytes": "422",
+                                                    "pagina_inicial": "50943",
+                                                    "pagina_final": "50959",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8767.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8767",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8767"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "3",
+                            "nombre": "III. Otras disposiciones",
+                            "departamento": [
+                                {
+                                    "codigo": "9562",
+                                    "nombre": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma de Cataluña. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8768",
+                                                "control": "2023/8785",
+                                                "titulo": "Resolución de 30 de marzo de 2023, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración interadministrativa con la Generalitat de Cataluña y el Ayuntamiento de Barcelona, relativo al establecimiento y la financiación del centro tecnológico del programa GIGA en Barcelona.",
+                                                "url_pdf": {
+                                                    "szBytes": "227331",
+                                                    "szKBytes": "222",
+                                                    "pagina_inicial": "50960",
+                                                    "pagina_final": "50964",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8768.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8768",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8768"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "6110",
+                                    "nombre": "MINISTERIO DE DEFENSA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma de Galicia. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8769",
+                                                "control": "2023/8626",
+                                                "titulo": "Resolución 420/38134/2023, de 29 de marzo, de la Secretaría General Técnica, por la que se publica el Convenio con la Universidad de A Coruña, para el desarrollo de actividades de gestión del dato e inteligencia artificial.",
+                                                "url_pdf": {
+                                                    "szBytes": "223256",
+                                                    "szKBytes": "218",
+                                                    "pagina_inicial": "50965",
+                                                    "pagina_final": "50969",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8769.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8769",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8769"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Homologaciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8770",
+                                                "control": "2023/8622",
+                                                "titulo": "Resolución 1A0/38132/2023, de 16 de marzo, del Centro Criptológico Nacional, por la que se certifica la seguridad del producto «Samsung SP of S3B512C revision 3», solicitado por Samsung Electronics Co. Ltd.",
+                                                "url_pdf": {
+                                                    "szBytes": "199372",
+                                                    "szKBytes": "195",
+                                                    "pagina_inicial": "50970",
+                                                    "pagina_final": "50971",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8770.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8770",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8770"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Recursos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8771",
+                                                "control": "2023/8522",
+                                                "titulo": "Resolución 160/38136/2023, de 21 de marzo, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 127/2023, interpuesto ante el Tribunal Superior de Justicia de la Comunidad Valenciana, Sala de lo Contencioso-Administrativo, Sección Segunda.",
+                                                "url_pdf": {
+                                                    "szBytes": "194843",
+                                                    "szKBytes": "190",
+                                                    "pagina_inicial": "50972",
+                                                    "pagina_final": "50972",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8771.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8771",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8771"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Premios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8772",
+                                                "control": "2023/8792",
+                                                "titulo": "Orden TMA/344/2023, de 27 de marzo, por la que se convoca el Premio Nacional de Ingeniería Civil del Ministerio de Transportes, Movilidad y Agenda Urbana correspondiente al año 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "216793",
+                                                    "szKBytes": "212",
+                                                    "pagina_inicial": "50973",
+                                                    "pagina_final": "50975",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8772.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8772",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8772"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9573",
+                                    "nombre": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios colectivos de trabajo",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8773",
+                                                    "control": "2023/8546",
+                                                    "titulo": "Resolución de 24 de marzo de 2023, de la Dirección General de Trabajo, por la que se registra y publica el XXVIII Convenio colectivo de Repsol Butano, SA.",
+                                                    "url_pdf": {
+                                                        "szBytes": "1170367",
+                                                        "szKBytes": "1143",
+                                                        "pagina_inicial": "50976",
+                                                        "pagina_final": "51049",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8773.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8773",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8773"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8774",
+                                                    "control": "2023/8547",
+                                                    "titulo": "Resolución de 28 de marzo de 2023, de la Dirección General de Trabajo, por la que se registra y publica el incremento y la tabla salarial para el año 2023, y la modificación del Anexo I del III Convenio colectivo estatal regulador de las relaciones laborales entre los productores de obras audiovisuales y los actores que prestan servicios en las mismas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "233494",
+                                                        "szKBytes": "228",
+                                                        "pagina_inicial": "51050",
+                                                        "pagina_final": "51053",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8774.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8774",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8774"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8775",
+                                                    "control": "2023/8548",
+                                                    "titulo": "Resolución de 28 de marzo de 2023, de la Dirección General de Trabajo, por la que se registran y publican las tablas salariales provisionales para el año 2023 del Convenio colectivo del sector de mataderos de aves y conejos.",
+                                                    "url_pdf": {
+                                                        "szBytes": "375174",
+                                                        "szKBytes": "366",
+                                                        "pagina_inicial": "51054",
+                                                        "pagina_final": "51060",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8775.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8775",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8775"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8776",
+                                                    "control": "2023/8549",
+                                                    "titulo": "Resolución de 28 de marzo de 2023, de la Dirección General de Trabajo, por la que se registran y publican los anexos de contenido económico para el año 2023 del Convenio colectivo estatal del sector de industrias cárnicas 2021-2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "599281",
+                                                        "szKBytes": "585",
+                                                        "pagina_inicial": "51061",
+                                                        "pagina_final": "51070",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8776.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8776",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8776"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Subvenciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8777",
+                                                "control": "2023/8550",
+                                                "titulo": "Orden TES/345/2023, de 29 de marzo, por la que se modifica la Orden ESS/763/2016, de 5 de abril, por la que se establecen las bases reguladoras de concesión de subvenciones destinadas a financiar la renovación de instalaciones y equipamientos para oficinas de empleo con personal del Servicio Público de Empleo Estatal.",
+                                                "url_pdf": {
+                                                    "szBytes": "411145",
+                                                    "szKBytes": "402",
+                                                    "pagina_inicial": "51071",
+                                                    "pagina_final": "51076",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8777.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8777",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8777"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5250",
+                                    "nombre": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8778",
+                                                    "control": "2023/8795",
+                                                    "titulo": "Resolución de 18 de marzo de 2023, de la Secretaría General de Industria y de la Pequeña y Mediana Empresa, por la que se publica el Convenio con la Asociación Desarrollo Integral Sierra Oeste de Madrid, para el establecimiento de Puntos de Atención al Emprendedor integrados en la Red CIRCE.",
+                                                    "url_pdf": {
+                                                        "szBytes": "255568",
+                                                        "szKBytes": "250",
+                                                        "pagina_inicial": "51077",
+                                                        "pagina_final": "51085",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8778.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8778",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8778"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8779",
+                                                    "control": "2023/8949",
+                                                    "titulo": "Resolución de 30 de marzo de 2023, de la Secretaría General de Industria y de la Pequeña y Mediana Empresa, por la que se publica el Convenio con la Asociación Aprofem, para el establecimiento de Puntos de Atención al Emprendedor integrados en la Red CIRCE.",
+                                                    "url_pdf": {
+                                                        "szBytes": "248345",
+                                                        "szKBytes": "243",
+                                                        "pagina_inicial": "51086",
+                                                        "pagina_final": "51094",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8779.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8779",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8779"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "3120",
+                                    "nombre": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Pesca marítima",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8780",
+                                                "control": "2023/8796",
+                                                "titulo": "Resolución de 31 de marzo de 2023, de la Secretaría General de Pesca, por la que se establecen disposiciones para la campaña atún rojo 2023 para la flota de la lista g), de artes menores del Mediterráneo, del censo específico de la flota autorizada para el ejercicio de la pesca del atún rojo.",
+                                                "url_pdf": {
+                                                    "szBytes": "212811",
+                                                    "szKBytes": "208",
+                                                    "pagina_inicial": "51095",
+                                                    "pagina_final": "51097",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8780.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8780",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8780"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8781",
+                                                    "control": "2023/8657",
+                                                    "titulo": "Resolución de 27 de marzo de 2023, de la Confederación Hidrográfica del Miño-Sil, O.A., por la que se publica el Convenio con el Ayuntamiento de A Cañiza, sobre la financiación, ejecución y entrega de las obras de mejora del saneamiento y EDAR del casco urbano y aglomeraciones limítrofes de A Cañiza (Pontevedra).",
+                                                    "url_pdf": {
+                                                        "szBytes": "252184",
+                                                        "szKBytes": "246",
+                                                        "pagina_inicial": "51098",
+                                                        "pagina_final": "51105",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8781.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8781",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8781"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8782",
+                                                    "control": "2023/8658",
+                                                    "titulo": "Resolución de 27 de marzo de 2023, de la Confederación Hidrográfica del Miño-Sil, O.A., por la que se publica el Convenio con el Ayuntamiento de O Pereiro de Aguiar, sobre la financiación, ejecución y entrega de las obras de construcción de una nueva obra de paso sobre el río Grañal, en la carretera A Venda-Calvelle, en O Pereiro de Aguiar (Ourense), PDM Miño-Sil.",
+                                                    "url_pdf": {
+                                                        "szBytes": "246342",
+                                                        "szKBytes": "241",
+                                                        "pagina_inicial": "51106",
+                                                        "pagina_final": "51113",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8782.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8782",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8782"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Impacto ambiental",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8783",
+                                                    "control": "2023/8798",
+                                                    "titulo": "Resolución de 27 de marzo de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de determinación de afección ambiental del proyecto \"Planta solar fotovoltaica Cubillos FV, de 56,1 MW e infraestructuras subterráneas de evacuación\", en los términos municipales de Cubillos y Valcabado (Zamora).",
+                                                    "url_pdf": {
+                                                        "szBytes": "258881",
+                                                        "szKBytes": "253",
+                                                        "pagina_inicial": "51114",
+                                                        "pagina_final": "51124",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8783.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8783",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8783"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8784",
+                                                    "control": "2023/8799",
+                                                    "titulo": "Resolución de 30 de marzo de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de determinación de afección ambiental del \"Proyecto de Hibridación El Almendro, de 36 MW en el término municipal de El Almendro (Huelva)\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "243554",
+                                                        "szKBytes": "238",
+                                                        "pagina_inicial": "51125",
+                                                        "pagina_final": "51131",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8784.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8784",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8784"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9576",
+                                    "nombre": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Dominio público radioeléctrico",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8785",
+                                                "control": "2023/8664",
+                                                "titulo": "Resolución de 27 de marzo de 2023, de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, por la que se determinan los tipos de estaciones radioeléctricas para los que se requiere una certificación sustitutiva del acto de reconocimiento técnico previo a la autorización para la puesta en servicio.",
+                                                "url_pdf": {
+                                                    "szBytes": "207710",
+                                                    "szKBytes": "203",
+                                                    "pagina_inicial": "51132",
+                                                    "pagina_final": "51134",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8785.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8785",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8785"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4620",
+                                    "nombre": "MINISTERIO DE IGUALDAD",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8786",
+                                                    "control": "2023/8561",
+                                                    "titulo": "Resolución de 28 de marzo de 2023, de la Delegación del Gobierno contra la Violencia de Género, por la que se publica el Convenio con Investigación, Mejora y Desarrollo, SL, para promover la sensibilización y concienciación social contra la violencia de género en el marco de la iniciativa \"Empresas por una sociedad libre de violencia de género\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "234858",
+                                                        "szKBytes": "229",
+                                                        "pagina_inicial": "51135",
+                                                        "pagina_final": "51141",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8786.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8786",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8786"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8787",
+                                                    "control": "2023/8667",
+                                                    "titulo": "Resolución de 29 de marzo de 2023, de la Delegación del Gobierno contra la Violencia de Género, por la que se publica el Convenio con Mitsubishi Materials España, SAU, para promover la sensibilización y concienciación social contra la violencia de género en el marco de la iniciativa \"Empresas por una sociedad libre de violencia de género\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "231950",
+                                                        "szKBytes": "227",
+                                                        "pagina_inicial": "51142",
+                                                        "pagina_final": "51148",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8787.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8787",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8787"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "8080",
+                                    "nombre": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Bienes de interés cultural",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-8788",
+                                                "control": "2023/8677",
+                                                "titulo": "Resolución de 8 de marzo de 2023, de la Consejería de Cultura, Turismo y Deportes, por la que se incoa expediente de declaración de bien de interés cultural a favor del \"Cerro del Cabezo\", de la localidad de Capilla (Badajoz), con la categoría de zona arqueológica.",
+                                                "url_pdf": {
+                                                    "szBytes": "364220",
+                                                    "szKBytes": "356",
+                                                    "pagina_inicial": "51149",
+                                                    "pagina_final": "51159",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8788.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8788",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8788"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Planes de estudios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-8789",
+                                                    "control": "2023/8395",
+                                                    "titulo": "Resolución de 14 de marzo de 2023, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster Universitario en Gobierno Local y Políticas Públicas Innovadoras.",
+                                                    "url_pdf": {
+                                                        "szBytes": "232056",
+                                                        "szKBytes": "227",
+                                                        "pagina_inicial": "51160",
+                                                        "pagina_final": "51161",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8789.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8789",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8789"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8790",
+                                                    "control": "2023/8396",
+                                                    "titulo": "Resolución de 14 de marzo de 2023, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster Universitario en Ingeniería Ambiental.",
+                                                    "url_pdf": {
+                                                        "szBytes": "235207",
+                                                        "szKBytes": "230",
+                                                        "pagina_inicial": "51162",
+                                                        "pagina_final": "51163",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8790.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8790",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8790"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8791",
+                                                    "control": "2023/8400",
+                                                    "titulo": "Resolución de 16 de marzo de 2023, de la Universidad de Santiago de Compostela, por la que se publica la modificación del plan de estudios de Máster Universitario en Desarrollo Económico e Innovación.",
+                                                    "url_pdf": {
+                                                        "szBytes": "248092",
+                                                        "szKBytes": "242",
+                                                        "pagina_inicial": "51164",
+                                                        "pagina_final": "51166",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8791.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8791",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8791"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8792",
+                                                    "control": "2023/8401",
+                                                    "titulo": "Resolución de 16 de marzo de 2023, de la Universidad de Santiago de Compostela, por la que se publica la modificación del plan de estudios de Máster Universitario en Dirección de Empresas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "227094",
+                                                        "szKBytes": "222",
+                                                        "pagina_inicial": "51167",
+                                                        "pagina_final": "51168",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8792.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8792",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8792"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8793",
+                                                    "control": "2023/8402",
+                                                    "titulo": "Resolución de 16 de marzo de 2023, de la Universidad de Santiago de Compostela, por la que se publica la modificación del plan de estudios de Máster Universitario en Física.",
+                                                    "url_pdf": {
+                                                        "szBytes": "268395",
+                                                        "szKBytes": "262",
+                                                        "pagina_inicial": "51169",
+                                                        "pagina_final": "51172",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8793.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8793",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8793"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-8794",
+                                                    "control": "2023/8399",
+                                                    "titulo": "Resolución de 16 de marzo de 2023, de la Universidad de Santiago de Compostela, por la que se corrigen errores en la de 18 de marzo de 2014, por la que se publica el plan de estudios de Máster en Ingeniería de Montes.",
+                                                    "url_pdf": {
+                                                        "szBytes": "237013",
+                                                        "szKBytes": "231",
+                                                        "pagina_inicial": "51173",
+                                                        "pagina_final": "51174",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/04/07/pdfs/BOE-A-2023-8794.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8794",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-8794"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

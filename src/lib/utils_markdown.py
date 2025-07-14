@@ -47,7 +47,7 @@ def extraer_tablas_markdown(texto: str, logger: logging.Logger = None) -> list:
                 data = [ [c.strip() for c in l.split('|')[1:-1]] for l in data_lines if l.strip() ]
                 try:
                     df = pd.DataFrame(data, columns=pd.MultiIndex.from_tuples(columns))
-                    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+                    df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
                     tablas.append(df)
                 except Exception as e:
                     if logger: logger.error(f"Error al procesar la tabla: {tabla_str}\n{e}")
@@ -61,7 +61,7 @@ def extraer_tablas_markdown(texto: str, logger: logging.Logger = None) -> list:
                     df = df.dropna(axis=1, how='all')
                     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
                     df.columns = [col.strip() for col in df.columns]
-                    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+                    df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
                     tablas.append(df)
                 except Exception as e:
                     if logger: logger.error(f"Error al procesar la tabla simple: {tabla_str}\n{e}")
@@ -73,7 +73,7 @@ def extraer_tablas_markdown(texto: str, logger: logging.Logger = None) -> list:
                 df = df.dropna(axis=1, how='all')
                 df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
                 df.columns = [col.strip() for col in df.columns]
-                df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+                df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
                 tablas.append(df)
             except Exception as e:
                 if logger: logger.error(f"Error al procesar la tabla simple: {tabla_str}\n{e}")

@@ -1,0 +1,2129 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "20230111"
+            },
+            "diario": [
+                {
+                    "numero": "9",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-2023-9",
+                        "url_pdf": {
+                            "szBytes": "315374",
+                            "szKBytes": "308",
+                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-S-2023-9.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "1",
+                            "nombre": "I. Disposiciones generales",
+                            "departamento": [
+                                {
+                                    "codigo": "7723",
+                                    "nombre": "JEFATURA DEL ESTADO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Medidas urgentes",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-625",
+                                                "control": "2023/644",
+                                                "titulo": "Real Decreto-ley 1/2023, de 10 de enero, de medidas urgentes en materia de incentivos a la contratación laboral y mejora de la protección social de las personas artistas.",
+                                                "url_pdf": {
+                                                    "szBytes": "590001",
+                                                    "szKBytes": "576",
+                                                    "pagina_inicial": "4164",
+                                                    "pagina_final": "4228",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-625.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-625",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-625"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9279",
+                                    "nombre": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Organización",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-626",
+                                                "control": "2023/645",
+                                                "titulo": "Real Decreto 1/2023, de 10 de enero, por el que se modifican el Real Decreto 139/2020, de 28 de enero, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 998/2018, de 3 de agosto, por el que se desarrolla la estructura orgánica básica del Ministerio de Industria, Comercio y Turismo.",
+                                                "url_pdf": {
+                                                    "szBytes": "219712",
+                                                    "szKBytes": "215",
+                                                    "pagina_inicial": "4229",
+                                                    "pagina_final": "4233",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-626.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-626",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-626"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9574",
+                                    "nombre": "MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Aguas de consumo humano",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-627",
+                                                    "control": "2023/646",
+                                                    "titulo": "Real Decreto 2/2023, de 10 de enero, por el que se modifican el Real Decreto 1798/2010, de 30 de diciembre, por el que se regula la explotación y comercialización de aguas minerales naturales y aguas de manantial envasadas para consumo humano, y el Real Decreto 1799/2010, de 30 de diciembre, por el que se regula el proceso de elaboración y comercialización de aguas preparadas envasadas para el consumo humano.",
+                                                    "url_pdf": {
+                                                        "szBytes": "503231",
+                                                        "szKBytes": "491",
+                                                        "pagina_inicial": "4234",
+                                                        "pagina_final": "4252",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-627.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-627",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-627"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-628",
+                                                    "control": "2023/647",
+                                                    "titulo": "Real Decreto 3/2023, de 10 de enero, por el que se establecen los criterios técnico-sanitarios de la calidad del agua de consumo, su control y suministro.",
+                                                    "url_pdf": {
+                                                        "szBytes": "1278063",
+                                                        "szKBytes": "1248",
+                                                        "pagina_inicial": "4253",
+                                                        "pagina_final": "4354",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-628.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-628",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-628"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Subvenciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-629",
+                                                "control": "2023/648",
+                                                "titulo": "Real Decreto 4/2023, de 10 de enero, por el que se regula la concesión directa de subvenciones a los proyectos españoles por su participación en el Proyecto Importante de Interés Común Europeo de tecnología de hidrógeno dentro del Componente 9 del Plan de Recuperación, Transformación y Resiliencia.",
+                                                "url_pdf": {
+                                                    "szBytes": "426021",
+                                                    "szKBytes": "416",
+                                                    "pagina_inicial": "4355",
+                                                    "pagina_final": "4386",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-629.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-629",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-629"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9576",
+                                    "nombre": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Medidas financieras",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-630",
+                                                "control": "2023/541",
+                                                "titulo": "Resolución de 9 de enero de 2023, de la Secretaría General del Tesoro y Financiación Internacional, por la que se actualiza el Anexo 1 incluido en la Resolución de 4 de julio de 2017, de la Secretaría General del Tesoro y Política Financiera, por la que se define el principio de prudencia financiera aplicable a las operaciones de endeudamiento y derivados de las comunidades autónomas y entidades locales.",
+                                                "url_pdf": {
+                                                    "szBytes": "280397",
+                                                    "szKBytes": "274",
+                                                    "pagina_inicial": "4387",
+                                                    "pagina_final": "4389",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-630.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-630",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-630"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2A",
+                            "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+                            "departamento": [
+                                {
+                                    "codigo": "9570",
+                                    "nombre": "MINISTERIO DE CULTURA Y DEPORTE",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-631",
+                                                "control": "2023/649",
+                                                "titulo": "Real Decreto 7/2023, de 10 de enero, por el que se dispone el cese de don Albert Soler Sicilia como Director General de Deportes.",
+                                                "url_pdf": {
+                                                    "szBytes": "189523",
+                                                    "szKBytes": "185",
+                                                    "pagina_inicial": "4390",
+                                                    "pagina_final": "4390",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-631.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-631",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-631"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-632",
+                                                "control": "2023/650",
+                                                "titulo": "Real Decreto 8/2023, de 10 de enero, por el que se nombra Director General de Deportes a don Fernando Molinero Revert.",
+                                                "url_pdf": {
+                                                    "szBytes": "189520",
+                                                    "szKBytes": "185",
+                                                    "pagina_inicial": "4391",
+                                                    "pagina_final": "4391",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-632.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-632",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-632"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-633",
+                                                "control": "2023/312",
+                                                "titulo": "Resolución de 4 de enero de 2023, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 8 de septiembre de 2022, en el Instituto de la Cinematografía y de las Artes Audiovisuales.",
+                                                "url_pdf": {
+                                                    "szBytes": "301338",
+                                                    "szKBytes": "294",
+                                                    "pagina_inicial": "4392",
+                                                    "pagina_final": "4395",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-633.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-633",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-633"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9576",
+                                    "nombre": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-634",
+                                                "control": "2023/651",
+                                                "titulo": "Real Decreto 9/2023, de 10 de enero, por el que se nombra Directora del Gabinete Adjunta de la Vicepresidenta Primera del Gobierno a doña María Eugenia Martí Cano.",
+                                                "url_pdf": {
+                                                    "szBytes": "190992",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "4396",
+                                                    "pagina_final": "4396",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-634.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-634",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-634"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-635",
+                                                "control": "2023/316",
+                                                "titulo": "Resolución de 19 de diciembre de 2022, de la Universidad de Oviedo, por la que se nombra Catedrática de Universidad a doña Araceli Iravedra Valea.",
+                                                "url_pdf": {
+                                                    "szBytes": "191790",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "4397",
+                                                    "pagina_final": "4397",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-635.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-635",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-635"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Integraciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-636",
+                                                "control": "2023/452",
+                                                "titulo": "Resolución de 16 de diciembre de 2022, de la Universitat Politècnica de València, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a don Juan Vicente Oltrá Gutiérrez.",
+                                                "url_pdf": {
+                                                    "szBytes": "197503",
+                                                    "szKBytes": "193",
+                                                    "pagina_inicial": "4398",
+                                                    "pagina_final": "4399",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-636.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-636",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-636"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2B",
+                            "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+                            "departamento": [
+                                {
+                                    "codigo": "9523",
+                                    "nombre": "MINISTERIO DE POLÍTICA TERRITORIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Funcionarios de las Administraciones Públicas",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-637",
+                                                "control": "2023/331",
+                                                "titulo": "Resolución de 3 de enero de 2023, de la Subsecretaría, por la que se declara desierto puesto de trabajo de libre designación, convocado por Resolución de 12 de septiembre de 2022.",
+                                                "url_pdf": {
+                                                    "szBytes": "191774",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "4400",
+                                                    "pagina_final": "4400",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-637.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-637",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-637"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9525",
+                                    "nombre": "ADMINISTRACIÓN LOCAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal funcionario y laboral",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-638",
+                                                    "control": "2023/583",
+                                                    "titulo": "Resolución de 19 de diciembre de 2022, del Ayuntamiento de Sant Cebrià de Vallalta (Barcelona), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "198620",
+                                                        "szKBytes": "194",
+                                                        "pagina_inicial": "4401",
+                                                        "pagina_final": "4402",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-638.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-638",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-638"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-639",
+                                                    "control": "2023/642",
+                                                    "titulo": "Resolución de 19 de diciembre de 2022, del Consejo Insular de Mallorca (Illes Balears), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190837",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4403",
+                                                        "pagina_final": "4403",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-639.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-639",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-639"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-640",
+                                                    "control": "2023/584",
+                                                    "titulo": "Resolución de 20 de diciembre de 2022, del Ayuntamiento de Cehegín (Murcia), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190682",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4404",
+                                                        "pagina_final": "4404",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-640.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-640",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-640"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-641",
+                                                    "control": "2023/585",
+                                                    "titulo": "Resolución de 20 de diciembre de 2022, del Ayuntamiento de Algodonales (Cádiz), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192152",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "4405",
+                                                        "pagina_final": "4405",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-641.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-641",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-641"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-642",
+                                                    "control": "2023/586",
+                                                    "titulo": "Resolución de 20 de diciembre de 2022, del Ayuntamiento de Alhama de Almería (Almería), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190419",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4406",
+                                                        "pagina_final": "4406",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-642.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-642",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-642"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-643",
+                                                    "control": "2023/587",
+                                                    "titulo": "Resolución de 20 de diciembre de 2022, del Ayuntamiento de Granada, Organismo Autónomo Agencia Albaicín, referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191525",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4407",
+                                                        "pagina_final": "4407",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-643.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-643",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-643"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-644",
+                                                    "control": "2023/588",
+                                                    "titulo": "Resolución de 21 de diciembre de 2022, de la Mancomunidad de Servicios Comsermancha, Patronato de Integración Social Medio Ambiental (Castilla-La Mancha), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192058",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "4408",
+                                                        "pagina_final": "4408",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-644.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-644",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-644"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-645",
+                                                    "control": "2023/589",
+                                                    "titulo": "Resolución de 21 de diciembre de 2022, del Ayuntamiento de Mieres (Asturias), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190793",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4409",
+                                                        "pagina_final": "4409",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-645.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-645",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-645"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-646",
+                                                    "control": "2023/590",
+                                                    "titulo": "Resolución de 22 de diciembre de 2022, del Ayuntamiento de Escatrón (Zaragoza), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190832",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4410",
+                                                        "pagina_final": "4410",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-646.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-646",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-646"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-647",
+                                                    "control": "2023/591",
+                                                    "titulo": "Resolución de 23 de diciembre de 2022, de la Entidad Municipal Descentralizada de Valldoreix (Barcelona), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192547",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "4411",
+                                                        "pagina_final": "4411",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-647.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-647",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-647"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-648",
+                                                    "control": "2023/592",
+                                                    "titulo": "Resolución de 27 de diciembre de 2022, del Ayuntamiento de Moaña (Pontevedra), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "196731",
+                                                        "szKBytes": "192",
+                                                        "pagina_inicial": "4412",
+                                                        "pagina_final": "4413",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-648.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-648",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-648"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-649",
+                                                    "control": "2023/593",
+                                                    "titulo": "Resolución de 27 de diciembre de 2022, del Cabildo Insular de La Palma (Santa Cruz de Tenerife), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "198096",
+                                                        "szKBytes": "193",
+                                                        "pagina_inicial": "4414",
+                                                        "pagina_final": "4415",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-649.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-649",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-649"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-650",
+                                                    "control": "2023/594",
+                                                    "titulo": "Resolución de 27 de diciembre de 2022, del Ayuntamiento de Villamalea (Albacete), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191182",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4416",
+                                                        "pagina_final": "4416",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-650.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-650",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-650"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-651",
+                                                    "control": "2023/595",
+                                                    "titulo": "Resolución de 28 de diciembre de 2022, del Ayuntamiento de La Cerollera (Teruel), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191390",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4417",
+                                                        "pagina_final": "4417",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-651.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-651",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-651"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-652",
+                                                    "control": "2023/597",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, del Ayuntamiento de Boquiñeni (Zaragoza), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192615",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "4418",
+                                                        "pagina_final": "4418",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-652.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-652",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-652"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-653",
+                                                    "control": "2023/598",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, del Ayuntamiento de Chiclana de la Frontera (Cádiz), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191300",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4419",
+                                                        "pagina_final": "4419",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-653.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-653",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-653"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-654",
+                                                    "control": "2023/599",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, del Ayuntamiento de La Granada de Rio Tinto (Huelva), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191983",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4420",
+                                                        "pagina_final": "4420",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-654.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-654",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-654"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-655",
+                                                    "control": "2023/600",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, del Ayuntamiento de Massoteres (Lleida), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190522",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4421",
+                                                        "pagina_final": "4421",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-655.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-655",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-655"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-656",
+                                                    "control": "2023/601",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, del Ayuntamiento de Riotuerto (Cantabria), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190006",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4422",
+                                                        "pagina_final": "4422",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-656.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-656",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-656"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-657",
+                                                    "control": "2023/602",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, del Consorcio para la Gestión de Residuos del Vallés Occidental (Barcelona), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191011",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4423",
+                                                        "pagina_final": "4423",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-657.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-657",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-657"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-658",
+                                                    "control": "2023/603",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, de la Mancomunidad del Cerrato (Palencia), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194339",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "4424",
+                                                        "pagina_final": "4424",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-658.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-658",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-658"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-659",
+                                                    "control": "2023/604",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Ayuntamiento de Cabanillas del Campo (Guadalajara), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192714",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "4425",
+                                                        "pagina_final": "4425",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-659.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-659",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-659"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-660",
+                                                    "control": "2023/606",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Ayuntamiento de Montilla (Córdoba), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190918",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4426",
+                                                        "pagina_final": "4426",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-660.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-660",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-660"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-661",
+                                                    "control": "2023/607",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Ayuntamiento de Montilla (Córdoba), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191115",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4427",
+                                                        "pagina_final": "4427",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-661.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-661",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-661"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-662",
+                                                    "control": "2023/608",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Ayuntamiento de Seira (Huesca), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191075",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4428",
+                                                        "pagina_final": "4428",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-662.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-662",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-662"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-663",
+                                                    "control": "2023/609",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Ayuntamiento de Villaviciosa de Córdoba (Córdoba), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195891",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "4429",
+                                                        "pagina_final": "4430",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-663.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-663",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-663"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-664",
+                                                    "control": "2023/610",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Consorcio de Prevención, Extinción de Incendios y Salvamento de la Isla de Tenerife, referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191249",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4431",
+                                                        "pagina_final": "4431",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-664.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-664",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-664"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-665",
+                                                    "control": "2023/611",
+                                                    "titulo": "Resolución de 30 diciembre de 2022, del Ayuntamiento de Arroyomolinos (Madrid), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "202551",
+                                                        "szKBytes": "198",
+                                                        "pagina_inicial": "4432",
+                                                        "pagina_final": "4434",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-665.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-665",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-665"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-666",
+                                                    "control": "2023/612",
+                                                    "titulo": "Resolución de 31 de diciembre de 2022, del Ayuntamiento de Mota de Altarejos (Cuenca), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190774",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4435",
+                                                        "pagina_final": "4435",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-666.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-666",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-666"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-667",
+                                                    "control": "2023/582",
+                                                    "titulo": "Resolución de 2 de enero de 2023, del Ayuntamiento de Beniflà (Valencia), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191214",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4436",
+                                                        "pagina_final": "4436",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-667.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-667",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-667"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-668",
+                                                    "control": "2023/613",
+                                                    "titulo": "Resolución de 2 de enero de 2023, del Ayuntamiento de Almendros (Cuenca), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190561",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4437",
+                                                        "pagina_final": "4437",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-668.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-668",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-668"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-669",
+                                                    "control": "2023/614",
+                                                    "titulo": "Resolución de 2 de enero de 2023, del Ayuntamiento de Friol (Lugo), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190137",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4438",
+                                                        "pagina_final": "4438",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-669.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-669",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-669"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-670",
+                                                    "control": "2023/615",
+                                                    "titulo": "Resolución de 2 de enero de 2023, del Ayuntamiento de Narboneta (Cuenca), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190090",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4439",
+                                                        "pagina_final": "4439",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-670.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-670",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-670"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-671",
+                                                    "control": "2023/616",
+                                                    "titulo": "Resolución de 2 de enero de 2023, del Cabildo Insular de La Palma (Santa Cruz de Tenerife), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "202785",
+                                                        "szKBytes": "198",
+                                                        "pagina_inicial": "4440",
+                                                        "pagina_final": "4442",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-671.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-671",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-671"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-672",
+                                                    "control": "2023/617",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Cabra (Córdoba), referente a las convocatorias para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191178",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4443",
+                                                        "pagina_final": "4443",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-672.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-672",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-672"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-673",
+                                                    "control": "2023/618",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Caminreal (Teruel), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190325",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4444",
+                                                        "pagina_final": "4444",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-673.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-673",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-673"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-674",
+                                                    "control": "2023/619",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Dúrcal (Granada), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "193019",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "4445",
+                                                        "pagina_final": "4445",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-674.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-674",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-674"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-675",
+                                                    "control": "2023/620",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Hazas de Cesto (Cantabria), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190008",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4446",
+                                                        "pagina_final": "4446",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-675.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-675",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-675"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-676",
+                                                    "control": "2023/621",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Hellín (Albacete), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190854",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4447",
+                                                        "pagina_final": "4447",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-676.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-676",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-676"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-677",
+                                                    "control": "2023/622",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Molló (Girona), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191270",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4448",
+                                                        "pagina_final": "4448",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-677.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-677",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-677"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-678",
+                                                    "control": "2023/623",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Montmeló (Barcelona), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "198877",
+                                                        "szKBytes": "194",
+                                                        "pagina_inicial": "4449",
+                                                        "pagina_final": "4450",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-678.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-678",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-678"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-679",
+                                                    "control": "2023/624",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Puerto Lumbreras, Sociedad Peque Cultura, SLU (Murcia), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191398",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4451",
+                                                        "pagina_final": "4451",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-679.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-679",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-679"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-680",
+                                                    "control": "2023/625",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento de Puerto Lumbreras, Sociedad Peque Cultura, SLU (Murcia), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191535",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4452",
+                                                        "pagina_final": "4452",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-680.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-680",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-680"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-681",
+                                                    "control": "2023/626",
+                                                    "titulo": "Resolución de 3 de enero de 2023, del Ayuntamiento Puerto Lumbreras, Sociedad Urbanizadora Puerto Lumbreras, SL (Murcia), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191957",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4453",
+                                                        "pagina_final": "4453",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-681.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-681",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-681"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-682",
+                                                    "control": "2023/628",
+                                                    "titulo": "Resolución de 4 de enero de 2023, del Ayuntamiento de Algerri (Lleida), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191324",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4454",
+                                                        "pagina_final": "4454",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-682.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-682",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-682"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-683",
+                                                    "control": "2023/629",
+                                                    "titulo": "Resolución de 4 de enero de 2023, del Ayuntamiento de Arcos de Jalón (Soria), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191507",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4455",
+                                                        "pagina_final": "4455",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-683.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-683",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-683"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-684",
+                                                    "control": "2023/630",
+                                                    "titulo": "Resolución de 4 de enero de 2023, del Ayuntamiento de Benegiles (Zamora), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190377",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4456",
+                                                        "pagina_final": "4456",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-684.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-684",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-684"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-685",
+                                                    "control": "2023/631",
+                                                    "titulo": "Resolución de 4 de enero de 2023, del Ayuntamiento de Dúrcal (Granada), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "193080",
+                                                        "szKBytes": "189",
+                                                        "pagina_inicial": "4457",
+                                                        "pagina_final": "4457",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-685.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-685",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-685"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-686",
+                                                    "control": "2023/632",
+                                                    "titulo": "Resolución de 5 de enero de 2023, del Ayuntamiento de Brenes (Sevilla), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191451",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4458",
+                                                        "pagina_final": "4458",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-686.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-686",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-686"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-687",
+                                                    "control": "2023/633",
+                                                    "titulo": "Resolución de 5 de enero de 2023, del Ayuntamiento de Cenizate (Albacete), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191131",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4459",
+                                                        "pagina_final": "4459",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-687.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-687",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-687"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-688",
+                                                    "control": "2023/634",
+                                                    "titulo": "Resolución de 5 de enero de 2023, del Ayuntamiento de la Histórica Villa de Adeje (Santa Cruz de Tenerife), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "205610",
+                                                        "szKBytes": "201",
+                                                        "pagina_inicial": "4460",
+                                                        "pagina_final": "4462",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-688.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-688",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-688"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-689",
+                                                    "control": "2023/635",
+                                                    "titulo": "Resolución de 5 de enero de 2023, del Ayuntamiento de Brenes (Sevilla), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "200569",
+                                                        "szKBytes": "196",
+                                                        "pagina_inicial": "4463",
+                                                        "pagina_final": "4465",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-689.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-689",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-689"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-690",
+                                                    "control": "2023/636",
+                                                    "titulo": "Resolución de 9 de enero de 2023, del Ayuntamiento de Alfamén (Zaragoza), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190318",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4466",
+                                                        "pagina_final": "4466",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-690.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-690",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-690"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-691",
+                                                    "control": "2023/637",
+                                                    "titulo": "Resolución de 9 de enero de 2023, del Ayuntamiento de Alfamén (Zaragoza), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191588",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4467",
+                                                        "pagina_final": "4467",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-691.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-691",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-691"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-692",
+                                                    "control": "2023/638",
+                                                    "titulo": "Resolución de 9 de enero de 2023, del Ayuntamiento de Baños de Ebro (Álava), referente a la convocatoria para proveer una plaza.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190836",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4468",
+                                                        "pagina_final": "4468",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-692.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-692",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-692"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-693",
+                                                    "control": "2023/639",
+                                                    "titulo": "Resolución de 9 de enero de 2023, del Ayuntamiento de Baños de Ebro (Álava), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191299",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4469",
+                                                        "pagina_final": "4469",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-693.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-693",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-693"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-694",
+                                                    "control": "2023/640",
+                                                    "titulo": "Resolución de 9 de enero de 2023, del Ayuntamiento de Capdepera (Illes Balears), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190378",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4470",
+                                                        "pagina_final": "4470",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-694.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-694",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-694"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-695",
+                                                    "control": "2023/641",
+                                                    "titulo": "Resolución de 9 de enero de 2023, del Ayuntamiento de Castelló d'Empúries (Girona), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191240",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "4471",
+                                                        "pagina_final": "4471",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-695.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-695",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-695"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-696",
+                                                    "control": "2023/643",
+                                                    "titulo": "Corrección de errores de la Resolución de 21 de diciembre de 2022, de la Mancomunidad de Servicios Comsermancha, Patronato de Integración Social Medio Ambiental (Castilla-La Mancha), referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190526",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "4472",
+                                                        "pagina_final": "4472",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-696.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-696",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-696"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-697",
+                                                    "control": "2023/596",
+                                                    "titulo": "Resolución de 29 de diciembre de 2022, de la Diputación Provincial de Córdoba, referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "189569",
+                                                        "szKBytes": "185",
+                                                        "pagina_inicial": "4473",
+                                                        "pagina_final": "4473",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-697.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-697",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-697"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-698",
+                                                    "control": "2023/605",
+                                                    "titulo": "Resolución de 30 de diciembre de 2022, del Ayuntamiento de Casarrubuelos (Madrid), que deja sin efecto la de 27 de diciembre de 2022, referente a la convocatoria para proveer varias plazas.",
+                                                    "url_pdf": {
+                                                        "szBytes": "189912",
+                                                        "szKBytes": "185",
+                                                        "pagina_inicial": "4474",
+                                                        "pagina_final": "4474",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-698.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-698",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-698"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpos docentes universitarios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-699",
+                                                    "control": "2023/336",
+                                                    "titulo": "Resolución de 22 de diciembre de 2022, de la Universidad Miguel Hernández, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "249197",
+                                                        "szKBytes": "243",
+                                                        "pagina_inicial": "4475",
+                                                        "pagina_final": "4484",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-699.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-699",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-699"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-700",
+                                                    "control": "2023/337",
+                                                    "titulo": "Resolución de 22 de diciembre de 2022, de la Universidad Miguel Hernández, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "263280",
+                                                        "szKBytes": "257",
+                                                        "pagina_inicial": "4485",
+                                                        "pagina_final": "4496",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-700.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-700",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-700"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "3",
+                            "nombre": "III. Otras disposiciones",
+                            "departamento": [
+                                {
+                                    "codigo": "1820",
+                                    "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Contratación administrativa",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-701",
+                                                "control": "2023/15",
+                                                "titulo": "Resolución de 29 de diciembre de 2022, de la Secretaría General del Consejo General del Poder Judicial, por la que se publica la composición de la Mesa de Contratación.",
+                                                "url_pdf": {
+                                                    "szBytes": "190898",
+                                                    "szKBytes": "186",
+                                                    "pagina_inicial": "4497",
+                                                    "pagina_final": "4497",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-701.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-701",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-701"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Tribunales Superiores de Justicia",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-702",
+                                                "control": "2023/338",
+                                                "titulo": "Acuerdo de 21 de diciembre de 2022, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se publica el Acuerdo de la Sala de Gobierno del Tribunal Superior de Justicia de Cataluña, relativo a la aprobación de las normas de reparto de asuntos, constitución y funcionamiento de las distintas salas del Tribunal Superior de Justicia de Cataluña para el año 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "237594",
+                                                    "szKBytes": "232",
+                                                    "pagina_inicial": "4498",
+                                                    "pagina_final": "4505",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-702.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-702",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-702"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "5250",
+                                    "nombre": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-703",
+                                                "control": "2023/574",
+                                                "titulo": "Resolución de 3 de enero de 2023, de ICEX España Exportación e Inversiones, E.P.E., por la que se publica el Convenio con la Asociación Nacional de Centros y Proveedores de e-Learning, ANCYPEL, como entidad colaboradora de ICEX en la gestión de las ayudas relativas a la promoción de la internacionalización de la empresa española.",
+                                                "url_pdf": {
+                                                    "szBytes": "237102",
+                                                    "szKBytes": "232",
+                                                    "pagina_inicial": "4506",
+                                                    "pagina_final": "4512",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-703.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-703",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-703"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9523",
+                                    "nombre": "MINISTERIO DE POLÍTICA TERRITORIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Procedimientos de declaración de inconstitucionalidad",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-704",
+                                                "control": "2022/22342",
+                                                "titulo": "Resolución de 15 de diciembre de 2022, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de 2 de diciembre de 2022, de la Subcomisión de Seguimiento Normativo, Prevención y Solución de Conflictos de la Comisión Bilateral Generalitat-Estado, en relación con la Ley de Cataluña 1/2022, de 3 de marzo, de modificación de la Ley 18/2007, la Ley 24/2015 y la Ley 4/2016 para afrontar la emergencia en el ámbito de la vivienda.",
+                                                "url_pdf": {
+                                                    "szBytes": "207787",
+                                                    "szKBytes": "203",
+                                                    "pagina_inicial": "4513",
+                                                    "pagina_final": "4515",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-704.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-704",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-704"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-705",
+                                                "control": "2023/353",
+                                                "titulo": "Resolución de 3 de enero de 2023, de la Confederación Hidrográfica del Miño-Sil, O.A., por la que se publica la Adenda modificativa del Convenio con la Diputación de León, sobre la financiación, ejecución y entrega de las obras de acondicionamiento del camino de servicio del Canal Bajo del Bierzo en los términos municipales de Camponaraya y Carracedelo (León).",
+                                                "url_pdf": {
+                                                    "szBytes": "208444",
+                                                    "szKBytes": "204",
+                                                    "pagina_inicial": "4516",
+                                                    "pagina_final": "4518",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-705.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-705",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-705"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Impacto ambiental",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-706",
+                                                    "control": "2023/460",
+                                                    "titulo": "Resolución de 28 de diciembre de 2022, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Parque eólico Villarino de 300 MW y su infraestructura de evacuación, en los términos municipales de Villarino de los Aires, Trabanca, Ahigal de Villarino, Almendra, El Manzano, Iruelos, Puertas, Villar de Samaniego y Pereña de la Ribera (Salamanca)\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "1382076",
+                                                        "szKBytes": "1350",
+                                                        "pagina_inicial": "4519",
+                                                        "pagina_final": "4531",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-706.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-706",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-706"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-707",
+                                                    "control": "2023/652",
+                                                    "titulo": "Corrección de erratas de la Resolución de 1 de diciembre de 2022, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Parques eólicos Cabecero, Concejo, Cid, Estrella y Vacada (Total 22 parques: Clúster Maestrazgo) en la provincia de Teruel, su infraestructura de evacuación hasta la SET Morella 400 en Morella (Castellón) y acondicionamiento de accesos para transportes especiales\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "329723",
+                                                        "szKBytes": "322",
+                                                        "pagina_inicial": "4532",
+                                                        "pagina_final": "4532",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-707.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-707",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-707"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Subvenciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-708",
+                                                "control": "2023/226",
+                                                "titulo": "Resolución de 29 de diciembre de 2022, de la E.P.E. Instituto para la Diversificación y Ahorro de la Energía, M.P., por la que se publica la Resolución de 21 de diciembre de 2022, del Consejo de Administración, por la que se amplía el presupuesto del Real Decreto 691/2021, de 3 de agosto, por el que se regulan las subvenciones a otorgar a actuaciones de rehabilitación energética en edificios existentes, en ejecución del Programa de rehabilitación energética para edificios existentes en municipios de reto demográfico (Programa PREE 5000), incluido en el Programa de regeneración y reto demográfico del Plan de rehabilitación y regeneración urbana del Plan de Recuperación, Transformación y Resiliencia, así como su concesión directa a las comunidades autónomas.",
+                                                "url_pdf": {
+                                                    "szBytes": "215765",
+                                                    "szKBytes": "211",
+                                                    "pagina_inicial": "4533",
+                                                    "pagina_final": "4535",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-708.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-708",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-708"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4335",
+                                    "nombre": "MINISTERIO DE SANIDAD",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-709",
+                                                "control": "2023/230",
+                                                "titulo": "Resolución de 28 de diciembre de 2022, de la Secretaría de Estado de Sanidad, por la que se publica el Convenio entre la Agencia Española de Medicamentos y Productos Sanitarios y la Fundación Estatal, Salud, Infancia y Bienestar Social, F.S.P., en materia de participación conjunta en proyectos de cooperación.",
+                                                "url_pdf": {
+                                                    "szBytes": "227845",
+                                                    "szKBytes": "223",
+                                                    "pagina_inicial": "4536",
+                                                    "pagina_final": "4541",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-709.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-709",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-709"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1020",
+                                    "nombre": "BANCO DE ESPAÑA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Mercado de divisas",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-710",
+                                                "control": "2023/578",
+                                                "titulo": "Resolución de 10 de enero de 2023, del Banco de España, por la que se publican los cambios del euro correspondientes al día 10 de enero de 2023, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
+                                                "url_pdf": {
+                                                    "szBytes": "216783",
+                                                    "szKBytes": "212",
+                                                    "pagina_inicial": "4542",
+                                                    "pagina_final": "4543",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-A-2023-710.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-710",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-710"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "5A",
+                            "nombre": "V. Anuncios. - A. Contratación del Sector Público",
+                            "departamento": [
+                                {
+                                    "codigo": "6110",
+                                    "nombre": "MINISTERIO DE DEFENSA",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-824",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de la Sección de Asuntos Económicos de la Unidad Militar de Emergencias. Objeto: Suministro de cinco (5) vehículos combi medio emisiones CO2 menor o igual a 50 g/km GRUPO III (03). Expediente: 2022/SP03038000/00002313E.",
+                                            "url_pdf": {
+                                                "szBytes": "158566",
+                                                "szKBytes": "155",
+                                                "pagina_inicial": "1425",
+                                                "pagina_final": "1426",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-824.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-824",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-824"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-825",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de la Sección Económico Financiera de la Dirección General de Infraestructura. Objeto: Adquisición de repuestos para mantenimiento de equipos de RF en Centros RCT del Sistema de Mando y Control Militar (SMCM) de forma sucesiva y por precio unitario, en función de las necesidades de los Centros hasta agotar el presupuesto base de licitación. Expediente: 2022/SP03032003/00001324E.",
+                                            "url_pdf": {
+                                                "szBytes": "157362",
+                                                "szKBytes": "154",
+                                                "pagina_inicial": "1427",
+                                                "pagina_final": "1428",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-825.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-825",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-825"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-826",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de la Sección Económico Financiera de la Dirección General de Infraestructura. Objeto: Adquisición de equipamiento diverso de seguridad necesario para la acreditación de las Zonas de Acceso Restringido (ZAR) de sistemas clasificados del Ministerio de Defensa. Expediente: 2022/SP03032003/00001366E.",
+                                            "url_pdf": {
+                                                "szBytes": "161772",
+                                                "szKBytes": "158",
+                                                "pagina_inicial": "1429",
+                                                "pagina_final": "1430",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-826.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-826",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-826"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-827",
+                                            "titulo": "Anuncio de formalización de contratos de: Jefatura de la Sección Económico Financiera de la Dirección General de Infraestructura. Objeto: Adquisición y soporte técnico de las licencias software «TITUS » para identificar la clasificación de la información en correos electrónicos en el SC2N en beneficio de las Unidades del Ministerio de Defensa desplegadas en Operaciones de Mantenimiento de la Paz. Expediente: 2022/SP03032003/00001374E.",
+                                            "url_pdf": {
+                                                "szBytes": "157393",
+                                                "szKBytes": "154",
+                                                "pagina_inicial": "1431",
+                                                "pagina_final": "1432",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-827.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-827",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-827"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-828",
+                                            "titulo": "Anuncio de licitación de: Subdirección General de Planificación y Gestión Económica. Objeto: Suministro de gasóleo \"C\" a los establecimientos penitenciarios dependientes de la Secretaría General de Instituciones Penitenciarias en el territorio peninsular e Islas Baleares. Expediente: 02012023AC04.",
+                                            "url_pdf": {
+                                                "szBytes": "168191",
+                                                "szKBytes": "164",
+                                                "pagina_inicial": "1433",
+                                                "pagina_final": "1435",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-828.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-828",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-828"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-829",
+                                            "titulo": "Anuncio de licitación de: División Económica y Técnica (Cuerpo Nacional de Policía). Objeto: Adquisición y distribución de gorra de plato y gorra de gala femenina reglamentaria destinada al personal de la Policía Nacional. Expediente: Z23VE008/S10.",
+                                            "url_pdf": {
+                                                "szBytes": "168962",
+                                                "szKBytes": "165",
+                                                "pagina_inicial": "1436",
+                                                "pagina_final": "1438",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-829.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-829",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-829"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-830",
+                                        "titulo": "Anuncio de licitación de: ADIF - Presidencia. Objeto: Ejecución de las obras del proyecto de tratamiento y consolidación de la trinchera situada entre los PP.KK. 18+243 a 18+450. Línea Castellbisbal- Agujas Rubí -Mollet-Sant Fost. Expediente: 3.22/27507.0212.",
+                                        "url_pdf": {
+                                            "szBytes": "161600",
+                                            "szKBytes": "158",
+                                            "pagina_inicial": "1439",
+                                            "pagina_final": "1440",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-830.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-830",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-830"
+                                    }
+                                },
+                                {
+                                    "codigo": "9573",
+                                    "nombre": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-831",
+                                        "titulo": "Anuncio de formalización de contratos de: Dirección Provincial del Servicio Público de Empleo Estatal en Burgos. Objeto: Servicio de limpieza de las dependencias de la D.P. SEPE en Burgos, sita en C/ Jesús Mª Ordoño, nº 4, 8 y 10 durante el ejercicio 2023. Expediente: 09 PAS 01/2023.",
+                                        "url_pdf": {
+                                            "szBytes": "158168",
+                                            "szKBytes": "154",
+                                            "pagina_inicial": "1441",
+                                            "pagina_final": "1442",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-831.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-831",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-831"
+                                    }
+                                },
+                                {
+                                    "codigo": "5250",
+                                    "nombre": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-832",
+                                        "titulo": "Anuncio de licitación de: Instituto de Turismo de España (TURESPAÑA). Objeto: Contratación, por procedimiento abierto, de los servicios necesarios para la celebración de unas jornadas inversas de apoyo a la comercialización de la oferta turística española para los mercados estadounidense y canadiense. Expediente: 020022C00094.",
+                                        "url_pdf": {
+                                            "szBytes": "150166",
+                                            "szKBytes": "147",
+                                            "pagina_inicial": "1443",
+                                            "pagina_final": "1443",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-832.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-832",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-832"
+                                    }
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-833",
+                                            "titulo": "Anuncio de licitación de: Dirección General del Agua. Objeto: Contratación servicios para asistencia técnica para el control y vigilancia de las obras del trasvase entre las cuencas de los Ríos Pizarroso, Alcollarin y Burdalo (Cáceres). Expediente: 04.199-0012/0611.",
+                                            "url_pdf": {
+                                                "szBytes": "168128",
+                                                "szKBytes": "164",
+                                                "pagina_inicial": "1444",
+                                                "pagina_final": "1446",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-833.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-833",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-833"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-834",
+                                            "titulo": "Anuncio de licitación de: Secretaría de Estado de Medio Ambiente. Objeto: Servicio de asistencia técnica a la dirección de las obras correspondientes al proyecto 01/22 de mejora del abastecimiento a Crevillente (AC/Crevillente), en el Marco del Plan de Recuperación, Transformación y Resiliencia (PRTR). Expediente: P02.C05.I2.P04.S06.A04.02.",
+                                            "url_pdf": {
+                                                "szBytes": "171682",
+                                                "szKBytes": "168",
+                                                "pagina_inicial": "1447",
+                                                "pagina_final": "1449",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-834.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-834",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-834"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9570",
+                                    "nombre": "MINISTERIO DE CULTURA Y DEPORTE",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-835",
+                                        "titulo": "Anuncio de formalización de contratos de: Dirección del Museo Nacional del Prado. Objeto: Servicio de mediación y contratación de seguros para las obras participantes en la exposición \"Guido Reni\". Expediente: 22CS0402.",
+                                        "url_pdf": {
+                                            "szBytes": "159524",
+                                            "szKBytes": "156",
+                                            "pagina_inicial": "1450",
+                                            "pagina_final": "1451",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-835.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-835",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-835"
+                                    }
+                                },
+                                {
+                                    "codigo": "4335",
+                                    "nombre": "MINISTERIO DE SANIDAD",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-836",
+                                            "titulo": "Anuncio de licitación de: Dirección General de Salud Pública. Objeto: Servicio de recogida, transporte y destrucción de los productos de origen animal decomisados de los equipajes personales de los viajeros procedentes de fuera de la U.E. en todos los puntos de entrada del territorio nacional. Expediente: 202207PA0007.",
+                                            "url_pdf": {
+                                                "szBytes": "177240",
+                                                "szKBytes": "173",
+                                                "pagina_inicial": "1452",
+                                                "pagina_final": "1455",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-836.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-836",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-836"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-837",
+                                            "titulo": "Anuncio de licitación de: Dirección General de Salud Pública. Objeto: Servicio para la realización de ensayos analíticos en las muestras oficiales de diferentes productos alimenticios procedentes de terceros países: residuos de medicamentos y micotoxinas. Expediente: 202207PA0008.",
+                                            "url_pdf": {
+                                                "szBytes": "173418",
+                                                "szKBytes": "169",
+                                                "pagina_inicial": "1456",
+                                                "pagina_final": "1458",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-837.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-837",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-837"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-838",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Test Xpert Sars-Cov2 Xprsars-Cov2-CE-10. Expediente: 1106556.",
+                                            "url_pdf": {
+                                                "szBytes": "155445",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1459",
+                                                "pagina_final": "1460",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-838.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-838",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-838"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-839",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Buzo Tyvek 500 Xpert Blanco talla XXL Cs400 Coverstar Plus. Expediente: 1106557.",
+                                            "url_pdf": {
+                                                "szBytes": "156013",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1461",
+                                                "pagina_final": "1462",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-839.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-839",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-839"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-840",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Buzo Tyvek 500 X Xpert Blanco Talla S y XL. Steelgen 3000. Expediente: 1106613.",
+                                            "url_pdf": {
+                                                "szBytes": "156107",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1463",
+                                                "pagina_final": "1464",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-840.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-840",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-840"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-841",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Buzo Tyvek 500 X Xpert blanco Talla S. Steelgen 3000. Expediente: 1106615.",
+                                            "url_pdf": {
+                                                "szBytes": "155969",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1465",
+                                                "pagina_final": "1466",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-841.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-841",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-841"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-842",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Bata de protección verde no estéril para paciente. Expediente: 1106808.",
+                                            "url_pdf": {
+                                                "szBytes": "155508",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1467",
+                                                "pagina_final": "1468",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-842.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-842",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-842"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-843",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Bata de protección verde no estéril para paciente. Expediente: 1106809.",
+                                            "url_pdf": {
+                                                "szBytes": "155638",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1469",
+                                                "pagina_final": "1470",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-843.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-843",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-843"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-844",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Pantalla policarbonato transparente con visera. 0884 Medl. Expediente: 1106952.",
+                                            "url_pdf": {
+                                                "szBytes": "155958",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1471",
+                                                "pagina_final": "1472",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-844.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-844",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-844"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-845",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Te4st Xpert Sars-Cov2 Xprsars-COV2-CE-10. Expediente: 1106963.",
+                                            "url_pdf": {
+                                                "szBytes": "155798",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1473",
+                                                "pagina_final": "1474",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-845.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-845",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-845"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-846",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Quiastat-Dx-Respiratory 2019-Ncov Panel 774Qia-691214. Expediente: 1106964.",
+                                            "url_pdf": {
+                                                "szBytes": "156299",
+                                                "szKBytes": "153",
+                                                "pagina_inicial": "1475",
+                                                "pagina_final": "1476",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-846.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-846",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-846"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-847",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Qiastat-Dx respiratory 2019-Ncov panel. Expediente: 1106965.",
+                                            "url_pdf": {
+                                                "szBytes": "155935",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1477",
+                                                "pagina_final": "1478",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-847.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-847",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-847"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-848",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Qiastat-Dx-respiratory 2019-Ncov Panel 77Quia-691214. Expediente: 1106966.",
+                                            "url_pdf": {
+                                                "szBytes": "156102",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1479",
+                                                "pagina_final": "1480",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-848.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-848",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-848"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-849",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Quiastat-Dx-Respiratory 2019-Ncov Panel 774Qia-691214. Expediente: 1106977.",
+                                            "url_pdf": {
+                                                "szBytes": "156124",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1481",
+                                                "pagina_final": "1482",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-849.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-849",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-849"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-850",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Test Xpert-Sars-Cpv2 Xprsars-COV2-CE-10. Expediente: 1107144.",
+                                            "url_pdf": {
+                                                "szBytes": "155525",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1483",
+                                                "pagina_final": "1484",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-850.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-850",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-850"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-851",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Aguja 0,6 X 25 MM. 23 g X1\". 305292 100 unidades. Expediente: 1107205.",
+                                            "url_pdf": {
+                                                "szBytes": "156167",
+                                                "szKBytes": "153",
+                                                "pagina_inicial": "1485",
+                                                "pagina_final": "1486",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-851.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-851",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-851"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-852",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Jeringa de 3 cuerpos cono luer de 2 Ml. Expediente: 1107205.",
+                                            "url_pdf": {
+                                                "szBytes": "155709",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1487",
+                                                "pagina_final": "1488",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-852.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-852",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-852"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-853",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Test Xpert Sars-Cov-2 Xprsarss-Vov2-CE-10. Expediente: 1107218.",
+                                            "url_pdf": {
+                                                "szBytes": "155465",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1489",
+                                                "pagina_final": "1490",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-853.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-853",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-853"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-854",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Bandejas soportes a rail 6015704 400 X 300. Rail Tecnico 0,5 M para bandeja. Expediente: 1107231.",
+                                            "url_pdf": {
+                                                "szBytes": "156283",
+                                                "szKBytes": "153",
+                                                "pagina_inicial": "1491",
+                                                "pagina_final": "1492",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-854.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-854",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-854"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-855",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Medio de transporte Rayon Escobillon MT011. Expediente: 1107423.",
+                                            "url_pdf": {
+                                                "szBytes": "155703",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1493",
+                                                "pagina_final": "1494",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-855.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-855",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-855"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-856",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Gel liquido descontaminante corporal antimicrobiano 161-00-531-005. Expediente: 1107450.",
+                                            "url_pdf": {
+                                                "szBytes": "155762",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1495",
+                                                "pagina_final": "1496",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-856.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-856",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-856"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-857",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Toallitas impregnables desechables. 161-00915RD9006. Expediente: 1107456.",
+                                            "url_pdf": {
+                                                "szBytes": "156090",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1497",
+                                                "pagina_final": "1498",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-857.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-857",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-857"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-858",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Gorro desechable quirúrgico femenino verde. 22101. Expediente: 1107466.",
+                                            "url_pdf": {
+                                                "szBytes": "155885",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1499",
+                                                "pagina_final": "1500",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-858.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-858",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-858"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-859",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Liaison Sars-Cov-2 S1/S2 Igg. Liaison Sars-¡Cov-2 S1/S2 Igm. Expediente: 1107662.",
+                                            "url_pdf": {
+                                                "szBytes": "155716",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1501",
+                                                "pagina_final": "1502",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-859.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-859",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-859"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-860",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Detergente enzimático liquido para instrumental y endoscopios. Expediente: 1107687.",
+                                            "url_pdf": {
+                                                "szBytes": "155975",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1503",
+                                                "pagina_final": "1504",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-860.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-860",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-860"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-861",
+                                            "titulo": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Buzo Tyvek 500 X xpert Blanco talla S Secutex. Expediente: 1107718.",
+                                            "url_pdf": {
+                                                "szBytes": "155694",
+                                                "szKBytes": "152",
+                                                "pagina_inicial": "1505",
+                                                "pagina_final": "1506",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-861.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-861",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-861"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4245",
+                                    "nombre": "MINISTERIO DE CIENCIA E INNOVACIÓN",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-862",
+                                            "titulo": "Anuncio de formalización de contratos de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro de publicaciones periódicas en formato electrónico y acceso a la plataforma Wiley Online Library Database Model de la editorial John Wiley & Sons, con componente de publicación en acceso abierto y acceso a Current Protocols Full Package con destino a la Organización Central del CSIC (Unidad de Recursos de Información Científica). Expediente: 30110/23.",
+                                            "url_pdf": {
+                                                "szBytes": "161518",
+                                                "szKBytes": "158",
+                                                "pagina_inicial": "1507",
+                                                "pagina_final": "1508",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-862.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-862",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-862"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-863",
+                                            "titulo": "Anuncio de licitación de: Dirección de Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS). Objeto: Servicio de mantenimiento de las licencias y soluciones a medida de SAP Business One y la compra de nuevas licencias en función de las necesidades del Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS). Expediente: CONSER02022014OP.",
+                                            "url_pdf": {
+                                                "szBytes": "166119",
+                                                "szKBytes": "162",
+                                                "pagina_inicial": "1509",
+                                                "pagina_final": "1511",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-863.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-863",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-863"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9579",
+                                    "nombre": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-864",
+                                        "titulo": "Anuncio de formalización de contratos de: Instituto Social de la Marina -Dirección Provincial de Huelva. Objeto: Analíticas clínicas complementarias a los reconocimientos médicos de embarque marítimo del 18/01/2023 al 17/01/2024. Expediente: 212022PA1002.",
+                                        "url_pdf": {
+                                            "szBytes": "159057",
+                                            "szKBytes": "155",
+                                            "pagina_inicial": "1512",
+                                            "pagina_final": "1513",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-864.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-864",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-864"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "5B",
+                            "nombre": "V. Anuncios. - B. Otros anuncios oficiales",
+                            "departamento": [
+                                {
+                                    "codigo": "9572",
+                                    "nombre": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-865",
+                                        "titulo": "Anuncio de la Autoridad Portuaria de Bilbao por el que se somete a información pública la solicitud de modificación de concesión de \"Getxo Kirolak\" en el paseo de la playa de Ereaga, en el municipio de Getxo.",
+                                        "url_pdf": {
+                                            "szBytes": "145809",
+                                            "szKBytes": "142",
+                                            "pagina_inicial": "1514",
+                                            "pagina_final": "1514",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-865.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-865",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-865"
+                                    }
+                                },
+                                {
+                                    "codigo": "5250",
+                                    "nombre": "MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-866",
+                                            "titulo": "Extracto de la Resolución de 9 de enero de 2023 de ICEX España Exportación E Inversiones, E.P.E. por la que se convoca la segunda convocatoria para la concesión de subvenciones del \"Programa Innova Invest\" de ICEX España Exportación E Inversiones, E.P.E. en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+                                            "url_pdf": {
+                                                "szBytes": "158427",
+                                                "szKBytes": "155",
+                                                "pagina_inicial": "1515",
+                                                "pagina_final": "1517",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-866.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-866",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-866"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-867",
+                                            "titulo": "Extracto de la Resolución de 9 de enero de 2023, de la Fundación EOI, F.S.P. por la que se aprueba la convocatoria para la concesión de ayudas dirigidas a impulsar la innovación abierta a través de la iniciativa «Activa Startups», en el marco del Plan de Recuperación, Transformación y Resiliencia",
+                                            "url_pdf": {
+                                                "szBytes": "153436",
+                                                "szKBytes": "150",
+                                                "pagina_inicial": "1518",
+                                                "pagina_final": "1519",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-867.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-867",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-867"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-868",
+                                        "titulo": "Anuncio de la Demarcación de Costas en Illes Balears, en procedimientos Información Pública sobre solicitudes de autorizaciones en zona de dominio público marítimo-terrestre en las costas de Baleares.",
+                                        "url_pdf": {
+                                            "szBytes": "201189",
+                                            "szKBytes": "196",
+                                            "pagina_inicial": "1520",
+                                            "pagina_final": "1521",
+                                            "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-868.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-868",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-868"
+                                    }
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "item": [
+                                        {
+                                            "identificador": "BOE-B-2023-869",
+                                            "titulo": "Anuncio de la Facultad de Humanidades y Ciencias de la Educación de la Universidad Mondragon Unibertsitatea, sobre modificación de título universitario.",
+                                            "url_pdf": {
+                                                "szBytes": "143810",
+                                                "szKBytes": "140",
+                                                "pagina_inicial": "1522",
+                                                "pagina_final": "1522",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-869.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-869",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-869"
+                                        },
+                                        {
+                                            "identificador": "BOE-B-2023-870",
+                                            "titulo": "Anuncio de la Facultad de Educación y Trabajo Social de Ourense de la Universidad Vigo sobre extravío de título universitario.",
+                                            "url_pdf": {
+                                                "szBytes": "143935",
+                                                "szKBytes": "141",
+                                                "pagina_inicial": "1523",
+                                                "pagina_final": "1523",
+                                                "texto": "https://www.boe.es/boe/dias/2023/01/11/pdfs/BOE-B-2023-870.pdf"
+                                            },
+                                            "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-870",
+                                            "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-870"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

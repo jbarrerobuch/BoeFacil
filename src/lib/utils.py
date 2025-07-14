@@ -53,12 +53,26 @@ def guardar_en_json(json_data: str, output_path: str):
 def dataframes_a_json(lista_dfs):
     """
     Convierte una lista de DataFrames en un solo objeto JSON (lista de diccionarios).
+    Si hay nombres de columnas no únicos, los renombra para que sean únicos.
     Soporta DataFrames con columnas MultiIndex convirtiendo las claves a string.
     Args:
         lista_dfs (list): Lista de pandas.DataFrame
     Returns:
         str: Cadena JSON representando la lista de DataFrames como lista de listas de diccionarios.
     """
+    def make_unique_columns(cols):
+        seen = {}
+        new_cols = []
+        for col in cols:
+            col_str = str(col)
+            if col_str in seen:
+                seen[col_str] += 1
+                new_cols.append(f"{col_str}_{seen[col_str]}")
+            else:
+                seen[col_str] = 0
+                new_cols.append(col_str)
+        return new_cols
+
     def dict_keys_to_str(d):
         if isinstance(d, dict):
             return {str(k): dict_keys_to_str(v) for k, v in d.items()}
@@ -66,25 +80,39 @@ def dataframes_a_json(lista_dfs):
             return [dict_keys_to_str(i) for i in d]
         else:
             return d
-    lista_dicts = [dict_keys_to_str(df.to_dict(orient='records')) for df in lista_dfs]
+
+    lista_dicts = []
+    for df in lista_dfs:
+        # Si las columnas no son únicas, renombrarlas
+        if not df.columns.is_unique:
+            if isinstance(df.columns, pd.MultiIndex):
+                # Para MultiIndex, convertir a strings y hacer únicos
+                cols = ['|'.join(map(str, col)) for col in df.columns]
+            else:
+                cols = [str(col) for col in df.columns]
+            df = df.copy()
+            df.columns = make_unique_columns(cols)
+        lista_dicts.append(dict_keys_to_str(df.to_dict(orient='records')))
     return json.dumps(lista_dicts, ensure_ascii=False, indent=4)
 
-def extraer_texto_de_html(html):
+def extraer_texto_de_html(html, div_id='textoxslt'):
     """
-    Extrae el texto de un HTML, buscando el div con id 'textoxslt'.
+    Extrae el texto de un HTML, buscando el div con id definido. 
+    Ignorando links y blockquotes.
     Si no se encuentra, devuelve todo el HTML convertido a Markdown.
     Args:
         html (str): El contenido HTML del que se extraerá el texto.
+        div_id (str): El id del div del que se extraerá el texto. Por defecto es 'textoxslt'.
     
     Returns:
         str: El texto extraído del HTML, convertido a Markdown.
     """
 
     soup = BeautifulSoup(html, 'html.parser')
-    main = soup.find('div', id='textoxslt')
+    main = soup.find('div', id=div_id)
     if main:
         logger.debug("Texto extraído del HTML")
-        return md(str(main))
+        return md(str(main), strip=["a", "blockquote"])
     else:
-        logger.warning("No se encontró el div con id 'textoxslt', extrayendo todo el HTML")
-        return md(str(html))
+        logger.warning(f"No se encontró el div con id '{div_id}', extrayendo todo el HTML")
+        return md(str(html), strip=["a", "blockquote"])

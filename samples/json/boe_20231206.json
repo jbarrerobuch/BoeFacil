@@ -1,0 +1,1415 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BOE",
+                "fecha_publicacion": "20231206"
+            },
+            "diario": [
+                {
+                    "numero": "291",
+                    "sumario_diario": {
+                        "identificador": "BOE-S-2023-291",
+                        "url_pdf": {
+                            "szBytes": "280020",
+                            "szKBytes": "273",
+                            "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-S-2023-291.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "1",
+                            "nombre": "I. Disposiciones generales",
+                            "departamento": [
+                                {
+                                    "codigo": "9279",
+                                    "nombre": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Procesos de facturación",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24840",
+                                                "control": "2023/25150",
+                                                "titulo": "Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+                                                "url_pdf": {
+                                                    "szBytes": "303380",
+                                                    "szKBytes": "296",
+                                                    "pagina_inicial": "161954",
+                                                    "pagina_final": "161972",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24840.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24840",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24840"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Impuestos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24841",
+                                                "control": "2023/25151",
+                                                "titulo": "Real Decreto 1008/2023, de 5 de diciembre, por el que se modifican el Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por el Real Decreto 439/2007, de 30 de marzo, en materia de retribuciones en especie, deducción por maternidad, obligación de declarar, pagos a cuenta y régimen especial aplicable a trabajadores, profesionales, emprendedores e inversores desplazados a territorio español, y el Reglamento del Impuesto sobre Sociedades, aprobado por el Real Decreto 634/2015, de 10 de julio, en materia de retenciones e ingresos a cuenta.",
+                                                "url_pdf": {
+                                                    "szBytes": "321862",
+                                                    "szKBytes": "314",
+                                                    "pagina_inicial": "161973",
+                                                    "pagina_final": "161990",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24841.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24841",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24841"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Organización",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24842",
+                                                "control": "2023/25187",
+                                                "titulo": "Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+                                                "url_pdf": {
+                                                    "szBytes": "311605",
+                                                    "szKBytes": "304",
+                                                    "pagina_inicial": "161991",
+                                                    "pagina_final": "162009",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24842.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24842",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24842"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Escuelas particulares de conductores. Conductores",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24843",
+                                                "control": "2023/25152",
+                                                "titulo": "Real Decreto 1010/2023, de 5 de diciembre, por el que se modifican el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre; y el Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo.",
+                                                "url_pdf": {
+                                                    "szBytes": "284486",
+                                                    "szKBytes": "278",
+                                                    "pagina_inicial": "162010",
+                                                    "pagina_final": "162023",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24843.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24843",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24843"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9573",
+                                    "nombre": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Seguridad Social",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24844",
+                                                "control": "2023/25153",
+                                                "titulo": "Real Decreto 1011/2023, de 5 de diciembre, por el que se modifican el Reglamento general sobre procedimientos para la imposición de sanciones por infracciones de orden social y para los expedientes liquidatorios de cuotas de la Seguridad Social, aprobado por el Real Decreto 928/1998, de 14 de mayo, y el Reglamento de Organización y Funcionamiento de la Inspección de Trabajo y Seguridad Social, aprobado por el Real Decreto 138/2000, de 4 de febrero, en materia de administración electrónica.",
+                                                "url_pdf": {
+                                                    "szBytes": "252129",
+                                                    "szKBytes": "246",
+                                                    "pagina_inicial": "162024",
+                                                    "pagina_final": "162031",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24844.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24844",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24844"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9591",
+                                    "nombre": "MINISTERIO DE INDUSTRIA Y TURISMO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Subvenciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24845",
+                                                "control": "2023/25154",
+                                                "titulo": "Real Decreto 1012/2023, de 5 de diciembre, por el que se regula la concesión directa de subvenciones destinadas a la financiación de proyectos sostenibles de mantenimiento y rehabilitación del patrimonio histórico con uso turístico en las ciudades de Ceuta y Melilla, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+                                                "url_pdf": {
+                                                    "szBytes": "285004",
+                                                    "szKBytes": "278",
+                                                    "pagina_inicial": "162032",
+                                                    "pagina_final": "162047",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24845.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24845",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24845"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2A",
+                            "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+                            "departamento": [
+                                {
+                                    "codigo": "7786",
+                                    "nombre": "PRESIDENCIA DEL GOBIERNO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24846",
+                                                    "control": "2023/25155",
+                                                    "titulo": "Real Decreto 1016/2023, de 5 de diciembre, por el que se dispone el cese de doña Ana María Calvo Sastre como Delegada del Gobierno en la Comunidad Autónoma de las Illes Balears.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191533",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162048",
+                                                        "pagina_final": "162048",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24846.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24846",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24846"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24847",
+                                                    "control": "2023/25156",
+                                                    "titulo": "Real Decreto 1017/2023, de 5 de diciembre, por el que se dispone el cese de don José Alarcón Hernández como Director del Departamento de Políticas Públicas del Gabinete de la Presidencia del Gobierno.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190973",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162049",
+                                                        "pagina_final": "162049",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24847.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24847",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24847"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24848",
+                                                "control": "2023/25157",
+                                                "titulo": "Real Decreto 1018/2023, de 5 de diciembre, por el que se nombra Director del Departamento de Seguimiento y Análisis Territorial del Gabinete de la Presidencia del Gobierno a don José Alarcón Hernández.",
+                                                "url_pdf": {
+                                                    "szBytes": "191396",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162050",
+                                                    "pagina_final": "162050",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24848.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24848",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24848"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9562",
+                                    "nombre": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24849",
+                                                    "control": "2023/25158",
+                                                    "titulo": "Real Decreto 1019/2023, de 5 de diciembre, por el que se dispone el cese de doña Pilar Cancela Rodríguez como Secretaria de Estado de Cooperación Internacional.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191488",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162051",
+                                                        "pagina_final": "162051",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24849.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24849",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24849"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24850",
+                                                    "control": "2023/25159",
+                                                    "titulo": "Real Decreto 1020/2023, de 5 de diciembre, por el que se dispone el cese de don José Manuel Rodríguez Uribes como Embajador Delegado Permanente en la Unesco.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191665",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162052",
+                                                        "pagina_final": "162052",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24850.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24850",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24850"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24851",
+                                                "control": "2023/25160",
+                                                "titulo": "Real Decreto 1021/2023, de 5 de diciembre, por el que se nombra Secretaria de Estado de Cooperación Internacional a doña Eva María Granados Galiano.",
+                                                "url_pdf": {
+                                                    "szBytes": "191263",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162053",
+                                                    "pagina_final": "162053",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24851.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24851",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24851"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Designaciones",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24852",
+                                                    "control": "2023/25161",
+                                                    "titulo": "Real Decreto 1022/2023, de 5 de diciembre, por el que se designa Embajador de España Delegado Permanente en la Unesco a don Miquel Iceta i Llorens.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191244",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162054",
+                                                        "pagina_final": "162054",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24852.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24852",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24852"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24853",
+                                                    "control": "2023/25162",
+                                                    "titulo": "Real Decreto 1023/2023, de 5 de diciembre, por el que se designa Embajador en Misión Permanente de España ante Naciones Unidas en Nueva York a don Héctor José Gómez Hernández.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192297",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "162055",
+                                                        "pagina_final": "162055",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24853.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24853",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24853"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24854",
+                                                    "control": "2023/25163",
+                                                    "titulo": "Real Decreto 1024/2023, de 5 de diciembre, por el que se designa Embajador de España en el Reino de Lesoto a don Raimundo Robredo Rubio.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190722",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162056",
+                                                        "pagina_final": "162056",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24854.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24854",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24854"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24855",
+                                                    "control": "2023/25164",
+                                                    "titulo": "Real Decreto 1025/2023, de 5 de diciembre, por el que se designa Embajador de España en la República Centroafricana a don Ignacio Rafael García Lumbreras.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191454",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162057",
+                                                        "pagina_final": "162057",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24855.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24855",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24855"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24856",
+                                                    "control": "2023/25165",
+                                                    "titulo": "Real Decreto 1026/2023, de 5 de diciembre, por el que se designa Embajadora de España en la República de Malaui a doña Natividad Isabel Peña Bonilla.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192052",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "162058",
+                                                        "pagina_final": "162058",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24856.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24856",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24856"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24857",
+                                                    "control": "2023/25166",
+                                                    "titulo": "Real Decreto 1027/2023, de 5 de diciembre, por el que se designa Embajadora de España en la República de Zambia a doña Natividad Isabel Peña Bonilla.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191540",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162059",
+                                                        "pagina_final": "162059",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24857.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24857",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24857"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9585",
+                                    "nombre": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24858",
+                                                "control": "2023/25167",
+                                                "titulo": "Real Decreto 1030/2023, de 5 de diciembre, por el que se dispone el cese de doña María Amparo Merino Segovia en calidad de experta del Consejo Económico y Social.",
+                                                "url_pdf": {
+                                                    "szBytes": "192569",
+                                                    "szKBytes": "188",
+                                                    "pagina_inicial": "162060",
+                                                    "pagina_final": "162060",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24858.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24858",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24858"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "6110",
+                                    "nombre": "MINISTERIO DE DEFENSA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ascensos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24859",
+                                                    "control": "2023/25168",
+                                                    "titulo": "Real Decreto 1031/2023, de 5 de diciembre, por el que se promueve al empleo de General Consejero Togado del Cuerpo Jurídico Militar al General Auditor don José Luis García Castell.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190986",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162061",
+                                                        "pagina_final": "162061",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24859.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24859",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24859"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24860",
+                                                    "control": "2023/25169",
+                                                    "titulo": "Real Decreto 1032/2023, de 5 de diciembre, por el que se promueve al empleo de General de Brigada del Cuerpo de la Guardia Civil al Coronel don Francisco Javier Sánchez Gil.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194769",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "162062",
+                                                        "pagina_final": "162063",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24860.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24860",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24860"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24861",
+                                                    "control": "2023/25170",
+                                                    "titulo": "Real Decreto 1033/2023, de 5 de diciembre, por el que se promueve al empleo de General de Brigada del Cuerpo de la Guardia Civil al Coronel don Arturo Prieto Bozec.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194408",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "162064",
+                                                        "pagina_final": "162065",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24861.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24861",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24861"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24862",
+                                                    "control": "2023/25171",
+                                                    "titulo": "Real Decreto 1034/2023, de 5 de diciembre, por el que se promueve al empleo de General de Brigada del Cuerpo de la Guardia Civil al Coronel don Antonio José Rodríguez Medel Nieto.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195079",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "162066",
+                                                        "pagina_final": "162067",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24862.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24862",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24862"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24863",
+                                                    "control": "2023/25172",
+                                                    "titulo": "Real Decreto 1036/2023, de 5 de diciembre, por el que se dispone el cese de doña Isabel Goicoechea Aranguren como Subsecretaria del Interior.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190837",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162068",
+                                                        "pagina_final": "162068",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24863.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24863",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24863"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24864",
+                                                    "control": "2023/25173",
+                                                    "titulo": "Real Decreto 1037/2023, de 5 de diciembre, por el que se dispone el cese de doña Susana Crisóstomo Sanz como Directora del Gabinete del Ministro del Interior.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190813",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162069",
+                                                        "pagina_final": "162069",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24864.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24864",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24864"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24865",
+                                                    "control": "2023/25174",
+                                                    "titulo": "Real Decreto 1038/2023, de 5 de diciembre, por el que se nombra Subsecretaria del Interior a doña Susana Crisóstomo Sanz.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190602",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162070",
+                                                        "pagina_final": "162070",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24865.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24865",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24865"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24866",
+                                                    "control": "2023/25175",
+                                                    "titulo": "Real Decreto 1039/2023, de 5 de diciembre, por el que se nombra Director del Gabinete del Ministro del Interior a don Lorenzo Martínez Ruiz.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190570",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162071",
+                                                        "pagina_final": "162071",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24866.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24866",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24866"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9573",
+                                    "nombre": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses y nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24867",
+                                                "control": "2023/25176",
+                                                "titulo": "Real Decreto 1050/2023, de 5 de diciembre, por el que se dispone la sustitución de miembros del Consejo Económico y Social en representación de las organizaciones sindicales y en representación del sector de la economía social.",
+                                                "url_pdf": {
+                                                    "szBytes": "191916",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162072",
+                                                    "pagina_final": "162072",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24867.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24867",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24867"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9591",
+                                    "nombre": "MINISTERIO DE INDUSTRIA Y TURISMO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24868",
+                                                "control": "2023/25177",
+                                                "titulo": "Real Decreto 1052/2023, de 5 de diciembre, por el que se dispone el cese de don Pablo Garde Lobo como Subsecretario de Industria, Comercio y Turismo.",
+                                                "url_pdf": {
+                                                    "szBytes": "190674",
+                                                    "szKBytes": "186",
+                                                    "pagina_inicial": "162073",
+                                                    "pagina_final": "162073",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24868.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24868",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24868"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24869",
+                                                    "control": "2023/25178",
+                                                    "titulo": "Real Decreto 1053/2023, de 5 de diciembre, por el que se nombra Secretaria de Estado de Industria a doña Rebeca Mariola Torró Soler.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190885",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162074",
+                                                        "pagina_final": "162074",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24869.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24869",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24869"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24870",
+                                                    "control": "2023/25179",
+                                                    "titulo": "Real Decreto 1054/2023, de 5 de diciembre, por el que se nombra Subsecretario de Industria y Turismo a don Pablo Garde Lobo.",
+                                                    "url_pdf": {
+                                                        "szBytes": "190569",
+                                                        "szKBytes": "186",
+                                                        "pagina_inicial": "162075",
+                                                        "pagina_final": "162075",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24870.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24870",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24870"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "3120",
+                                    "nombre": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Destinos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24871",
+                                                "control": "2023/24866",
+                                                "titulo": "Resolución de 29 de noviembre de 2023, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 15 de septiembre de 2023.",
+                                                "url_pdf": {
+                                                    "szBytes": "364648",
+                                                    "szKBytes": "356",
+                                                    "pagina_inicial": "162076",
+                                                    "pagina_final": "162082",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24871.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24871",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24871"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9593",
+                                    "nombre": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24872",
+                                                "control": "2023/25180",
+                                                "titulo": "Real Decreto 1055/2023, de 5 de diciembre, por el que se dispone el cese de don Alfredo González Gómez como Secretario de Estado de Política Territorial.",
+                                                "url_pdf": {
+                                                    "szBytes": "191216",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162083",
+                                                    "pagina_final": "162083",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24872.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24872",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24872"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24873",
+                                                    "control": "2023/25181",
+                                                    "titulo": "Real Decreto 1056/2023, de 5 de diciembre, por el que se nombra Secretario de Estado de Política Territorial a don Arcadi España García.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191139",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162084",
+                                                        "pagina_final": "162084",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24873.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24873",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24873"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24874",
+                                                    "control": "2023/25182",
+                                                    "titulo": "Real Decreto 1057/2023, de 5 de diciembre, por el que se nombra Director del Gabinete del Ministro de Política Territorial y Memoria Democrática a don Antonio José Olivera Herrera.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191577",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162085",
+                                                        "pagina_final": "162085",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24874.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24874",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24874"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4620",
+                                    "nombre": "MINISTERIO DE IGUALDAD",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24875",
+                                                "control": "2023/25183",
+                                                "titulo": "Real Decreto 1069/2023, de 5 de diciembre, por el que se nombra Secretaria de Estado de Igualdad y contra la Violencia de Género a doña Ana María Calvo Sastre.",
+                                                "url_pdf": {
+                                                    "szBytes": "191721",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162086",
+                                                    "pagina_final": "162086",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24875.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24875",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24875"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9579",
+                                    "nombre": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Ceses",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24876",
+                                                "control": "2023/25184",
+                                                "titulo": "Real Decreto 1073/2023, de 5 de diciembre, por el que se dispone el cese de doña Isabel Castro Fernández como Secretaria de Estado de Migraciones.",
+                                                "url_pdf": {
+                                                    "szBytes": "191510",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162087",
+                                                    "pagina_final": "162087",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24876.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24876",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24876"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24877",
+                                                "control": "2023/25185",
+                                                "titulo": "Real Decreto 1077/2023, de 5 de diciembre, por el que se nombra Secretaria de Estado de Migraciones a doña Pilar Cancela Rodríguez.",
+                                                "url_pdf": {
+                                                    "szBytes": "191318",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162088",
+                                                    "pagina_final": "162088",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24877.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24877",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24877"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9592",
+                                    "nombre": "MINISTERIO DE JUVENTUD E INFANCIA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24878",
+                                                "control": "2023/25148",
+                                                "titulo": "Orden JUI/1306/2023, de 5 de diciembre, por la que se nombra Director del Gabinete del Secretario de Estado de Juventud e Infancia a don Jon Sebastián Rodríguez Forrest.",
+                                                "url_pdf": {
+                                                    "szBytes": "191711",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162089",
+                                                    "pagina_final": "162089",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24878.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24878",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24878"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Nombramientos",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24879",
+                                                    "control": "2023/24702",
+                                                    "titulo": "Resolución de 14 de noviembre de 2023, de la Universidad de A Coruña, por la que se nombra Profesor Titular de Universidad a don Iván Vizcaíno Ramos.",
+                                                    "url_pdf": {
+                                                        "szBytes": "193878",
+                                                        "szKBytes": "189",
+                                                        "pagina_inicial": "162090",
+                                                        "pagina_final": "162090",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24879.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24879",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24879"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24880",
+                                                    "control": "2023/24707",
+                                                    "titulo": "Resolución de 24 de noviembre de 2023, de la Universitat de València, por la que se nombra Catedrática de Universidad a doña María Pilar Pozo Serrano.",
+                                                    "url_pdf": {
+                                                        "szBytes": "192997",
+                                                        "szKBytes": "188",
+                                                        "pagina_inicial": "162091",
+                                                        "pagina_final": "162091",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24880.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24880",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24880"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24881",
+                                                    "control": "2023/24708",
+                                                    "titulo": "Resolución de 25 de noviembre de 2023, de la Universidad Miguel Hernández de Elche, por la que se nombran Profesoras y Profesores Titulares de Universidad.",
+                                                    "url_pdf": {
+                                                        "szBytes": "194859",
+                                                        "szKBytes": "190",
+                                                        "pagina_inicial": "162092",
+                                                        "pagina_final": "162092",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24881.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24881",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24881"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24882",
+                                                    "control": "2023/24713",
+                                                    "titulo": "Resolución de 27 de noviembre de 2023, de la Universidad de Oviedo, por la que se nombra personal funcionario de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195464",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "162093",
+                                                        "pagina_final": "162093",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24882.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24882",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24882"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24883",
+                                                    "control": "2023/24714",
+                                                    "titulo": "Resolución de 27 de noviembre de 2023, de la Universidad de Salamanca, por la que se nombra Catedrático de Universidad a don Alfredo Ávila de la Torre.",
+                                                    "url_pdf": {
+                                                        "szBytes": "195776",
+                                                        "szKBytes": "191",
+                                                        "pagina_inicial": "162094",
+                                                        "pagina_final": "162094",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24883.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24883",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24883"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "2B",
+                            "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+                            "departamento": [
+                                {
+                                    "codigo": "9525",
+                                    "nombre": "ADMINISTRACIÓN LOCAL",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Personal funcionario y laboral",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24884",
+                                                "control": "2023/24884",
+                                                "titulo": "Resolución de 15 de noviembre de 2023, de la Diputación Provincial de Huesca, referente a la convocatoria para proveer varias plazas.",
+                                                "url_pdf": {
+                                                    "szBytes": "191015",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162095",
+                                                    "pagina_final": "162095",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24884.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24884",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24884"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "310",
+                                    "nombre": "UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Cuerpos docentes universitarios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24885",
+                                                    "control": "2023/24500",
+                                                    "titulo": "Resolución de 24 de noviembre de 2023, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "306235",
+                                                        "szKBytes": "299",
+                                                        "pagina_inicial": "162096",
+                                                        "pagina_final": "162111",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24885.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24885",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24885"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24886",
+                                                    "control": "2023/24501",
+                                                    "titulo": "Resolución de 24 de noviembre de 2023, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "409093",
+                                                        "szKBytes": "400",
+                                                        "pagina_inicial": "162112",
+                                                        "pagina_final": "162141",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24886.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24886",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24886"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24887",
+                                                    "control": "2023/24502",
+                                                    "titulo": "Resolución de 24 de noviembre de 2023, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "471084",
+                                                        "szKBytes": "460",
+                                                        "pagina_inicial": "162142",
+                                                        "pagina_final": "162180",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24887.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24887",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24887"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24888",
+                                                    "control": "2023/24879",
+                                                    "titulo": "Resolución de 27 de noviembre de 2023, de la Universidad Rey Juan Carlos, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.",
+                                                    "url_pdf": {
+                                                        "szBytes": "324702",
+                                                        "szKBytes": "317",
+                                                        "pagina_inicial": "162181",
+                                                        "pagina_final": "162195",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24888.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24888",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24888"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "3",
+                            "nombre": "III. Otras disposiciones",
+                            "departamento": [
+                                {
+                                    "codigo": "9562",
+                                    "nombre": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Condecoraciones",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24889",
+                                                "control": "2023/25186",
+                                                "titulo": "Real Decreto 1084/2023, de 5 de diciembre, por el que se concede la Gran Cruz de la Orden de Isabel la Católica, a título póstumo, a doña Concepción Velasco Varona.",
+                                                "url_pdf": {
+                                                    "szBytes": "191423",
+                                                    "szKBytes": "187",
+                                                    "pagina_inicial": "162196",
+                                                    "pagina_final": "162196",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24889.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24889",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24889"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24890",
+                                                "control": "2023/24974",
+                                                "titulo": "Resolución de 29 de noviembre de 2023, del Consorcio Casa de América, por la que se publica el Convenio con la Fundación Tres Culturas del Mediterráneo, para la realización de actividades de divulgación, formación e investigación sobre asuntos que afecten al Mediterráneo y a Iberoamérica.",
+                                                "url_pdf": {
+                                                    "szBytes": "227443",
+                                                    "szKBytes": "222",
+                                                    "pagina_inicial": "162197",
+                                                    "pagina_final": "162202",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24890.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24890",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24890"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9279",
+                                    "nombre": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma de Extremadura. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24891",
+                                                "control": "2023/24991",
+                                                "titulo": "Resolución de 28 de noviembre de 2023, de la Dirección del Servicio de Planificación y Relaciones Institucionales de la Agencia Estatal de Administración Tributaria, por la que se publica la Adenda de modificación y prórroga del Convenio con la Comunidad Autónoma de Extremadura, en materia de suministro de información para finalidades no tributarias.",
+                                                "url_pdf": {
+                                                    "szBytes": "273810",
+                                                    "szKBytes": "267",
+                                                    "pagina_inicial": "162203",
+                                                    "pagina_final": "162212",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24891.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24891",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24891"
+                                            }
+                                        },
+                                        {
+                                            "nombre": "Comunidad Autónoma de La Rioja. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24892",
+                                                "control": "2023/24992",
+                                                "titulo": "Resolución de 28 de noviembre de 2023, de la Dirección del Servicio de Planificación y Relaciones Institucionales de la Agencia Estatal de Administración Tributaria, por la que se publica la Adenda de modificación y prórroga del Convenio con la Comunidad Autónoma de La Rioja, en materia de suministro de información para finalidades no tributarias.",
+                                                "url_pdf": {
+                                                    "szBytes": "273483",
+                                                    "szKBytes": "267",
+                                                    "pagina_inicial": "162213",
+                                                    "pagina_final": "162222",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24892.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24892",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24892"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "7320",
+                                    "nombre": "MINISTERIO DEL INTERIOR",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Convenios",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24893",
+                                                "control": "2023/25094",
+                                                "titulo": "Resolución de 4 de diciembre de 2023, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría General de Instituciones Penitenciarias y el Ayuntamiento de León, para el cumplimiento de las penas de trabajos en beneficio de la comunidad.",
+                                                "url_pdf": {
+                                                    "szBytes": "266168",
+                                                    "szKBytes": "260",
+                                                    "pagina_inicial": "162223",
+                                                    "pagina_final": "162230",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24893.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24893",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24893"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9591",
+                                    "nombre": "MINISTERIO DE INDUSTRIA Y TURISMO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Delegación de competencias",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24894",
+                                                "control": "2023/25149",
+                                                "titulo": "Orden ITU/1307/2023, de 5 de diciembre, por la que se fijan los límites para administrar los créditos para gastos y se delegan competencias en relación con la Secretaría de Estado de Industria.",
+                                                "url_pdf": {
+                                                    "szBytes": "221027",
+                                                    "szKBytes": "216",
+                                                    "pagina_inicial": "162231",
+                                                    "pagina_final": "162235",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24894.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24894",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24894"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9575",
+                                    "nombre": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Impacto ambiental",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24895",
+                                                    "control": "2023/24536",
+                                                    "titulo": "Resolución de 22 de noviembre de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Remediación ambiental de residuos mineros y emplazamientos afectados por la minería en Cartagena-La Unión\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "7758468",
+                                                        "szKBytes": "7577",
+                                                        "pagina_inicial": "162236",
+                                                        "pagina_final": "162252",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24895.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24895",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24895"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24896",
+                                                    "control": "2023/24755",
+                                                    "titulo": "Resolución de 22 de noviembre de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto «Parque solar fotovoltaico \"BCN Solar 1\", de 115,12 MW, y su infraestructura de evacuación, en las provincias de Tarragona y Lleida».",
+                                                    "url_pdf": {
+                                                        "szBytes": "1311275",
+                                                        "szKBytes": "1281",
+                                                        "pagina_inicial": "162253",
+                                                        "pagina_final": "162283",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24896.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24896",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24896"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24897",
+                                                    "control": "2023/24543",
+                                                    "titulo": "Resolución de 24 de noviembre de 2023, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula declaración de impacto ambiental del proyecto \"Parques fotovoltaicos Tara y Umiko y sus infraestructuras de evacuación, en las provincias de Zaragoza, Navarra, La Rioja, Álava y Burgos\".",
+                                                    "url_pdf": {
+                                                        "szBytes": "5964907",
+                                                        "szKBytes": "5825",
+                                                        "pagina_inicial": "162284",
+                                                        "pagina_final": "162339",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24897.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24897",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24897"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "nombre": "Instalaciones eléctricas",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24898",
+                                                    "control": "2023/24537",
+                                                    "titulo": "Resolución de 22 de noviembre de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Energía Inagotable de Cresida, SL, autorización administrativa previa para la instalación fotovoltaica \"Cresida\", de 32,27 MW de potencia instalada, y sus infraestructuras de evacuación, ubicados en Laluenga, Laperdiguera y Pertus (Huesca).",
+                                                    "url_pdf": {
+                                                        "szBytes": "236489",
+                                                        "szKBytes": "231",
+                                                        "pagina_inicial": "162340",
+                                                        "pagina_final": "162346",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24898.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24898",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24898"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24899",
+                                                    "control": "2023/24538",
+                                                    "titulo": "Resolución de 22 de noviembre de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Quilla Solar, SLU, autorización administrativa previa de las modificaciones y autorización administrativa de construcción para la instalación fotovoltaica Quilla Solar, de 51,04 MW de potencia instalada, y sus infraestructuras de evacuación, en Nuevo Baztán, Valverde de Alcalá, Arganda del Rey, Campo Real, Loeches y Pozuelo del Rey (Madrid) y se declara, en concreto, su utilidad pública.",
+                                                    "url_pdf": {
+                                                        "szBytes": "266499",
+                                                        "szKBytes": "260",
+                                                        "pagina_inicial": "162347",
+                                                        "pagina_final": "162358",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24899.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24899",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24899"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24900",
+                                                    "control": "2023/24539",
+                                                    "titulo": "Resolución de 23 de noviembre de 2023, de la Dirección General de Política Energética y Minas, por la que se desestima la solicitud de Enerfín Renovables II, SLU, de autorización administrativa previa del parque eólico Alto del Fraile, de 44 MW de potencia instalada, y de su infraestructura de evacuación, ubicados en las provincias de Zaragoza y Navarra.",
+                                                    "url_pdf": {
+                                                        "szBytes": "224155",
+                                                        "szKBytes": "219",
+                                                        "pagina_inicial": "162359",
+                                                        "pagina_final": "162364",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24900.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24900",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24900"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24901",
+                                                    "control": "2023/24540",
+                                                    "titulo": "Resolución de 23 de noviembre de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Global Solar Energy Veintiséis, SL, autorización administrativa previa para la instalación fotovoltaica PSF Leima de 50,1 MW de potencia instalada, y su infraestructura de evacuación, en Alicante, Mutxamel, El Campello y Sant Joan d'Alacant (Alicante).",
+                                                    "url_pdf": {
+                                                        "szBytes": "241396",
+                                                        "szKBytes": "236",
+                                                        "pagina_inicial": "162365",
+                                                        "pagina_final": "162373",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24901.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24901",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24901"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24902",
+                                                    "control": "2023/24541",
+                                                    "titulo": "Resolución de 23 de noviembre de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Parque FV Hércules, SL, autorización administrativa previa para la instalación fotovoltaica Hércules de 134,234 MW de potencia instalada, y su infraestructura de evacuación, en Palomeque, Cedillo del Condado, El Viso de San Juan, Illescas, Ugena, Casarrubuelos, Cubas de la Sagra, Torrejón de la Calzada, Griñón, Humanes de Madrid, y Fuenlabrada (Toledo y Madrid).",
+                                                    "url_pdf": {
+                                                        "szBytes": "280844",
+                                                        "szKBytes": "274",
+                                                        "pagina_inicial": "162374",
+                                                        "pagina_final": "162388",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24902.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24902",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24902"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24903",
+                                                    "control": "2023/24542",
+                                                    "titulo": "Resolución de 23 de noviembre de 2023, de la Dirección General de Política Energética y Minas, por la que se otorga a Parque FV Orión, SL, autorización administrativa previa para la instalación fotovoltaica Orión de 50,747 MW de potencia instalada, y su infraestructura de evacuación, en Chozas de Canales, Lominchar, Palomeque, Cedillo del Condado, El Viso de San Juan, Illescas, y Ugena (Toledo).",
+                                                    "url_pdf": {
+                                                        "szBytes": "282891",
+                                                        "szKBytes": "276",
+                                                        "pagina_inicial": "162389",
+                                                        "pagina_final": "162401",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24903.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24903",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24903"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9570",
+                                    "nombre": "MINISTERIO DE CULTURA Y DEPORTE",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Premios",
+                                            "item": [
+                                                {
+                                                    "identificador": "BOE-A-2023-24904",
+                                                    "control": "2023/24544",
+                                                    "titulo": "Orden CUD/1308/2023, de 17 de noviembre, por la que se concede el Premio Nacional a la Mejor Traducción, correspondiente al año 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191971",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162402",
+                                                        "pagina_final": "162402",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24904.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24904",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24904"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24905",
+                                                    "control": "2023/24545",
+                                                    "titulo": "Orden CUD/1309/2023, de 17 de noviembre, por la que se concede el Premio Nacional de Historia de España, correspondiente al año 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191707",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162403",
+                                                        "pagina_final": "162403",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24905.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24905",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24905"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24906",
+                                                    "control": "2023/24546",
+                                                    "titulo": "Orden CUD/1310/2023, de 17 de noviembre, por la que se concede el Premio Nacional de las Letras Españolas, correspondiente al año 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191483",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162404",
+                                                        "pagina_final": "162404",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24906.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24906",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24906"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24907",
+                                                    "control": "2023/24547",
+                                                    "titulo": "Orden CUD/1311/2023, de 17 de noviembre, por la que se concede el Premio Nacional de Literatura en la modalidad de Ensayo, correspondiente al año 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191400",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162405",
+                                                        "pagina_final": "162405",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24907.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24907",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24907"
+                                                },
+                                                {
+                                                    "identificador": "BOE-A-2023-24908",
+                                                    "control": "2023/24548",
+                                                    "titulo": "Orden CUD/1312/2023, de 17 de noviembre, por la que se concede el Premio Nacional de Literatura en la Modalidad de Narrativa, correspondiente al año 2023.",
+                                                    "url_pdf": {
+                                                        "szBytes": "191471",
+                                                        "szKBytes": "187",
+                                                        "pagina_inicial": "162406",
+                                                        "pagina_final": "162406",
+                                                        "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24908.pdf"
+                                                    },
+                                                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24908",
+                                                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24908"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "4335",
+                                    "nombre": "MINISTERIO DE SANIDAD",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad Autónoma de Andalucía. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24909",
+                                                "control": "2023/25021",
+                                                "titulo": "Resolución de 29 de noviembre de 2023, de la Secretaría de Estado de Sanidad, por la que se publica Adenda de prórroga del Convenio entre la Agencia Española de Medicamentos y Productos Sanitarios y la Comunidad Autónoma de Andalucía, en materia de Farmacovigilancia.",
+                                                "url_pdf": {
+                                                    "szBytes": "204874",
+                                                    "szKBytes": "200",
+                                                    "pagina_inicial": "162407",
+                                                    "pagina_final": "162409",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24909.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24909",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24909"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "9565",
+                                    "nombre": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Comunidad de Madrid. Convenio",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24910",
+                                                "control": "2023/25141",
+                                                "titulo": "Resolución de 1 de diciembre de 2023, del Instituto de Salud Carlos III, O.A., M.P., por la que se publica el Convenio con la Universidad Complutense de Madrid y Telum Therapeutics, SL, para el desarrollo del proyecto \"Desarrollo de enzibióticos para combatir infecciones humanas producidas por enterococcus faecium resistente a vancomicina [ANTI-VRE]\".",
+                                                "url_pdf": {
+                                                    "szBytes": "309355",
+                                                    "szKBytes": "302",
+                                                    "pagina_inicial": "162410",
+                                                    "pagina_final": "162424",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24910.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24910",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24910"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "1020",
+                                    "nombre": "BANCO DE ESPAÑA",
+                                    "epigrafe": [
+                                        {
+                                            "nombre": "Mercado de divisas",
+                                            "item": {
+                                                "identificador": "BOE-A-2023-24911",
+                                                "control": "2023/25146",
+                                                "titulo": "Resolución de 5 de diciembre de 2023, del Banco de España, por la que se publican los cambios del euro correspondientes al día 5 de diciembre de 2023, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
+                                                "url_pdf": {
+                                                    "szBytes": "217481",
+                                                    "szKBytes": "212",
+                                                    "pagina_inicial": "162425",
+                                                    "pagina_final": "162426",
+                                                    "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24911.pdf"
+                                                },
+                                                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24911",
+                                                "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-24911"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "5B",
+                            "nombre": "V. Anuncios. - B. Otros anuncios oficiales",
+                            "departamento": [
+                                {
+                                    "codigo": "9586",
+                                    "nombre": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-36725",
+                                        "titulo": "Anuncio del ADIF por el que se somete a información pública a efectos de declaración de la necesidad de ocupación el Proyecto, \"Proyecto de Construcción. Autopista Ferroviaria Algeciras – Zaragoza. Pasos Superiores del Tramo: San Fernando de Henares (P.K. 18,3) – Santa María de Huerta (P.K. 194,6)\".",
+                                        "url_pdf": {
+                                            "szBytes": "307968",
+                                            "szKBytes": "301",
+                                            "pagina_inicial": "59446",
+                                            "pagina_final": "59450",
+                                            "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-B-2023-36725.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36725",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36725"
+                                    }
+                                },
+                                {
+                                    "codigo": "9570",
+                                    "nombre": "MINISTERIO DE CULTURA Y DEPORTE",
+                                    "item": {
+                                        "identificador": "BOE-B-2023-36726",
+                                        "titulo": "Extracto de la Resolución de la Presidencia del CSD, de 28 de noviembre de 2023, por la que se convocan ayudas de tramitación anticipada, con relación al año 2023, a Federaciones Deportivas Españolas para financiar el desarrollo de soluciones innovadoras que mejoren el rendimiento, la salud y la seguridad de los deportistas, la sostenibilidad medioambiental y, en general, contribuya al desarrollo de la práctica deportiva con cargo al Plan de Recuperación, Transformación y Resiliencia",
+                                        "url_pdf": {
+                                            "szBytes": "160197",
+                                            "szKBytes": "156",
+                                            "pagina_inicial": "59451",
+                                            "pagina_final": "59453",
+                                            "texto": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-B-2023-36726.pdf"
+                                        },
+                                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-36726",
+                                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-36726"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
