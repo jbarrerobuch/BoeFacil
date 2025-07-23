@@ -116,3 +116,4 @@ def extraer_texto_de_html(html, div_id='textoxslt'):
     else:
         logger.warning(f"No se encontró el div con id '{div_id}', extrayendo todo el HTML")
         return md(str(html), strip=["a", "blockquote"])
+

@@ -407,3 +407,6 @@ FodyWeavers.xsd
 
 # Other
 src/test.ipynb
+config
+*.config
+*.pem
