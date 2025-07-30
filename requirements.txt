@@ -1,0 +1,20 @@
+# Data manipulation and analysis
+pandas>=1.5.0
+
+# HTTP requests
+requests>=2.28.0
+
+# AWS S3 integration
+boto3>=1.26.0
+
+# HTML parsing
+beautifulsoup4>=4.11.0
+
+# HTML to Markdown conversion
+markdownify>=0.11.0
+
+# Progress bars
+tqdm>=4.64.0
+
+# Parquet file support (usually comes with pandas but explicit for clarity)
+pyarrow>=10.0.0
