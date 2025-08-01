@@ -2,6 +2,8 @@ import pandas as pd
 import re
 import logging
 import os
+from transformers import AutoTokenizer
+import nltk
 
 # Configuración del logger
 logger = logging.getLogger(__name__)
@@ -21,14 +23,19 @@ def contar_tokens(texto):
         return 0
     
     # Eliminar espacios extra y dividir por espacios y signos de puntuación
-    tokens = re.findall(r'\w+|[.,!?;]', texto.strip())
+    #tokenizer = AutoTokenizer.from_pretrained("pablosi/bge-m3-trained-2")
+    #tokens = re.findall(r'\w+|[.,!?;]', texto.strip())
+    #tokens = tokenizer.encode(texto, truncation=False)
+    nltk.download('punkt_tab', quiet=True)  # Asegurarse de que el tokenizer de nltk esté disponible
+    tokens = nltk.tokenize.word_tokenize(texto)
     return len(tokens)
 
 def chunking(texto, max_tokens=1000):
     """
     Divide un texto en chunks basándose en el número máximo de tokens.
     Intenta mantener párrafos completos cuando sea posible.
-    
+    Filtra los párrafos que comienzan con el símbolo `#` (títulos en Markdown).
+
     Args:
         texto (str): El texto a dividir
         max_tokens (int): Número máximo de tokens por chunk. Por defecto 1000.
@@ -45,8 +52,8 @@ def chunking(texto, max_tokens=1000):
     
     chunks = []
     
-    # Dividir por párrafos (doble salto de línea)
-    parrafos = texto.split('\n\n')
+    # Dividir por párrafos (doble salto de línea) y filtrar los que comienzan con `#`
+    parrafos = [p for p in texto.split('\n\n') if not p.strip().startswith('#')]
     
     chunk_actual = ""
     tokens_actuales = 0
@@ -202,17 +209,29 @@ def chunking_markdown_df(df:pd.DataFrame, columna_markdown:str = 'markdown', max
         # Añadir metadatos y guardar archivos si es necesario
         for i, chunk in enumerate(chunks):
             chunk_info = {
-                'texto': chunk,
-                'fila_original': idx,
+                'sumario_id': row.get('sumario_id', None),
+                'seccion_codigo': row.get('seccion_codigo', None),
+                'seccion_nombre': row.get('seccion_nombre', None),
+                'departamento_codigo': row.get('departamento_codigo', None),
+                'departamento_nombre': row.get('departamento_nombre', None),
+                'epigrafe_nombre': row.get('epigrafe_nombre', None),
+                'item_id': current_texto_id,
+                'item_titulo': row.get('item_titulo', None),
+                'chunk_id': f"{current_texto_id}_{str(i).zfill(3)}",  # Formato con ceros a la izquierda
                 'chunk_numero': i,  # Número dentro de la fila (empezar desde 0)
-                'total_chunks_fila': len(chunks),
+                'fecha_publicacion': row.get('fecha_publicacion', None),
+                'diario_numero': row.get('diario_numero', None),
+                'publicacion': row.get('publicacion', None),
+                'texto': chunk,
                 'tokens_aproximados': contar_tokens(chunk),
-                'item_id': current_texto_id if store_path is not None else (str(row['item_id']) if 'item_id' in df.columns and not pd.isna(row['item_id']) else None)
+                'total_chunks_fila': len(chunks),
+                'sumario_url_pdf': row.get('sumario_url_pdf', None),
+                'item_url_pdf': row.get('item_url_pdf', None)
             }
-            
+
             # Guardar archivo markdown si se especificó store_path
             if store_path is not None:
-                filename = f'{current_texto_id}_{i}.md'
+                filename = f"{current_texto_id}_{str(i).zfill(3)}.md"
                 filepath = os.path.join(store_path, filename)
                 
                 try:
