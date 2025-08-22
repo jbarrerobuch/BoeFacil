@@ -411,3 +411,4 @@ config
 *.config
 *.pem
 *.md
+*.parquet
