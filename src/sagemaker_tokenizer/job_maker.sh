@@ -1,10 +1,11 @@
 #!/bin/bash
 # Script para crear un SageMaker Training Job con instancias spot
 
-# IMPORTANTE: Antes de ejecutar este script, debes subir el código a S3 con:
-#   aws s3 cp tokenizer.py s3://boe-facil/job_embeddings/code/tokenizer.py
+# IMPORTANTE: Antes de ejecutar este script, debes empaquetar y subir el código a S3 usando:
+#   bash package_and_upload.sh
 #
-# El script tokenizer.py debe estar en la ubicación S3 especificada en S3_CODE_LOCATION
+# Este script empaquetará y subirá tokenizer.py y sus módulos como un paquete Python
+# a la ubicación S3 especificada en S3_CODE_LOCATION
 
 # Variables de configuración - AJUSTA ESTAS VARIABLES A TUS NECESIDADES
 JOB_NAME="embedding-training-SPOT-mlm7ixlarge-001"  # Nombre único para el job
@@ -13,7 +14,7 @@ REGION="eu-west-3"  # Región de París para coincidir con la imagen Docker
 IMAGE_URI="763104351884.dkr.ecr.eu-west-3.amazonaws.com/huggingface-pytorch-inference:2.6.0-transformers4.49.0-gpu-py312-cu124-ubuntu22.04"
 
 # Rutas S3 - REEMPLAZAR con tus rutas
-S3_CODE_LOCATION="s3://boe-facil/job_embeddings/code/"
+S3_CODE_LOCATION="s3://boe-facil/job_embeddings/code"
 S3_INPUT_LOCATION="s3://boe-facil/test_job/input/"
 S3_OUTPUT_LOCATION="s3://boe-facil/test_job/output/"
 S3_CHECKPOINT_LOCATION="s3://boe-facil/test_job/checkpoints/"
@@ -33,7 +34,7 @@ cat > training-job-config.json << EOF
     "TrainingInputMode": "File",
     "ContainerEntrypoint": [
       "python3",
-      "/opt/ml/input/data/code/tokenizer.py"
+      "/opt/ml/input/data/code/run.py"
     ],
     "ContainerArguments": [
       "--model",
@@ -64,7 +65,7 @@ cat > training-job-config.json << EOF
           "S3DataDistributionType": "FullyReplicated"
         }
       },
-      "ContentType": "text/x-python"
+      "ContentType": "application/x-tar"
     }
   ],
   "OutputDataConfig": {

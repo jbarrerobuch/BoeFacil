@@ -31,6 +31,75 @@ from datetime import datetime
 from pathlib import Path
 from typing import Iterable, List, Dict, Any, Set, Optional
 import pandas as pd
+import boto3
+import re
+
+# Import utility modules
+try:
+    from .modules.checkpoint import CheckpointManager
+    from .modules.performance import PerformanceTracker
+    from .modules.utils import get_optimal_batch_size, cleanup_memory
+    from .modules.s3_utils import upload_to_s3, extract_job_name_from_env, get_sagemaker_s3_output_info
+except ImportError:
+    # Fall back to local directory if not properly installed
+    try:
+        from modules.checkpoint import CheckpointManager
+        from modules.performance import PerformanceTracker
+        from modules.utils import get_optimal_batch_size, cleanup_memory
+        from modules.s3_utils import upload_to_s3, extract_job_name_from_env, get_sagemaker_s3_output_info
+    except ImportError:
+        # If modules aren't found, define critical functions inline
+        def upload_to_s3(local_file, bucket, key, logger=None):
+            if logger is None:
+                logger = logging.getLogger(__name__)
+            try:
+                s3_client = boto3.client('s3')
+                s3_client.upload_file(str(local_file), bucket, key)
+                logger.info(f"✓ Uploaded {local_file} to s3://{bucket}/{key}")
+                return True
+            except Exception as e:
+                logger.error(f"✗ Failed to upload to S3: {e}")
+                return False
+                
+        def extract_job_name_from_env():
+            """Extract job name or generate fallback name"""
+            try:
+                # Try resourceconfig.json first
+                if os.path.exists('/opt/ml/input/config/resourceconfig.json'):
+                    with open('/opt/ml/input/config/resourceconfig.json', 'r') as f:
+                        config = json.load(f)
+                        job_name = config.get('TrainingJobName', '')
+                        if job_name:
+                            return job_name
+                
+                # Default with timestamp
+                return f"job-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+            except Exception:
+                return f"job-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+            
+        def get_sagemaker_s3_output_info(logger=None):
+            """Extract S3 bucket and prefix from SageMaker environment variables"""
+            if logger is None:
+                logger = logging.getLogger(__name__)
+                
+            try:
+                s3_output_path = os.environ.get('SM_OUTPUT_DATA_DIR', '')
+                
+                if s3_output_path.startswith('s3://'):
+                    # Extract bucket and key from s3://bucket/key format
+                    s3_path_parts = s3_output_path.replace('s3://', '').split('/', 1)
+                    s3_bucket = s3_path_parts[0]
+                    s3_prefix = s3_path_parts[1] if len(s3_path_parts) > 1 else ""
+                    s3_prefix = s3_prefix.rstrip('/')
+                    
+                    logger.info(f"Extracted S3 output info - bucket: {s3_bucket}, prefix: {s3_prefix}")
+                    return s3_bucket, s3_prefix
+                else:
+                    logger.warning("Could not extract S3 info - SM_OUTPUT_DATA_DIR not an S3 path")
+                    return None, None
+            except Exception as e:
+                logger.warning(f"Failed to extract S3 output info: {e}")
+                return None, None
 
 def install_requirements():
     """Install required packages if not available"""
@@ -71,203 +140,8 @@ LOGGER = logging.getLogger("tokenizer")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
 
-class CheckpointManager:
-    """Manage checkpointing for spot instance resilience in SageMaker Training Jobs"""
-    
-    def __init__(self, checkpoint_dir: Path, output_dir: Path):
-        self.output_dir = output_dir
-        self.checkpoint_dir = checkpoint_dir
-        
-        # Ensure checkpoint directory exists
-        if not self.checkpoint_dir.exists():
-            self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
-            
-        self.checkpoint_file = self.checkpoint_dir / "checkpoint.json"
-        self.processed_files: Set[str] = set()
-        self.interrupted = False
-        
-        # Register signal handlers for spot termination
-        signal.signal(signal.SIGTERM, self._handle_termination)
-        signal.signal(signal.SIGINT, self._handle_termination)
-        # Register exit handler
-        atexit.register(self._save_checkpoint)
-        
-        # Try to load previous checkpoint
-        self._load_checkpoint()
-    
-    def _handle_termination(self, signum, frame):
-        """Handle termination signals"""
-        LOGGER.warning("Received termination signal %d - saving checkpoint", signum)
-        self.interrupted = True
-        self._save_checkpoint()
-        # Exit gracefully after saving
-        sys.exit(0)
-    
-    def _save_checkpoint(self):
-        """Save checkpoint to disk using SageMaker Training Jobs checkpoint directory"""
-        # Ensure both directories exist
-        if not self.checkpoint_dir.exists():
-            self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
-        if not self.output_dir.exists():
-            self.output_dir.mkdir(parents=True, exist_ok=True)
-        
-        checkpoint_data = {
-            "processed_files": list(self.processed_files),
-            "timestamp": datetime.now().isoformat(),
-            "interrupted": self.interrupted
-        }
-        
-        try:
-            with self.checkpoint_file.open("w", encoding="utf-8") as f:
-                json.dump(checkpoint_data, f, ensure_ascii=False, indent=2)
-            
-            if self.interrupted:
-                LOGGER.info("✓ Saved checkpoint before termination: %s", self.checkpoint_file)
-            else:
-                LOGGER.debug("✓ Updated checkpoint: %s", self.checkpoint_file)
-                
-        except Exception as e:
-            LOGGER.error("Failed to save checkpoint: %s", e)
-    
-    def _load_checkpoint(self):
-        """Load checkpoint from disk"""
-        if not self.checkpoint_file.exists():
-            LOGGER.info("No previous checkpoint found, starting fresh")
-            return
-        
-        try:
-            with self.checkpoint_file.open("r", encoding="utf-8") as f:
-                checkpoint_data = json.load(f)
-            
-            self.processed_files = set(checkpoint_data.get("processed_files", []))
-            LOGGER.info("✓ Loaded checkpoint with %d previously processed files", len(self.processed_files))
-            
-        except Exception as e:
-            LOGGER.error("Failed to load checkpoint: %s", e)
-    
-    def mark_file_processed(self, filename: str):
-        """Mark a file as successfully processed"""
-        self.processed_files.add(filename)
-        # Update checkpoint file periodically
-        if len(self.processed_files) % 5 == 0:  # Every 5 files
-            self._save_checkpoint()
-    
-    def is_file_processed(self, filename: str) -> bool:
-        """Check if a file was already processed"""
-        return filename in self.processed_files
-    
-    def get_processed_files(self) -> Set[str]:
-        """Get set of processed files"""
-        return self.processed_files
-
-
-class PerformanceTracker:
-    """Track performance metrics during processing"""
-    
-    def __init__(self):
-        self.start_time = time.time()
-        self.total_tokens = 0
-        self.total_chunks = 0
-        self.files_processed = 0
-        self.files_skipped = 0
-        self.memory_samples = []
-        self.process = psutil.Process()
-        
-    def add_file_stats(self, tokens: int, chunks: int, skipped: bool = False):
-        """Add statistics from processing a file"""
-        # Convert numpy types to native Python types
-        self.total_tokens += int(tokens)
-        self.total_chunks += int(chunks)
-        
-        if skipped:
-            self.files_skipped += 1
-        else:
-            self.files_processed += 1
-        
-        # Sample memory usage
-        memory_mb = self.process.memory_info().rss / 1024 / 1024
-        self.memory_samples.append(memory_mb)
-        
-    def get_metrics(self) -> Dict[str, Any]:
-        """Calculate and return performance metrics"""
-        elapsed_time = time.time() - self.start_time
-        elapsed_minutes = elapsed_time / 60
-        
-        metrics = {
-            "processing_time": {
-                "total_seconds": round(elapsed_time, 2),
-                "total_minutes": round(elapsed_minutes, 2)
-            },
-            "throughput": {
-                "tokens_per_minute": round(self.total_tokens / elapsed_minutes) if elapsed_minutes > 0 else 0,
-                "chunks_per_minute": round(self.total_chunks / elapsed_minutes) if elapsed_minutes > 0 else 0,
-                "files_per_minute": round(self.files_processed / elapsed_minutes) if elapsed_minutes > 0 else 0
-            },
-            "totals": {
-                "total_tokens_processed": int(self.total_tokens),
-                "total_chunks_processed": int(self.total_chunks),
-                "files_processed": int(self.files_processed),
-                "files_skipped": int(self.files_skipped),
-                "total_files_seen": int(self.files_processed + self.files_skipped)
-            },
-            "memory_usage": {
-                "peak_memory_mb": round(max(self.memory_samples)) if self.memory_samples else 0,
-                "avg_memory_mb": round(sum(self.memory_samples) / len(self.memory_samples)) if self.memory_samples else 0,
-                "memory_per_chunk_mb": round(sum(self.memory_samples) / len(self.memory_samples) / self.total_chunks, 4) if self.memory_samples and self.total_chunks > 0 else 0
-            },
-            "timestamp": datetime.now().isoformat()
-        }
-        
-        return metrics
-
-
-def get_optimal_batch_size():
-    """Determine optimal batch size based on available GPU memory"""
-    try:
-        import torch
-        if torch.cuda.is_available():
-            total_memory_gb = torch.cuda.get_device_properties(0).total_memory / 1024**3
-            free_memory_gb = (torch.cuda.get_device_properties(0).total_memory - torch.cuda.memory_allocated()) / 1024**3
-            
-            # Conservative batch sizing based on available memory
-            if free_memory_gb > 10:  # Lots of free memory
-                batch_size = 32
-            elif free_memory_gb > 6:  # Moderate memory
-                batch_size = 16  
-            elif free_memory_gb > 3:  # Limited memory
-                batch_size = 8
-            else:  # Very limited memory
-                batch_size = 4
-                
-            LOGGER.info("GPU: %.1f GB total, %.1f GB free → batch_size=%d", total_memory_gb, free_memory_gb, batch_size)
-            return batch_size
-        else:
-            return 8  # CPU fallback
-    except Exception as e:
-        LOGGER.warning("Could not determine optimal batch size: %s, using 8", e)
-        return 8  # Safe fallback
-
-
-def cleanup_memory():
-    """Force garbage collection and clear CUDA cache if available"""
-    gc.collect()
-    try:
-        import torch
-        if torch.cuda.is_available():
-            # More aggressive CUDA cleanup
-            torch.cuda.empty_cache()
-            torch.cuda.ipc_collect()  # Clean up inter-process communication
-            # Force synchronization to ensure cleanup is complete
-            torch.cuda.synchronize()
-            LOGGER.info("✓ CUDA cache cleared aggressively")
-            
-            # Log memory status after cleanup
-            memory_allocated = torch.cuda.memory_allocated() / 1024**3
-            memory_reserved = torch.cuda.memory_reserved() / 1024**3
-            LOGGER.info("GPU memory: %.2f GB allocated, %.2f GB reserved", memory_allocated, memory_reserved)
-    except ImportError:
-        pass
-    LOGGER.info("✓ Memory cleanup completed")
+LOGGER = logging.getLogger("tokenizer")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
 
 def iter_parquet_files(input_dir: Path) -> Iterable[Path]:
@@ -364,6 +238,37 @@ def process_file(
     if out_file.exists():
         file_size = out_file.stat().st_size
         LOGGER.info("✓ Successfully wrote %s (%d bytes)", out_file, file_size)
+        
+        # Also upload directly to S3 to avoid compression
+        try:
+            # Extract the S3 output path from Training Job's output location
+            # Format is typically s3://bucket/prefix/job-name/
+            s3_output_path = os.environ.get('SM_OUTPUT_DATA_DIR', '')
+            
+            # If we have S3 output info, use it directly
+            if s3_output_path.startswith('s3://'):
+                # Extract bucket and key from s3://bucket/key format
+                s3_path_parts = s3_output_path.replace('s3://', '').split('/', 1)
+                s3_bucket = s3_path_parts[0]
+                s3_prefix = s3_path_parts[1] if len(s3_path_parts) > 1 else ""
+                
+                # Remove trailing slashes for consistency
+                s3_prefix = s3_prefix.rstrip('/')
+                
+                # Create S3 key for this specific file
+                s3_key = f"{s3_prefix}/{input_path.name}"
+            else:
+                # Fallback if SM_OUTPUT_DATA_DIR isn't a proper S3 path
+                s3_bucket = os.environ.get('SM_OUTPUT_S3_BUCKET', 'boe-facil')
+                s3_output_prefix = os.environ.get('SM_OUTPUT_S3_PREFIX', 'test_job/output')
+                job_name = extract_job_name_from_env()
+                s3_key = f"{s3_output_prefix}/{job_name}/{input_path.name}"
+            
+            # Upload file directly to S3
+            upload_to_s3(out_file, s3_bucket, s3_key, LOGGER)
+            LOGGER.info(f"✓ File also uploaded directly to S3: s3://{s3_bucket}/{s3_key}")
+        except Exception as e:
+            LOGGER.warning(f"Could not upload directly to S3: {e}")
     else:
         LOGGER.error("✗ Failed to write %s - file does not exist", out_file)
 
@@ -390,6 +295,15 @@ def main():
     parser.add_argument("--batch-size", type=int, default=0, help="Batch size (0 = auto-detect based on GPU)")
     parser.add_argument("--no-checkpoint", action="store_true", help="Disable checkpointing (process all files)")
     args = parser.parse_args()
+    
+    # Try to get S3 output info and set in environment
+    try:
+        s3_bucket, s3_prefix = get_sagemaker_s3_output_info(LOGGER)
+        if s3_bucket:
+            os.environ['SM_OUTPUT_S3_BUCKET'] = s3_bucket
+            os.environ['SM_OUTPUT_S3_PREFIX'] = s3_prefix
+    except Exception:
+        LOGGER.info("Could not get S3 output info - direct S3 upload may use fallback paths")
 
     # Auto-detect optimal batch size if not specified
     if args.batch_size == 0:
@@ -545,6 +459,31 @@ def main():
         json.dump(results, fh, ensure_ascii=False, indent=2)
     
     LOGGER.info("Results file written: %s (%d bytes)", results_file, results_file.stat().st_size)
+    
+    # Upload results file directly to S3 as well
+    try:
+        # Extract the S3 output path from Training Job's output location
+        s3_output_path = os.environ.get('SM_OUTPUT_DATA_DIR', '')
+        
+        if s3_output_path.startswith('s3://'):
+            # Extract bucket and key from s3://bucket/key format
+            s3_path_parts = s3_output_path.replace('s3://', '').split('/', 1)
+            s3_bucket = s3_path_parts[0]
+            s3_prefix = s3_path_parts[1] if len(s3_path_parts) > 1 else ""
+            
+            # Remove trailing slashes for consistency
+            s3_prefix = s3_prefix.rstrip('/')
+            
+            # Create S3 key for results file
+            s3_key = f"{s3_prefix}/{results_filename}"
+            
+            # Upload results file directly to S3
+            upload_to_s3(results_file, s3_bucket, s3_key, LOGGER)
+            LOGGER.info(f"✓ Results file also uploaded directly to S3: s3://{s3_bucket}/{s3_key}")
+        else:
+            LOGGER.warning("Could not determine S3 output path from environment")
+    except Exception as e:
+        LOGGER.warning(f"Could not upload results file to S3: {e}")
     
     # Log performance summary
     LOGGER.info("=== PERFORMANCE SUMMARY ===")
