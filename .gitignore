@@ -410,5 +410,4 @@ src/test.ipynb
 config
 *.config
 *.pem
-*.md
 *.parquet

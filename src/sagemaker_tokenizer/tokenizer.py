@@ -1,5 +1,5 @@
 """
-SageMaker Processing script to tokenize text chunks stored in parquet files.
+SageMaker Training Job script to tokenize text chunks stored in parquet files.
 
 Behavior:
 - Reads all .parquet files from --input-path (non-recursive by default).
@@ -7,8 +7,10 @@ Behavior:
 - Writes tokenized parquet files to --output-path keeping the same filename.
 - Emits a `results.json` with summary statistics.
 
-Designed to run inside a SageMaker Processing Job where input is mounted at
-`/opt/ml/processing/input` and output at `/opt/ml/processing/output`.
+Designed to run inside a SageMaker Training Job with spot instances where input is mounted at
+`/opt/ml/input/data/dataset` and output at `/opt/ml/output/data`.
+
+SageMaker Job will save checkpoints to handle spot instance interruptions.
 
 img: 763104351884.dkr.ecr.eu-west-3.amazonaws.com/huggingface-pytorch-inference:2.6.0-transformers4.49.0-gpu-py312-cu124-ubuntu22.04
 
@@ -19,13 +21,15 @@ import gc
 import json
 import logging
 import os
+import signal
 import subprocess
 import sys
 import time
 import psutil
+import atexit
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable, List, Dict, Any
+from typing import Iterable, List, Dict, Any, Set, Optional
 import pandas as pd
 
 def install_requirements():
@@ -67,6 +71,96 @@ LOGGER = logging.getLogger("tokenizer")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
 
+class CheckpointManager:
+    """Manage checkpointing for spot instance resilience in SageMaker Training Jobs"""
+    
+    def __init__(self, checkpoint_dir: Path, output_dir: Path):
+        self.output_dir = output_dir
+        self.checkpoint_dir = checkpoint_dir
+        
+        # Ensure checkpoint directory exists
+        if not self.checkpoint_dir.exists():
+            self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+            
+        self.checkpoint_file = self.checkpoint_dir / "checkpoint.json"
+        self.processed_files: Set[str] = set()
+        self.interrupted = False
+        
+        # Register signal handlers for spot termination
+        signal.signal(signal.SIGTERM, self._handle_termination)
+        signal.signal(signal.SIGINT, self._handle_termination)
+        # Register exit handler
+        atexit.register(self._save_checkpoint)
+        
+        # Try to load previous checkpoint
+        self._load_checkpoint()
+    
+    def _handle_termination(self, signum, frame):
+        """Handle termination signals"""
+        LOGGER.warning("Received termination signal %d - saving checkpoint", signum)
+        self.interrupted = True
+        self._save_checkpoint()
+        # Exit gracefully after saving
+        sys.exit(0)
+    
+    def _save_checkpoint(self):
+        """Save checkpoint to disk using SageMaker Training Jobs checkpoint directory"""
+        # Ensure both directories exist
+        if not self.checkpoint_dir.exists():
+            self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+        if not self.output_dir.exists():
+            self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+        checkpoint_data = {
+            "processed_files": list(self.processed_files),
+            "timestamp": datetime.now().isoformat(),
+            "interrupted": self.interrupted
+        }
+        
+        try:
+            with self.checkpoint_file.open("w", encoding="utf-8") as f:
+                json.dump(checkpoint_data, f, ensure_ascii=False, indent=2)
+            
+            if self.interrupted:
+                LOGGER.info("✓ Saved checkpoint before termination: %s", self.checkpoint_file)
+            else:
+                LOGGER.debug("✓ Updated checkpoint: %s", self.checkpoint_file)
+                
+        except Exception as e:
+            LOGGER.error("Failed to save checkpoint: %s", e)
+    
+    def _load_checkpoint(self):
+        """Load checkpoint from disk"""
+        if not self.checkpoint_file.exists():
+            LOGGER.info("No previous checkpoint found, starting fresh")
+            return
+        
+        try:
+            with self.checkpoint_file.open("r", encoding="utf-8") as f:
+                checkpoint_data = json.load(f)
+            
+            self.processed_files = set(checkpoint_data.get("processed_files", []))
+            LOGGER.info("✓ Loaded checkpoint with %d previously processed files", len(self.processed_files))
+            
+        except Exception as e:
+            LOGGER.error("Failed to load checkpoint: %s", e)
+    
+    def mark_file_processed(self, filename: str):
+        """Mark a file as successfully processed"""
+        self.processed_files.add(filename)
+        # Update checkpoint file periodically
+        if len(self.processed_files) % 5 == 0:  # Every 5 files
+            self._save_checkpoint()
+    
+    def is_file_processed(self, filename: str) -> bool:
+        """Check if a file was already processed"""
+        return filename in self.processed_files
+    
+    def get_processed_files(self) -> Set[str]:
+        """Get set of processed files"""
+        return self.processed_files
+
+
 class PerformanceTracker:
     """Track performance metrics during processing"""
     
@@ -75,15 +169,20 @@ class PerformanceTracker:
         self.total_tokens = 0
         self.total_chunks = 0
         self.files_processed = 0
+        self.files_skipped = 0
         self.memory_samples = []
         self.process = psutil.Process()
         
-    def add_file_stats(self, tokens: int, chunks: int):
+    def add_file_stats(self, tokens: int, chunks: int, skipped: bool = False):
         """Add statistics from processing a file"""
         # Convert numpy types to native Python types
         self.total_tokens += int(tokens)
         self.total_chunks += int(chunks)
-        self.files_processed += 1
+        
+        if skipped:
+            self.files_skipped += 1
+        else:
+            self.files_processed += 1
         
         # Sample memory usage
         memory_mb = self.process.memory_info().rss / 1024 / 1024
@@ -107,7 +206,9 @@ class PerformanceTracker:
             "totals": {
                 "total_tokens_processed": int(self.total_tokens),
                 "total_chunks_processed": int(self.total_chunks),
-                "files_processed": int(self.files_processed)
+                "files_processed": int(self.files_processed),
+                "files_skipped": int(self.files_skipped),
+                "total_files_seen": int(self.files_processed + self.files_skipped)
             },
             "memory_usage": {
                 "peak_memory_mb": round(max(self.memory_samples)) if self.memory_samples else 0,
@@ -278,11 +379,16 @@ def process_file(
 
 def main():
     parser = argparse.ArgumentParser(description="Produce embeddings for parquet text files (SentenceTransformers)")
-    parser.add_argument("--input-path", type=str, default="samples/input")
-    parser.add_argument("--output-path", type=str, default="samples/output")
+    parser.add_argument("--input-path", type=str, default="/opt/ml/input/data/dataset", 
+                       help="Path to input data directory (default: SageMaker Training Job dataset channel)")
+    parser.add_argument("--output-path", type=str, default="/opt/ml/output/data", 
+                       help="Path to output directory (default: SageMaker Training Job output directory)")
+    parser.add_argument("--checkpoint-path", type=str, default="/opt/ml/checkpoints",
+                       help="Path to checkpoints directory (default: SageMaker Training Job checkpoints directory)")
     parser.add_argument("--model", type=str, default="pablosi/bge-m3-trained-2", help="SentenceTransformers model id")
     parser.add_argument("--text-column", type=str, default="texto", help="Name of the text column to embed")
     parser.add_argument("--batch-size", type=int, default=0, help="Batch size (0 = auto-detect based on GPU)")
+    parser.add_argument("--no-checkpoint", action="store_true", help="Disable checkpointing (process all files)")
     args = parser.parse_args()
 
     # Auto-detect optimal batch size if not specified
@@ -292,18 +398,22 @@ def main():
 
     input_dir = Path(args.input_path)
     output_dir = Path(args.output_path)
+    checkpoint_dir = Path(args.checkpoint_path)
+    
+    # Initialize checkpoint manager for spot instance resilience in Training Jobs
+    checkpoint_mgr = CheckpointManager(checkpoint_dir, output_dir)
 
-    # Debug: Show what we have in the processing environment
+    # Debug: Show what we have in the training environment
     LOGGER.info("=== DEBUG INFO ===")
     LOGGER.info("Input path requested: %s", input_dir)
     LOGGER.info("Output path requested: %s", output_dir)
     LOGGER.info("Input path exists: %s", input_dir.exists())
     
-    # List contents of /opt/ml/processing/input if it exists
-    processing_input = Path("/opt/ml/processing/input")
-    if processing_input.exists():
-        LOGGER.info("Contents of /opt/ml/processing/input:")
-        for item in processing_input.iterdir():
+    # List contents of input data directories used in Training Jobs
+    training_input = Path("/opt/ml/input/data")
+    if training_input.exists():
+        LOGGER.info("Contents of /opt/ml/input/data:")
+        for item in training_input.iterdir():
             LOGGER.info("  - %s (type: %s)", item, "dir" if item.is_dir() else "file")
             if item.is_dir():
                 try:
@@ -312,7 +422,14 @@ def main():
                 except Exception as e:
                     LOGGER.info("    - Error listing contents: %s", e)
     else:
-        LOGGER.info("/opt/ml/processing/input does not exist")
+        LOGGER.info("/opt/ml/input/data does not exist")
+        
+    # Also check if dataset channel exists specifically
+    dataset_dir = Path("/opt/ml/input/data/dataset")
+    if dataset_dir.exists():
+        LOGGER.info("Dataset channel directory exists")
+    else:
+        LOGGER.info("Dataset channel directory does not exist")
     
     LOGGER.info("=== END DEBUG ===")
 
@@ -321,7 +438,7 @@ def main():
 
     # Initialize performance tracker
     tracker = PerformanceTracker()
-    LOGGER.info("Starting processing with performance tracking")
+    LOGGER.info("Starting processing with performance tracking and checkpointing")
 
     # Load tokenizer if available
     tokenizer = None
@@ -341,8 +458,36 @@ def main():
     files = []
     total_tokens = 0
     total_chunks = 0
+    
+    # Report checkpoint status
+    already_processed = len(checkpoint_mgr.get_processed_files())
+    if already_processed > 0 and not args.no_checkpoint:
+        LOGGER.info("Resuming from checkpoint: %d files already processed", already_processed)
 
-    for p in iter_parquet_files(input_dir):
+    # Process all parquet files
+    parquet_files = list(iter_parquet_files(input_dir))
+    LOGGER.info("Found %d parquet files to process", len(parquet_files))
+    
+    for p in parquet_files:
+        # Check if this file was already processed in a previous run
+        if not args.no_checkpoint and checkpoint_mgr.is_file_processed(p.name):
+            LOGGER.info("Skipping %s (already processed in previous run)", p.name)
+            
+            # Estimate file stats for reporting
+            try:
+                df = pd.read_parquet(p)
+                tokens_in_file = 0
+                if "tokens_aproximados" in df.columns:
+                    tokens_in_file = int(df["tokens_aproximados"].sum())
+                chunks_in_file = len(df)
+                tracker.add_file_stats(tokens_in_file, chunks_in_file, skipped=True)
+                LOGGER.info("Skipped file %s: %d tokens, %d chunks", p.name, tokens_in_file, chunks_in_file)
+            except Exception:
+                # If we can't read the file, just skip without reporting stats
+                tracker.add_file_stats(0, 0, skipped=True)
+                
+            continue
+
         try:
             tokens, chunks = process_file(p, output_dir, tokenizer, args.text_column, args.batch_size, 1024, tracker)
             processed += 1
@@ -350,6 +495,10 @@ def main():
             total_tokens += tokens
             total_chunks += chunks
             LOGGER.info("File %s: %d tokens, %d chunks", p.name, tokens, chunks)
+            
+            # Mark file as processed in the checkpoint
+            checkpoint_mgr.mark_file_processed(p.name)
+            
         except Exception as e:
             LOGGER.exception("Failed to process %s: %s", p, e)
 
@@ -365,6 +514,12 @@ def main():
         "files_processed": processed, 
         "files": files,
         "performance_metrics": metrics,
+        "checkpoint_info": {
+            "files_in_checkpoint": len(checkpoint_mgr.get_processed_files()),
+            "checkpoint_location": str(checkpoint_mgr.checkpoint_file),
+            "checkpointing_enabled": not args.no_checkpoint,
+            "files_skipped": metrics['totals']['files_skipped']
+        },
         "configuration": {
             "model": args.model,
             "batch_size": args.batch_size,
@@ -395,60 +550,41 @@ def main():
     LOGGER.info("=== PERFORMANCE SUMMARY ===")
     LOGGER.info("Total tokens processed: %s", f"{metrics['totals']['total_tokens_processed']:,}")
     LOGGER.info("Total chunks processed: %s", f"{metrics['totals']['total_chunks_processed']:,}")
+    LOGGER.info("Files processed: %d new, %d skipped, %d total", 
+               metrics['totals']['files_processed'], 
+               metrics['totals']['files_skipped'],
+               metrics['totals']['total_files_seen'])
     LOGGER.info("Tokens per minute: %s", f"{metrics['throughput']['tokens_per_minute']:,}")
     LOGGER.info("Peak memory usage: %s MB", metrics['memory_usage']['peak_memory_mb'])
     LOGGER.info("Memory per chunk: %s MB", metrics['memory_usage']['memory_per_chunk_mb'])
     LOGGER.info("=== END PERFORMANCE ===")
     LOGGER.info("=== END OUTPUT INFO ===")
 
-    LOGGER.info("Done. Processed %d files. Results written to %s", processed, results_file)
+    LOGGER.info("Done. Processed %d new files (%d skipped from checkpoint, %d total). Results written to %s", 
+               processed, metrics['totals']['files_skipped'], processed + metrics['totals']['files_skipped'], results_file)
     
-    # Force final cleanup and explicit termination
+    # Force final cleanup, but in a SageMaker-friendly way
     cleanup_memory()
-    LOGGER.info("Script completed successfully - ready to terminate")
     
-    # Super aggressive termination strategy
-    LOGGER.info("=== TERMINATION SEQUENCE ===")
+    # Log checkpoint status in final message
+    checkpoint_files = len(checkpoint_mgr.get_processed_files())
+    LOGGER.info("Checkpoint status: %d files in checkpoint. Checkpoint location: %s", 
+               checkpoint_files, checkpoint_mgr.checkpoint_file)
+    LOGGER.info("Script completed successfully - normal termination")
     
-    # 1. Kill any lingering background processes in SageMaker Processing
+    # Create a success marker file
     try:
-        import signal
-        import psutil
-        import os
-        
-        # Terminate any non-essential processes
-        current_process = psutil.Process(os.getpid())
-        LOGGER.info("Terminating all child processes of PID %d", os.getpid())
-        
-        for proc in psutil.process_iter():
-            # Don't kill parent processes or essential system processes
-            if proc.pid != os.getpid() and proc.pid != os.getppid():
-                try:
-                    proc_info = proc.as_dict(attrs=['pid', 'name', 'cmdline'])
-                    # Skip system critical processes
-                    if proc_info['name'] not in ['init', 'systemd', 'bash', 'sh', 'python3', 'python']:
-                        LOGGER.info("Terminating process: %s (PID %d)", proc_info['name'], proc_info['pid'])
-                        proc.terminate()
-                except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-                    pass
+        success_marker = output_dir / "_SUCCESS"
+        with open(success_marker, 'w') as marker:
+            marker.write(f"Processing completed at {datetime.now().isoformat()}")
+        LOGGER.info("Created success marker file: %s", success_marker)
     except Exception as e:
-        LOGGER.info("Could not terminate background processes: %s", e)
+        LOGGER.info("Could not write success marker: %s", e)
     
-    # 2. Write termination marker file that SageMaker will detect
-    try:
-        termination_marker = output_dir / "~TERMINATION_MARKER"
-        with open(termination_marker, 'w') as marker:
-            marker.write("Processing complete")
-        LOGGER.info("Wrote termination marker file: %s", termination_marker)
-    except Exception as e:
-        LOGGER.info("Could not write termination marker: %s", e)
-    
-    # 3. Sync to ensure all file operations are complete
-    os.sync() if hasattr(os, 'sync') else None
-    
-    # 4. Kill this script with extreme prejudice
-    LOGGER.info("Forcing immediate process termination...")
-    os._exit(0)  # Kills the process without cleanup
+    # Important: Use regular sys.exit() instead of os._exit()
+    # This allows the container to clean up properly
+    LOGGER.info("=== PROCESSING COMPLETE - EXITING NORMALLY ===")
+    sys.exit(0)  # Exit with success code
 
 
 if __name__ == "__main__":
