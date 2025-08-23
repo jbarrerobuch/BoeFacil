@@ -24,8 +24,14 @@ INSTANCE_TYPE="ml.m7i.xlarge"  # Instancia recomendada
 MAX_RUNTIME_SECONDS=600  # Tiempo máximo de ejecución en segundos (10 minutos)
 MAX_WAIT_SECONDS=1800    # Tiempo máximo de espera para instancias spot (30 minutos)
 
-# Crear un archivo JSON temporal con la configuración del job
-cat > training-job-config.json << EOF
+# Crear un directorio temporal para guardar la configuración
+TMP_DIR=$(mktemp -d -t sagemaker-XXXXXXXXXX)
+CONFIG_FILE="${TMP_DIR}/training-job-config.json"
+
+echo "Usando directorio temporal: ${TMP_DIR}"
+
+# Crear archivo de configuración JSON en el directorio temporal
+cat > "${CONFIG_FILE}" << EOF
 {
   "TrainingJobName": "${JOB_NAME}",
   "RoleArn": "${ROLE_ARN}",
@@ -90,16 +96,34 @@ cat > training-job-config.json << EOF
 }
 EOF
 
-# Mostrar la configuración final
-echo "Configuración del Training Job:"
-cat training-job-config.json
+# Verificar que el archivo se creó correctamente
+if [ -f "${CONFIG_FILE}" ]; then
+  echo "✅ Archivo de configuración creado correctamente en: ${CONFIG_FILE}"
+  echo "Configuración del Training Job:"
+  cat "${CONFIG_FILE}"
+else
+  echo "❌ ERROR: No se pudo crear el archivo de configuración"
+  exit 1
+fi
 
 # Crear el training job
-aws sagemaker create-training-job --cli-input-json file://training-job-config.json --region ${REGION}
+echo "Creando SageMaker Training Job..."
+aws sagemaker create-training-job --cli-input-json "file://${CONFIG_FILE}" --region ${REGION}
 
-echo "Training job '${JOB_NAME}' creado con instancias spot"
+# Verificar si el comando fue exitoso
+if [ $? -eq 0 ]; then
+  echo "✅ Training job '${JOB_NAME}' creado exitosamente con instancias spot"
+else
+  echo "❌ ERROR: No se pudo crear el Training Job"
+  echo "Verifique que tiene permisos para crear SageMaker Training Jobs y que las rutas S3 son correctas"
+  exit 1
+fi
+
 echo "Para monitorizar el estado del job, ejecuta:"
 echo "aws sagemaker describe-training-job --training-job-name ${JOB_NAME} --region ${REGION} --query 'TrainingJobStatus'"
 
-# Opcional: limpiar el archivo de configuración
-rm training-job-config.json
+# Limpiar archivos temporales
+echo "Limpiando archivos temporales..."
+rm -rf "${TMP_DIR}"
+
+echo "✅ Proceso completado"
