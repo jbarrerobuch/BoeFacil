@@ -411,3 +411,5 @@ config
 *.config
 *.pem
 *.parquet
+*.zip
+job_maker_working.sh

@@ -318,6 +318,17 @@ def main():
     checkpoint_mgr = CheckpointManager(checkpoint_dir, output_dir)
 
     # Debug: Show what we have in the training environment
+    LOGGER.info("=== SAGEMAKER ENVIRONMENT DEBUG ===")
+    LOGGER.info("SM_OUTPUT_DATA_DIR: %s", os.environ.get('SM_OUTPUT_DATA_DIR', 'NOT_SET'))
+    LOGGER.info("SM_TRAINING_ENV: %s", os.environ.get('SM_TRAINING_ENV', 'NOT_SET'))
+    LOGGER.info("SM_OUTPUT_S3_BUCKET: %s", os.environ.get('SM_OUTPUT_S3_BUCKET', 'NOT_SET'))
+    LOGGER.info("SM_OUTPUT_S3_PREFIX: %s", os.environ.get('SM_OUTPUT_S3_PREFIX', 'NOT_SET'))
+    LOGGER.info("Input directory: %s", input_dir)
+    LOGGER.info("Output directory: %s", output_dir)
+    LOGGER.info("Checkpoint directory: %s", checkpoint_dir)
+    LOGGER.info("=====================================")
+    
+    # Debug: Show what we have in the training environment
     LOGGER.info("=== DEBUG INFO ===")
     LOGGER.info("Input path requested: %s", input_dir)
     LOGGER.info("Output path requested: %s", output_dir)
@@ -462,28 +473,31 @@ def main():
     
     # Upload results file directly to S3 as well
     try:
-        # Extract the S3 output path from Training Job's output location
-        s3_output_path = os.environ.get('SM_OUTPUT_DATA_DIR', '')
+        # Try multiple ways to get S3 output information
+        s3_bucket, s3_prefix = get_sagemaker_s3_output_info(LOGGER)
         
-        if s3_output_path.startswith('s3://'):
-            # Extract bucket and key from s3://bucket/key format
-            s3_path_parts = s3_output_path.replace('s3://', '').split('/', 1)
-            s3_bucket = s3_path_parts[0]
-            s3_prefix = s3_path_parts[1] if len(s3_path_parts) > 1 else ""
-            
-            # Remove trailing slashes for consistency
-            s3_prefix = s3_prefix.rstrip('/')
-            
+        if s3_bucket and s3_prefix:
             # Create S3 key for results file
-            s3_key = f"{s3_prefix}/{results_filename}"
+            job_name = extract_job_name_from_env()
+            s3_key = f"{s3_prefix}/{job_name}/{results_filename}"
             
             # Upload results file directly to S3
             upload_to_s3(results_file, s3_bucket, s3_key, LOGGER)
-            LOGGER.info(f"✓ Results file also uploaded directly to S3: s3://{s3_bucket}/{s3_key}")
+            LOGGER.info(f"✓ Results file uploaded to S3: s3://{s3_bucket}/{s3_key}")
         else:
-            LOGGER.warning("Could not determine S3 output path from environment")
+            # Fallback: try to use the configuration from job_maker.sh
+            fallback_bucket = "boe-facil"
+            fallback_prefix = "test_job/output"
+            job_name = extract_job_name_from_env()
+            s3_key = f"{fallback_prefix}/{job_name}/{results_filename}"
+            
+            LOGGER.info(f"Using fallback S3 location: s3://{fallback_bucket}/{s3_key}")
+            upload_to_s3(results_file, fallback_bucket, s3_key, LOGGER)
+            LOGGER.info(f"✓ Results file uploaded to S3 (fallback): s3://{fallback_bucket}/{s3_key}")
+            
     except Exception as e:
         LOGGER.warning(f"Could not upload results file to S3: {e}")
+        LOGGER.info("Results file is available in the job output tar.gz file")
     
     # Log performance summary
     LOGGER.info("=== PERFORMANCE SUMMARY ===")

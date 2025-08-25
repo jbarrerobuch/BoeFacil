@@ -6,6 +6,7 @@ Este paquete permite generar embeddings para documentos en formato parquet media
 
 El código ha sido modularizado para mayor mantenibilidad:
 
+- `run.py` - Script de entrada al proceso
 - `tokenizer.py` - Script principal que procesa parquet files y genera embeddings
 - `modules/` - Directorio con módulos de utilidad:
   - `checkpoint.py` - Gestión de checkpoints para instancias spot
@@ -17,12 +18,9 @@ El código ha sido modularizado para mayor mantenibilidad:
 
 ### Uso en SageMaker Training Job (Recomendado):
 
-1. Preparar el código para su subida a S3:
-   ```bash
-   bash package_and_upload.sh
-   ```
+1. Preparar el código para su subida a S3: comprime el codigo en un archivo llamda code.tar.gz y subelo a una ubicacion en S3.
 
-2. Crear y ejecutar el Training Job en SageMaker:
+2. Crear y ejecutar el Training Job en SageMaker: modifica el script para job_maker_sample.sh para que pueda leer el codigo empaquetado en la ubicación correcta, asi como las ubicaciones para el input de datos, el output de datos con embeddings y los checkpoints para usar instancias spot.
    ```bash
    bash job_maker.sh
    ```
@@ -30,7 +28,7 @@ El código ha sido modularizado para mayor mantenibilidad:
 ### Uso Local:
 
 ```bash
-python src/tokenizer.py --input-path ./samples/parquet --output-path ./output --model pablosi/bge-m3-trained-2 --batch-size 32
+python src/tokenizer.py --input-path ./samples/parquet --output-path ./output --model pablosi/bge-m3-trained-2 --batch-size 0
 ```
 
 ## Imagen Docker
