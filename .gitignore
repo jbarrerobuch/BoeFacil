@@ -405,6 +405,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# pytest
+.pytest_cache
+
 # Other
 src/test.ipynb
 config
@@ -413,3 +416,8 @@ config
 *.parquet
 *.zip
 job_maker_working.sh
+samples/*
+docs
+docs/*
+indices/*
+..bfg-report

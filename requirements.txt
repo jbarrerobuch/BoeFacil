@@ -22,3 +22,6 @@ pyarrow
 # Embeddings
 sentence-transformers
 transformers
+
+# Vector database
+faiss-cpu
