@@ -208,7 +208,7 @@ def main():
         # Validación opcional
         if args.validate:
             logger.info("Ejecutando validaciones finales...")
-            # Aquí se podrían agregar validaciones adicionales
+            # Futura implementación de metodologia para prevención de ingesta duplicada de documentos.
             logger.info("Validaciones completadas ✓")
         
         logger.info("¡Índice listo para búsquedas!")

@@ -25,3 +25,7 @@ transformers
 
 # Vector database
 faiss-cpu
+
+# UI Framework
+streamlit
+plotly
