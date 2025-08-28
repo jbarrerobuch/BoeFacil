@@ -20,6 +20,13 @@ from typing import Optional
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.append(str(PROJECT_ROOT / "src"))
 
+# Importar componentes de UI
+try:
+    from components.filters import BOEFilters
+except ImportError as e:
+    st.error(f"Error al importar componentes UI: {e}")
+    st.stop()
+
 try:
     from lib.boe_search_api import BOESearchAPI
 except ImportError as e:
@@ -153,6 +160,9 @@ def initialize_api():
 def main():
     """Función principal de la aplicación Streamlit."""
     
+    # Inicializar sistema de filtros
+    filters = BOEFilters()
+    
     # Título principal con estilo
     st.markdown("""
     <div class="title-container">
@@ -201,9 +211,10 @@ def main():
     
     # Barra de búsqueda principal
     query = st.text_input(
-        "",
-        placeholder="Ej: Nombramiento de Santos Cerdán...",
-        help="Introduce cualquier consulta en lenguaje natural. El sistema entiende conceptos, fechas, ministerios y más."
+        "Consulta de búsqueda:",
+        placeholder="Ej: Real decreto sobre impuestos, ministerio hacienda presupuesto...",
+        help="Introduce cualquier consulta en lenguaje natural. El sistema entiende conceptos, fechas, ministerios y más.",
+        label_visibility="collapsed"
     )
     
     # Controles básicos
@@ -224,7 +235,21 @@ def main():
     if search_button and query.strip():
         with st.spinner(f"🔍 Buscando '{query}'..."):
             try:
-                results = api.search(query.strip(), limit=num_results)
+                # Obtener parámetros de filtros
+                filter_params = filters.get_filter_parameters()
+                
+                # Decidir qué método de API usar según filtros activos
+                if filters.has_active_filters():
+                    # Usar búsqueda avanzada con filtros
+                    results = api.advanced_search(
+                        query=query.strip(),
+                        limit=num_results,
+                        **filter_params
+                    )
+                    st.info(f"🎯 Búsqueda con filtros aplicados: {len(filter_params)} filtro(s)")
+                else:
+                    # Usar búsqueda simple
+                    results = api.search(query.strip(), limit=num_results)
                 
                 if results:
                     st.success(f"✅ Se encontraron {len(results)} resultados")
@@ -282,16 +307,40 @@ def main():
     elif search_button and not query.strip():
         st.warning("⚠️ Por favor, introduce una consulta para buscar.")
     
-    # Información adicional en el sidebar
+    # Panel de filtros y información en el sidebar
     with st.sidebar:
+        st.markdown("## 🎛️ Filtros de Búsqueda")
+        
+        # Renderizar filtros temporales
+        filters.render_temporal_filters()
+        
+        st.markdown("---")
+        
+        # Renderizar filtros organizacionales
+        filters.render_organizational_filters(api)
+        
+        st.markdown("---")
+        
+        # Renderizar filtros de contenido
+        filters.render_content_filters()
+        
+        st.markdown("---")
+        
+        # Resumen de filtros activos
+        filters.render_filter_summary()
+        
+        st.markdown("---")
+        
+        # Información adicional
         st.markdown("### ℹ️ Información")
         
         st.markdown("""
-        **¿Cómo usar el buscador?**
+        **¿Cómo usar BoeFacil?**
         
         1. 🔍 **Búsqueda libre:** Escribe cualquier consulta en lenguaje natural
-        2. 📊 **Ajusta resultados:** Selecciona cuántos resultados ver
-        3. 📄 **Explora:** Haz clic en los resultados para ver detalles
+        2. 🎛️ **Aplica filtros:** Usa los filtros del sidebar para refinar
+        3. 📊 **Ajusta resultados:** Selecciona cuántos resultados ver
+        4. 📄 **Explora:** Haz clic en los resultados para ver detalles
         
         **Ejemplos de búsquedas:**
         - "Real decreto sobre impuestos"
@@ -303,11 +352,13 @@ def main():
         st.markdown("---")
         
         st.markdown("""
-        **🔧 Próximamente:**
-        - Filtros avanzados por fecha
-        - Filtros por ministerio
-        - Dashboard de estadísticas
-        - Búsqueda de documentos similares
+        **🆕 Funcionalidades:**
+        - ✅ Filtros por fecha con presets
+        - ✅ Filtros por ministerio
+        - ✅ Filtros por sección BOE
+        - ✅ Filtros por longitud de documento
+        - 🔧 Dashboard de estadísticas (próximamente)
+        - 🔧 Búsqueda de documentos similares (próximamente)
         """)
 
 if __name__ == "__main__":
