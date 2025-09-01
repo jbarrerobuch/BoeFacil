@@ -485,9 +485,65 @@ class BOESearchEngine:
         """
         db_stats = self.db.get_stats()
         
-        return {
+        # Contar BOEs únicos por sumario_id y calcular rango de años
+        unique_boes = 0
+        date_range = "N/A"
+        try:
+            # Verificar que tenemos metadatos
+            if hasattr(self.db, 'metadata') and self.db.metadata:
+                sumario_ids = set()
+                years = set()
+                metadata_list = self.db.metadata
+                
+                # Procesar como lista para extraer sumario_ids y fechas
+                for metadata in metadata_list:
+                    if isinstance(metadata, dict):
+                        # Procesar sumario_id
+                        sumario_id = metadata.get('sumario_id')
+                        if sumario_id and str(sumario_id).strip() and sumario_id != 'N/A':
+                            sumario_ids.add(str(sumario_id))
+                        
+                        # Procesar fecha de publicación para extraer año
+                        fecha_pub = metadata.get('fecha_publicacion')
+                        if fecha_pub and fecha_pub != 'N/A':
+                            try:
+                                # Extraer año de la fecha (formato esperado: YYYY-MM-DD)
+                                if isinstance(fecha_pub, str) and len(fecha_pub) >= 4:
+                                    year = int(fecha_pub[:4])
+                                    if 1900 <= year <= 2100:  # Validación básica de año
+                                        years.add(year)
+                            except (ValueError, TypeError):
+                                pass  # Ignorar fechas inválidas
+                
+                unique_boes = len(sumario_ids)
+                
+                # Calcular rango de años
+                if years:
+                    min_year = min(years)
+                    max_year = max(years)
+                    if min_year == max_year:
+                        date_range = str(min_year)
+                    else:
+                        date_range = f"{min_year}-{max_year}"
+                else:
+                    date_range = "N/A"
+                    
+            else:
+                unique_boes = 0
+                date_range = "N/A"
+                
+        except Exception as e:
+            logger.error(f"Error al calcular estadísticas: {e}")
+            unique_boes = 0
+            date_range = "N/A"
+        
+        stats_result = {
             'index_stats': db_stats,
             'model_name': self.model_name,
             'embedding_dimension': getattr(self.embedding_model, 'get_sentence_embedding_dimension', lambda: 'unknown')(),
-            'total_searchable_documents': db_stats.get('total_vectors', 0)
+            'total_searchable_documents': db_stats.get('total_vectors', 0),
+            'unique_boes': unique_boes,
+            'date_range': date_range
         }
+        
+        return stats_result

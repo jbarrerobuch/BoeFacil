@@ -50,6 +50,14 @@ class BOEFilters:
             st.session_state.filter_max_tokens = 5000
         if 'filter_doc_type' not in st.session_state:
             st.session_state.filter_doc_type = "Todos"
+        
+        # Cache para datos de API
+        if 'cached_ministries' not in st.session_state:
+            st.session_state.cached_ministries = None
+        if 'cached_sections' not in st.session_state:
+            st.session_state.cached_sections = None
+        if 'cache_timestamp' not in st.session_state:
+            st.session_state.cache_timestamp = 0
     
     def render_temporal_filters(self) -> bool:
         """
@@ -75,14 +83,21 @@ class BOEFilters:
             "Período:",
             options=preset_options,
             index=preset_options.index(st.session_state.filter_date_preset),
-            help="Selecciona un período predefinido o personaliza las fechas",
+            help="💡 **Filtros temporales disponibles:**\n\n"
+                 "• **Último mes**: Documentos de los últimos 30 días\n"
+                 "• **Últimos 3 meses**: Documentos de los últimos 90 días\n"
+                 "• **Último año**: Documentos de los últimos 365 días\n"
+                 "• **2024/2023/2022**: Todo el año seleccionado\n" 
+                 "• **Personalizado**: Define tu propio rango de fechas\n\n"
+                 "⚡ Los filtros temporales mejoran la relevancia de los resultados.",
             key="date_preset_selector"
         )
         
         # Actualizar estado del preset
         if preset != st.session_state.filter_date_preset:
             st.session_state.filter_date_preset = preset
-            self._apply_date_preset(preset)
+            with st.spinner("⏳ Aplicando filtro temporal..."):
+                self._apply_date_preset(preset)
             st.rerun()
         
         # Mostrar selectores de fecha si es personalizado o hay fechas activas
@@ -220,7 +235,11 @@ class BOEFilters:
                 "Ministerio/Departamento:",
                 options=ministry_options,
                 index=ministry_options.index(current_ministry),
-                help="Filtrar por ministerio o departamento específico",
+                help="🏛️ **Filtrar por organismo:**\n\n"
+                     "Selecciona un ministerio o departamento específico para "
+                     "buscar solo documentos publicados por esa entidad.\n\n"
+                     "💡 **Tip**: Los ministerios más activos suelen ser Hacienda, "
+                     "Interior, y Presidencia del Gobierno.",
                 key="ministry_selector"
             )
             
@@ -246,7 +265,13 @@ class BOEFilters:
                     "Secciones BOE:",
                     options=section_options,
                     default=[s for s in section_options if self._is_section_selected(s)],
-                    help="Selecciona una o más secciones del BOE",
+                    help="📂 **Secciones del BOE disponibles:**\n\n"
+                         "• **I - Disposiciones Generales**: Leyes, decretos, órdenes\n"
+                         "• **II - Autoridades y Personal**: Nombramientos, concursos\n"
+                         "• **III - Otras Disposiciones**: Resoluciones, circulares\n"
+                         "• **IV - Administración de Justicia**: Edictos, subastas\n"
+                         "• **V - Anuncios**: Concursos, contratos públicos\n\n"
+                         "💡 **Tip**: Sección I contiene la legislación más importante.",
                     key="sections_multiselect"
                 )
                 
@@ -271,19 +296,67 @@ class BOEFilters:
         return section_code in st.session_state.filter_sections
     
     def _get_cached_ministries(self, api) -> List[str]:
-        """Obtiene lista de ministerios con cache."""
+        """Obtiene lista de ministerios con cache inteligente."""
+        import time
+        
+        current_time = time.time()
+        cache_duration = 3600  # 1 hora en segundos
+        
+        # Verificar si el cache es válido
+        if (st.session_state.cached_ministries is not None and 
+            current_time - st.session_state.cache_timestamp < cache_duration):
+            return st.session_state.cached_ministries
+        
+        # Cache expirado o no existe, recargar datos
         try:
-            return api.get_available_ministries(limit=100)
+            with st.spinner("🔄 Cargando ministerios..."):
+                ministries = api.get_available_ministries(limit=100)
+                
+                # Actualizar cache
+                st.session_state.cached_ministries = ministries
+                st.session_state.cache_timestamp = current_time
+                
+                logger.info(f"✅ Cache de ministerios actualizado: {len(ministries)} elementos")
+                return ministries
+                
         except Exception as e:
             logger.error(f"Error obteniendo ministerios: {e}")
+            # Si hay error, devolver cache anterior si existe
+            if st.session_state.cached_ministries is not None:
+                st.warning("⚠️ Usando datos en cache debido a error de conexión")
+                return st.session_state.cached_ministries
             return []
     
     def _get_cached_sections(self, api) -> List[Dict[str, str]]:
-        """Obtiene lista de secciones con cache."""
+        """Obtiene lista de secciones con cache inteligente."""
+        import time
+        
+        current_time = time.time()
+        cache_duration = 3600  # 1 hora en segundos
+        
+        # Verificar si el cache es válido
+        if (st.session_state.cached_sections is not None and 
+            current_time - st.session_state.cache_timestamp < cache_duration):
+            return st.session_state.cached_sections
+        
+        # Cache expirado o no existe, recargar datos
         try:
-            return api.get_available_sections()
+            with st.spinner("🔄 Cargando secciones BOE..."):
+                sections = api.get_available_sections()
+                
+                # Actualizar cache
+                st.session_state.cached_sections = sections
+                st.session_state.cache_timestamp = current_time
+                
+                logger.info(f"✅ Cache de secciones actualizado: {len(sections)} elementos")
+                return sections
+                
         except Exception as e:
             logger.error(f"Error obteniendo secciones: {e}")
+            # Si hay error, devolver cache anterior si existe
+            if st.session_state.cached_sections is not None:
+                st.warning("⚠️ Usando datos en cache debido a error de conexión")
+                return st.session_state.cached_sections
             return []
     
     def render_content_filters(self) -> bool:
@@ -305,7 +378,11 @@ class BOEFilters:
                 max_value=10000,
                 value=(st.session_state.filter_min_tokens, st.session_state.filter_max_tokens),
                 step=50,
-                help="Filtra documentos por longitud (número de tokens)",
+                help="📊 **Filtrar por longitud del documento:**\n\n"
+                     "• **10-500 tokens**: Documentos cortos (anuncios, nombramientos)\n"
+                     "• **500-2000 tokens**: Documentos medios (órdenes, resoluciones)\n"
+                     "• **2000+ tokens**: Documentos largos (leyes, decretos extensos)\n\n"
+                     "💡 **Referencia**: ~1 token ≈ 0.75 palabras en español",
                 key="token_range_slider"
             )
             
@@ -328,7 +405,11 @@ class BOEFilters:
                 "Tipo:",
                 options=list(doc_types.keys()),
                 index=list(doc_types.keys()).index(st.session_state.filter_doc_type),
-                help="Presets de longitud de documento",
+                help="📋 **Tipos de documento por longitud:**\n\n"
+                     "• **Cortos**: Anuncios, nombramientos, avisos\n"
+                     "• **Medios**: Órdenes, resoluciones, instrucciones\n"
+                     "• **Largos**: Leyes, decretos, reglamentos\n\n"
+                     "⚡ Shortcuts para filtrar rápidamente por complejidad.",
                 key="doc_type_selector"
             )
             

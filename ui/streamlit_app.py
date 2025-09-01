@@ -17,7 +17,7 @@ import logging
 from typing import Optional
 
 # Configurar el path para importar la API BOE
-PROJECT_ROOT = Path(__file__).parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(PROJECT_ROOT / "src"))
 
 # Importar componentes de UI
@@ -31,6 +31,8 @@ try:
     from lib.boe_search_api import BOESearchAPI
 except ImportError as e:
     st.error(f"Error al importar BOESearchAPI: {e}")
+    st.error(f"PROJECT_ROOT: {PROJECT_ROOT}")
+    st.error(f"src path: {PROJECT_ROOT / 'src'}")
     st.stop()
 
 # Configuración de logging
@@ -180,24 +182,40 @@ def main():
     # Obtener estadísticas básicas
     try:
         stats = api.get_stats()
-        total_docs = stats.get('total_documents', 'N/A')
+        # Obtener el número de documentos desde las estadísticas del índice
+        index_stats = stats.get('index_stats', {})
+        total_docs = index_stats.get('total_vectors', stats.get('total_searchable_documents', 'N/A'))
+        unique_boes = stats.get('unique_boes', 'N/A')
+        date_range = stats.get('date_range', 'N/A')
         
         # Mostrar métricas básicas
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3, col4, col5 = st.columns(5)
         
         with col1:
             st.metric(
-                label="📄 Documentos Indexados", 
+                label="📄 Chunks Indexados", 
                 value=f"{total_docs:,}" if isinstance(total_docs, int) else total_docs
             )
         
         with col2:
             st.metric(
+                label="📰 BOEs Indexados", 
+                value=f"{unique_boes:,}" if isinstance(unique_boes, int) else unique_boes
+            )
+        
+        with col3:
+            st.metric(
+                label="📅 Rango de Años", 
+                value=date_range
+            )
+        
+        with col4:
+            st.metric(
                 label="🤖 Modelo Embeddings", 
                 value="BGE-M3"
             )
             
-        with col3:
+        with col5:
             st.metric(
                 label="✅ Estado", 
                 value="Listo"
@@ -206,12 +224,25 @@ def main():
     except Exception as e:
         st.warning(f"⚠️ No se pudieron cargar las estadísticas: {e}")
     
+    # Manejar sugerencias de búsqueda
+    if 'search_suggestion' in st.session_state:
+        suggestion = st.session_state['search_suggestion']
+        del st.session_state['search_suggestion']
+        st.info(f"💡 Búsqueda sugerida: **{suggestion}**")
+        # Auto-rellenar el campo de búsqueda (esto se verá en la siguiente recarga)
+        
     # Interfaz de búsqueda básica
     st.markdown("### 🔍 Búsqueda Semántica")
+    
+    # Usar sugerencia si existe
+    default_query = ""
+    if 'search_suggestion' in st.session_state:
+        default_query = st.session_state.get('search_suggestion', "")
     
     # Barra de búsqueda principal
     query = st.text_input(
         "Consulta de búsqueda:",
+        value=default_query,
         placeholder="Ej: Real decreto sobre impuestos, ministerio hacienda presupuesto...",
         help="Introduce cualquier consulta en lenguaje natural. El sistema entiende conceptos, fechas, ministerios y más.",
         label_visibility="collapsed"
@@ -233,10 +264,35 @@ def main():
     
     # Realizar búsqueda si hay consulta
     if search_button and query.strip():
-        with st.spinner(f"🔍 Buscando '{query}'..."):
+        # Obtener parámetros de filtros
+        filter_params = filters.get_filter_parameters()
+        num_active_filters = len(filter_params)
+        
+        # Mensaje de búsqueda dinámico
+        if num_active_filters > 0:
+            search_message = f"🎯 Buscando '{query}' con {num_active_filters} filtro(s)..."
+        else:
+            search_message = f"🔍 Buscando '{query}' en toda la base de datos..."
+        
+        with st.spinner(search_message):
             try:
-                # Obtener parámetros de filtros
-                filter_params = filters.get_filter_parameters()
+                # Mostrar información de filtros aplicados
+                if num_active_filters > 0:
+                    filter_info = []
+                    if 'start_date' in filter_params or 'end_date' in filter_params:
+                        start = filter_params.get('start_date', '...')
+                        end = filter_params.get('end_date', '...')
+                        filter_info.append(f"📅 {start} → {end}")
+                    if 'ministry' in filter_params:
+                        filter_info.append(f"🏛️ {filter_params['ministry']}")
+                    if 'section' in filter_params:
+                        filter_info.append(f"📂 Sección {filter_params['section']}")
+                    if 'min_tokens' in filter_params or 'max_tokens' in filter_params:
+                        min_tok = filter_params.get('min_tokens', 10)
+                        max_tok = filter_params.get('max_tokens', 10000)
+                        filter_info.append(f"📊 {min_tok}-{max_tok} tokens")
+                    
+                    st.info(f"🎯 **Filtros aplicados**: {' • '.join(filter_info)}")
                 
                 # Decidir qué método de API usar según filtros activos
                 if filters.has_active_filters():
@@ -246,13 +302,30 @@ def main():
                         limit=num_results,
                         **filter_params
                     )
-                    st.info(f"🎯 Búsqueda con filtros aplicados: {len(filter_params)} filtro(s)")
                 else:
                     # Usar búsqueda simple
                     results = api.search(query.strip(), limit=num_results)
                 
                 if results:
-                    st.success(f"✅ Se encontraron {len(results)} resultados")
+                    # Mensaje de éxito con más información
+                    if num_active_filters > 0:
+                        st.success(f"✅ **{len(results)} resultados encontrados** con filtros aplicados")
+                    else:
+                        st.success(f"✅ **{len(results)} resultados encontrados** en búsqueda general")
+                    
+                    # Mostrar estadísticas de relevancia
+                    if results:
+                        scores = [r.get('similarity_score', 0) for r in results]
+                        avg_score = sum(scores) / len(scores)
+                        max_score = max(scores)
+                        
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("🎯 Relevancia Promedio", f"{avg_score:.3f}")
+                        with col2:
+                            st.metric("⭐ Mejor Coincidencia", f"{max_score:.3f}")
+                        with col3:
+                            st.metric("📄 Documentos", len(results))
                     
                     # Mostrar resultados
                     st.markdown("### 📋 Resultados")
@@ -298,7 +371,48 @@ def main():
                                     st.markdown(f"**📝 Contenido:** {texto}")
                 
                 else:
-                    st.warning("🔍 No se encontraron resultados para tu búsqueda. Intenta con términos diferentes.")
+                    if num_active_filters > 0:
+                        st.warning("🔍 **No se encontraron resultados** con los filtros aplicados.")
+                        st.markdown("""
+                        **💡 Sugerencias para encontrar resultados:**
+                        - Intenta **ampliar el rango de fechas** si tienes filtros temporales
+                        - **Quita algunos filtros** organizacionales o de contenido
+                        - Usa **términos más generales** en la búsqueda
+                        - Verifica la **ortografía** de los términos de búsqueda
+                        """)
+                        
+                        # Botón rápido para limpiar filtros
+                        if st.button("🗑️ Quitar todos los filtros y buscar de nuevo"):
+                            filters.clear_all_filters()
+                            st.rerun()
+                    else:
+                        st.warning("🔍 **No se encontraron resultados** para tu búsqueda.")
+                        st.markdown("""
+                        **💡 Sugerencias para mejorar tu búsqueda:**
+                        - Intenta con **términos más generales** o **sinónimos**
+                        - Revisa la **ortografía** de las palabras clave
+                        - Usa **menos palabras** en la consulta
+                        - Prueba **conceptos relacionados** al tema
+                        
+                        **Ejemplos de búsquedas exitosas:**
+                        - "presupuestos generales estado"
+                        - "real decreto impuestos"
+                        - "ministerio hacienda"
+                        """)
+                        
+                        # Sugerencias de búsquedas populares
+                        st.markdown("**🔥 Búsquedas populares:**")
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            if st.button("💰 Presupuestos", key="sugg1"):
+                                st.session_state['search_suggestion'] = "presupuestos generales"
+                            if st.button("📜 Decretos", key="sugg2"):
+                                st.session_state['search_suggestion'] = "real decreto"
+                        with col2:
+                            if st.button("🏛️ Hacienda", key="sugg3"):
+                                st.session_state['search_suggestion'] = "ministerio hacienda"
+                            if st.button("⚖️ Justicia", key="sugg4"):
+                                st.session_state['search_suggestion'] = "administración justicia"
                     
             except Exception as e:
                 st.error(f"❌ Error durante la búsqueda: {e}")
