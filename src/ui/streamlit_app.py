@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-BoeFacil - Interfaz Streamlit
-============================
-
-Aplicación web para búsqueda semántica en el BOE (Boletín Oficial del Estado).
-Utiliza la API BOESearchAPI para proporcionar una interfaz intuitiva y completa.
-
-Autor: BoeFacil Team
-Fecha: Agosto 2025
-"""
-
 import streamlit as st
 import sys
 from pathlib import Path
@@ -17,12 +5,14 @@ import logging
 from typing import Optional
 
 # Configurar el path para importar la API BOE
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-sys.path.append(str(PROJECT_ROOT / "src"))
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent  # Desde src/ui/ subir a raíz del proyecto
+
+# Agregar src al path para imports absolutos
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 # Importar componentes de UI
 try:
-    from components.filters import BOEFilters
+    from ui.components.filters import BOEFilters
 except ImportError as e:
     st.error(f"Error al importar componentes UI: {e}")
     st.stop()
@@ -32,7 +22,6 @@ try:
 except ImportError as e:
     st.error(f"Error al importar BOESearchAPI: {e}")
     st.error(f"PROJECT_ROOT: {PROJECT_ROOT}")
-    st.error(f"src path: {PROJECT_ROOT / 'src'}")
     st.stop()
 
 # Configuración de logging
@@ -423,6 +412,15 @@ def main():
     
     # Panel de filtros y información en el sidebar
     with st.sidebar:
+        # Navegación principal
+        st.markdown("## 🧭 Navegación")
+        
+        # Botón para gestión de datos
+        if st.button("🔧 Gestión de Datos", use_container_width=True, type="secondary"):
+            st.switch_page("pages/1_Data_Management.py")
+        
+        st.markdown("---")
+        
         st.markdown("## 🎛️ Filtros de Búsqueda")
         
         # Renderizar filtros temporales
