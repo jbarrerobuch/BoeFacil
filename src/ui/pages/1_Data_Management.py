@@ -112,8 +112,8 @@ def main():
         # Directorio de datos
         samples_dir = PROJECT_ROOT / "samples"
         if samples_dir.exists():
-            parquet_files = list(samples_dir.glob("*.parquet"))
-            st.info(f"📁 Archivos parquet: {len(parquet_files)}")
+            parquet_files = list(samples_dir.rglob("*.parquet"))  # Búsqueda recursiva
+            st.info(f"📁 Archivos parquet: {len(parquet_files)} (total)")
         else:
             st.error("❌ Directorio de samples no encontrado")
     
@@ -159,18 +159,20 @@ def mostrar_fase_1():
     carpeta_path = Path(carpeta_origen)
     
     if carpeta_path.exists() and carpeta_path.is_dir():
-        parquet_files = list(carpeta_path.glob("*.parquet"))
+        parquet_files = list(carpeta_path.rglob("*.parquet"))  # Búsqueda recursiva
         parquet_files.sort()
         
         if parquet_files:
             st.success(f"✅ Carpeta válida encontrada: `{carpeta_origen}`")
-            st.info(f"📊 **Archivos parquet detectados:** {len(parquet_files)}")
+            st.info(f"📊 **Archivos parquet detectados:** {len(parquet_files)} (incluyendo subcarpetas)")
             
             # Mostrar lista de archivos en un expander
             with st.expander(f"📄 Ver archivos ({len(parquet_files)} archivos)", expanded=False):
                 for i, archivo in enumerate(parquet_files, 1):
                     file_size = archivo.stat().st_size / (1024 * 1024)  # MB
-                    st.write(f"{i}. `{archivo.name}` ({file_size:.1f} MB)")
+                    # Mostrar ruta relativa desde la carpeta origen
+                    ruta_relativa = archivo.relative_to(carpeta_path)
+                    st.write(f"{i}. `{ruta_relativa}` ({file_size:.1f} MB)")
             
             archivos_validos = True
             
@@ -257,32 +259,107 @@ def ejecutar_construccion_indice(carpeta_origen):
             with st.expander("📋 Logs Detallados", expanded=False):
                 log_area = st.empty()
             
-            # Obtener lista de archivos parquet
+            # Obtener lista de archivos parquet (búsqueda recursiva)
             carpeta_path = Path(carpeta_origen)
-            parquet_files = list(carpeta_path.glob("*.parquet"))
+            parquet_files = list(carpeta_path.rglob("*.parquet"))
             
-            # Simular progreso (aquí iría la lógica real)
-            import time
+            if not parquet_files:
+                st.error("❌ No se encontraron archivos parquet en la carpeta especificada")
+                return
             
+            # Configurar rutas de salida
+            output_dir = PROJECT_ROOT / "indices"
+            index_path = output_dir / "boe_index.faiss"
+            metadata_path = output_dir / "metadata.json"
+            report_path = output_dir / "construction_report.json"
+            
+            # Crear directorio de salida si no existe
+            output_dir.mkdir(exist_ok=True)
+            
+            # Actualizar progreso y estado
             status_text.text("Inicializando construcción del índice...")
             progress_bar.progress(10)
-            time.sleep(1)
+            log_area.text("📂 Archivos encontrados: " + ", ".join([f.name for f in parquet_files[:5]]) + 
+                         (f" ... y {len(parquet_files)-5} más" if len(parquet_files) > 5 else ""))
             
             status_text.text(f"Procesando {len(parquet_files)} archivos parquet...")
             progress_bar.progress(25)
-            time.sleep(1)
+            log_area.text(f"📊 Iniciando construcción con {len(parquet_files)} archivos\n🗂️ Destino: {index_path}")
             
-            status_text.text("Generando embeddings y construyendo índice FAISS...")
-            progress_bar.progress(50)
-            time.sleep(2)
-            
-            status_text.text("Optimizando índice vectorial...")
-            progress_bar.progress(75)
-            time.sleep(1)
-            
-            status_text.text("Guardando índice y metadata...")
-            progress_bar.progress(90)
-            time.sleep(1)
+            # LÓGICA REAL: Construir índice usando la función importada
+            if build_index_from_parquets and imports_ok:
+                try:
+                    status_text.text("Construyendo índice FAISS...")
+                    progress_bar.progress(50)
+                    
+                    # Convertir paths a strings para la función
+                    parquet_file_paths = [str(f) for f in parquet_files]
+                    
+                    log_area.text(f"📊 Llamando a build_index_from_parquets...\n📁 Archivos: {len(parquet_file_paths)}\n📝 Destino índice: {index_path}\n📄 Destino metadata: {metadata_path}")
+                    
+                    # Llamar a la función real de construcción
+                    result = build_index_from_parquets(
+                        parquet_files=parquet_file_paths,
+                        output_index_path=str(index_path),
+                        output_metadata_path=str(metadata_path),
+                        index_type="IVF",
+                        dimension=1024
+                    )
+                    
+                    progress_bar.progress(75)
+                    status_text.text("Optimizando y guardando índice...")
+                    
+                    # Crear reporte de construcción
+                    import datetime
+                    
+                    # Manejar el resultado que puede ser un objeto VectorDatabase
+                    result_info = "Construcción completada"
+                    if result:
+                        if hasattr(result, 'index') and hasattr(result, 'metadata'):
+                            # Es un objeto VectorDatabase, extraer información relevante
+                            try:
+                                total_vectors = result.index.ntotal if hasattr(result.index, 'ntotal') else 'Desconocido'
+                                result_info = f"Índice FAISS creado con {total_vectors} vectores"
+                            except:
+                                result_info = "Objeto VectorDatabase creado exitosamente"
+                        else:
+                            # Convertir a string si es serializable
+                            try:
+                                result_info = str(result)
+                            except:
+                                result_info = "Construcción completada"
+                    
+                    report_data = {
+                        "construction_date": datetime.datetime.now().isoformat(),
+                        "source_directory": str(carpeta_path),
+                        "files_processed": len(parquet_file_paths),
+                        "index_path": str(index_path),
+                        "metadata_path": str(metadata_path),
+                        "result": result_info
+                    }
+                    
+                    with open(report_path, 'w', encoding='utf-8') as f:
+                        import json
+                        json.dump(report_data, f, indent=2, ensure_ascii=False)
+                    
+                    progress_bar.progress(90)
+                    log_area.text(f"✅ Índice construido exitosamente\n📊 Resultado: {result_info}\n📄 Reporte guardado en: {report_path}")
+                    
+                except Exception as construction_error:
+                    st.error(f"❌ Error durante la construcción del índice: {str(construction_error)}")
+                    log_area.text(f"❌ Error detallado: {str(construction_error)}\n❌ Tipo de error: {type(construction_error).__name__}")
+                    
+                    # Mostrar información adicional del error en el debug
+                    import traceback
+                    error_traceback = traceback.format_exc()
+                    
+                    with st.expander("🔍 Stack Trace Completo", expanded=False):
+                        st.code(error_traceback)
+                    
+                    return
+            else:
+                st.error("❌ No se pudieron importar las funciones de construcción de índice")
+                return
             
             status_text.text("¡Construcción completada!")
             progress_bar.progress(100)
@@ -296,9 +373,20 @@ def ejecutar_construccion_indice(carpeta_origen):
             - Índice guardado en: `indices/`
             """)
             
-            # Botón para ir a la página principal
-            if st.button("📊 Ver Estadísticas del Nuevo Índice", type="primary"):
-                st.switch_page("streamlit_app.py")
+            # Aviso de recarga automática
+            st.info("""
+            🔄 **Recargando aplicación para usar el nuevo índice...**
+            
+            La aplicación se reiniciará automáticamente en unos segundos para cargar el nuevo índice vectorial.
+            """)
+            
+            # Esperar un momento para que el usuario lea el mensaje
+            import time
+            time.sleep(3)
+            
+            # Limpiar cache y recargar aplicación
+            st.cache_resource.clear()
+            st.rerun()
     
     except Exception as e:
         st.error(f"❌ Error durante la construcción: {str(e)}")
