@@ -346,19 +346,13 @@ def main():
                             if texto:
                                 # Mostrar preview del texto
                                 if len(texto) > 500:
-                                    st.markdown(f"**📝 Contenido:** {texto[:500]}...")
-                                    
-                                    # Botón para mostrar texto completo
-                                    if st.button(f"Ver texto completo", key=f"full_text_{i}"):
-                                        st.text_area(
-                                            "Texto completo:",
-                                            value=texto,
-                                            height=300,
-                                            key=f"full_text_area_{i}"
-                                        )
+                                    st.markdown(f"**📝 Cuerpo:**\n {texto[:500]}...")
+                                    # Expander para mostrar cuerpo completo
+                                    with st.expander("📖 Ver cuerpo completo", expanded=False):
+                                        st.markdown(texto)
                                 else:
-                                    st.markdown(f"**📝 Contenido:** {texto}")
-                
+                                    st.markdown(f"**📝 Cuerpo:** {texto}")
+
                 else:
                     if num_active_filters > 0:
                         st.warning("🔍 **No se encontraron resultados** con los filtros aplicados.")

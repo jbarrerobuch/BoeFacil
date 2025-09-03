@@ -15,8 +15,7 @@ output_dir = "samples/parquet"
 # Leer todos los archivos JSON de la carpeta samples/json
 dataframes = []
 samples_json_dir = os.path.join('samples', 'json')
-#file_list = os.listdir(samples_json_dir)
-file_list = [f'boe_data_20241231.parquet']
+file_list = os.listdir(samples_json_dir)
 
 for filename in file_list:
     print(f"Procesando archivo: {filename}")

@@ -12,6 +12,8 @@ Fecha: Septiembre 2025
 import streamlit as st
 import os
 import sys
+import datetime
+from datetime import timedelta
 from pathlib import Path
 
 # Obtener directorio raíz del proyecto (subir desde src/ui/pages/)
@@ -23,11 +25,13 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 # Importar módulos con manejo de errores
 try:
     from lib.index_builder import build_index_from_parquets, get_parquet_files_from_directory
+    from pipeline_completo import PipelineBOE
     imports_ok = True
 except ImportError as e:
     st.error(f"Error al importar módulos: {e}")
     build_index_from_parquets = None
     get_parquet_files_from_directory = None
+    PipelineBOE = None
     imports_ok = False
 
 # Configuración de la página
@@ -231,15 +235,139 @@ def mostrar_fase_3():
     
     st.markdown("## 🔄 Fase 3: Procesamiento ETL Completo")
     
-    st.info("""
-    **🚧 Próximamente**
+    st.markdown("""
+    <div style="background-color: #e8f4f8; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+        <h4 style="color: #2c3e50; margin-top: 0;">📋 Descripción de la Fase</h4>
+        <p style="margin-bottom: 0;">
+            Esta fase ejecuta el pipeline completo para un día específico del BOE desde la descarga 
+            hasta la generación de embeddings e indexación FAISS. Los datos se organizan por fecha 
+            en subdirectorios (YYYYMMDD).
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
     
-    Esta fase incluirá el pipeline completo:
-    - Descarga de nuevos BOEs
-    - Conversión HTML a Markdown
-    - Procesamiento y chunking
-    - Actualización del índice vectorial
+    # Pipeline de pasos
+    st.markdown("### 🔄 Pipeline de Procesamiento")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("""
+        **Pasos del Pipeline:**
+        1. 📥 Descarga sumario BOE (JSON)
+        2. 🔄 Aplanado y descarga de cuerpos
+        3. 📝 Conversión HTML → Markdown
+        4. ✂️ Generación de chunks
+        5. 🧠 Generación de embeddings
+        6. 📊 Actualización índice FAISS
+        """)
+    
+    with col2:
+        st.markdown("""
+        **Estructura por fecha:**
+        - `samples/YYYYMMDD/json/` → Sumarios BOE
+        - `samples/YYYYMMDD/parquet/` → Datos aplanados
+        - `samples/YYYYMMDD/chunks/` → Chunks de texto
+        - `samples/YYYYMMDD/embeddings/` → Embeddings
+        - `indices/` → Índice FAISS compartido
+        """)
+    
+    # Configuración de fecha (un solo día)
+    st.markdown("### 📅 Selección de Fecha")
+    
+    fecha_boe = st.date_input(
+        "Fecha del BOE a procesar:",
+        value=datetime.date.today() - timedelta(days=1),  # Ayer por defecto
+        help="Selecciona un día específico para procesar. Los datos se guardarán en samples/YYYYMMDD/"
+    )
+    
+    # Información de la fecha seleccionada
+    fecha_str = fecha_boe.strftime('%Y-%m-%d')
+    fecha_dir = fecha_boe.strftime('%Y%m%d')
+    
+    st.info(f"""
+    **📊 Fecha seleccionada:** {fecha_str}
+    
+    **📁 Directorio de destino:** `samples/{fecha_dir}/`
+    
+    **📅 Día de la semana:** {fecha_boe.strftime('%A')} ({fecha_boe.strftime('%d de %B de %Y')})
     """)
+    
+    # Configuración avanzada
+    with st.expander("⚙️ Configuración Avanzada", expanded=False):
+        
+        col_config1, col_config2 = st.columns(2)
+        
+        with col_config1:
+            directorio_base = st.text_input(
+                "Directorio base:",
+                value="samples",
+                help="Directorio donde se guardarán todos los datos procesados (se creará subdirectorio por fecha)"
+            )
+            
+            modelo_embeddings = st.selectbox(
+                "Modelo de embeddings:",
+                ["pablosi/bge-m3-trained-2", "BAAI/bge-m3"],
+                index=0,
+                help="Modelo para generar embeddings de texto"
+            )
+        
+        with col_config2:
+            max_tokens_chunk = st.number_input(
+                "Máximo tokens por chunk:",
+                min_value=100,
+                max_value=2000,
+                value=1000,
+                help="Número máximo de tokens por chunk de texto"
+            )
+            
+            batch_size = st.number_input(
+                "Batch size embeddings:",
+                min_value=1,
+                max_value=128,
+                value=32,
+                help="Tamaño del lote para generar embeddings (auto-detectado si se deja por defecto)"
+            )
+    
+    # Advertencias
+    st.markdown("### ⚠️ Advertencias Importantes")
+    
+    st.warning(f"""
+    **ATENCIÓN:** Este proceso:
+    - Descargará datos del BOE para la fecha {fecha_str} (requiere conexión a internet)
+    - Puede tardar entre 15-30 minutos para un día promedio
+    - Creará el directorio `samples/{fecha_dir}/` con toda la estructura de datos
+    - Utilizará GPU si está disponible para generar embeddings
+    - Actualizará el índice vectorial existente (debe existir un índice base)
+    - Los archivos de un día pueden ocupar entre 50-200 MB dependiendo del contenido
+    """)
+    
+    # Confirmación
+    confirmacion_pipeline = st.checkbox(
+        f"He leído las advertencias y confirmo que deseo procesar el BOE del {fecha_str}",
+        value=False,
+        help="Confirma que entiendes el proceso y que se creará la estructura de datos por fecha"
+    )
+    
+    # Botón de ejecución
+    st.markdown("### 🚀 Ejecutar Pipeline")
+    
+    col_btn1, col_btn2, col_btn3 = st.columns([1, 2, 1])
+    
+    with col_btn2:
+        if st.button(
+            f"🔄 Procesar BOE del {fecha_str}",
+            disabled=not confirmacion_pipeline,
+            use_container_width=True,
+            type="primary"
+        ):
+            ejecutar_pipeline_etl_completo(
+                fecha=fecha_str,
+                directorio_base=directorio_base,
+                modelo_embeddings=modelo_embeddings,
+                max_tokens_chunk=max_tokens_chunk,
+                batch_size=batch_size
+            )
 
 def ejecutar_construccion_indice(carpeta_origen):
     """Ejecuta la construcción del índice vectorial"""
@@ -390,6 +518,195 @@ def ejecutar_construccion_indice(carpeta_origen):
     
     except Exception as e:
         st.error(f"❌ Error durante la construcción: {str(e)}")
+        
+        # Área de debugging
+        with st.expander("🔍 Información de Debug", expanded=False):
+            st.code(str(e))
+
+def ejecutar_pipeline_etl_completo(
+    fecha: str,
+    directorio_base: str,
+    modelo_embeddings: str,
+    max_tokens_chunk: int,
+    batch_size: int
+):
+    """Ejecuta el pipeline ETL completo de procesamiento BOE para una fecha específica"""
+    
+    try:
+        # Verificar que el pipeline esté disponible
+        if not PipelineBOE or not imports_ok:
+            st.error("❌ No se pudo importar el módulo del pipeline completo")
+            return
+        
+        # Convertir fecha a formato YYYYMMDD para directorio
+        fecha_dt = datetime.datetime.strptime(fecha, '%Y-%m-%d')
+        fecha_dir = fecha_dt.strftime('%Y%m%d')
+        
+        # Crear contenedor de progreso
+        progress_container = st.empty()
+        
+        with progress_container.container():
+            st.markdown("### 🔄 Pipeline ETL en Progreso...")
+            
+            # Información del proceso
+            st.info(f"""
+            **Configuración del pipeline:**
+            - 📅 Fecha: {fecha}
+            - 📁 Directorio base: `{directorio_base}`
+            - � Directorio específico: `{directorio_base}/{fecha_dir}/`
+            - 🧠 Modelo embeddings: `{modelo_embeddings}`
+            - ✂️ Tokens por chunk: {max_tokens_chunk}
+            - 🔄 Batch size: {batch_size}
+            - 📊 Modo: Actualizar índice existente
+            """)
+            
+            # Barra de progreso principal (6 pasos)
+            progress_bar = st.progress(0)
+            status_text = st.empty()
+            
+            # Área de logs en tiempo real
+            log_container = st.container()
+            with log_container:
+                st.markdown("#### 📋 Logs del Pipeline")
+                log_area = st.empty()
+            
+            # Inicializar pipeline
+            status_text.text("Inicializando pipeline...")
+            progress_bar.progress(0)
+            
+            try:
+                # Crear instancia del pipeline con configuración personalizada
+                pipeline = PipelineBOE(
+                    base_dir=directorio_base,
+                    fecha_procesamiento=fecha_dir
+                )
+                
+                # Aplicar configuraciones personalizadas
+                pipeline.embedding_model_name = modelo_embeddings
+                pipeline.max_tokens_per_chunk = max_tokens_chunk
+                if batch_size > 0:
+                    pipeline.batch_size = batch_size
+                
+                log_area.text(f"✅ Pipeline inicializado\n📁 Directorio base: {directorio_base}\n📂 Directorio fecha: {fecha_dir}\n🧠 Modelo: {modelo_embeddings}")
+                
+                # Paso 1: Descarga BOE
+                status_text.text("Paso 1/6: Descargando sumario BOE...")
+                progress_bar.progress(1/6)
+                
+                resultado_paso1 = pipeline.paso_1_descargar_boe(fecha)
+                if not resultado_paso1:
+                    raise Exception("Error en la descarga de sumario BOE")
+                
+                log_area.text(f"✅ Paso 1 completado: Sumario BOE descargado para {fecha}")
+                
+                # Paso 2: Aplanado de datos
+                status_text.text("Paso 2/6: Aplanando datos y descargando cuerpos...")
+                progress_bar.progress(2/6)
+                
+                resultado_paso2 = pipeline.paso_2_aplanar_y_descargar_cuerpos()
+                if not resultado_paso2:
+                    raise Exception("Error en el aplanado de datos")
+                
+                log_area.text(f"✅ Paso 2 completado: Datos aplanados y cuerpos descargados")
+                
+                # Paso 3: Conversión HTML → Markdown
+                status_text.text("Paso 3/6: Convirtiendo HTML a Markdown...")
+                progress_bar.progress(3/6)
+                
+                resultado_paso3 = pipeline.paso_3_convertir_html_markdown()
+                if not resultado_paso3:
+                    raise Exception("Error en la conversión HTML → Markdown")
+                
+                log_area.text(f"✅ Paso 3 completado: HTML convertido a Markdown")
+                
+                # Paso 4: Generación de chunks
+                status_text.text("Paso 4/6: Generando chunks de texto...")
+                progress_bar.progress(4/6)
+                
+                resultado_paso4 = pipeline.paso_4_generar_chunks()
+                if not resultado_paso4:
+                    raise Exception("Error en la generación de chunks")
+                
+                log_area.text(f"✅ Paso 4 completado: {pipeline.stats['chunks_generados']} chunks generados")
+                
+                # Paso 5: Generación de embeddings
+                status_text.text("Paso 5/6: Generando embeddings (puede tardar varios minutos)...")
+                progress_bar.progress(5/6)
+                
+                resultado_paso5 = pipeline.paso_5_generar_embeddings_local()
+                if not resultado_paso5:
+                    raise Exception("Error en la generación de embeddings")
+                
+                log_area.text(f"✅ Paso 5 completado: {pipeline.stats['embeddings_creados']} embeddings generados")
+                
+                # Paso 6: Actualización de índice
+                status_text.text("Paso 6/6: Actualizando índice FAISS...")
+                progress_bar.progress(6/6)
+                
+                resultado_paso6 = pipeline.paso_6_actualizar_indice()
+                if not resultado_paso6:
+                    raise Exception("Error en la actualización del índice")
+                
+                log_area.text(f"✅ Paso 6 completado: Índice FAISS actualizado")
+                
+                # Completar progreso
+                status_text.text("¡Pipeline ETL completado exitosamente!")
+                progress_bar.progress(1.0)
+                
+                # Estadísticas finales
+                stats = pipeline.stats
+                
+                st.success(f"""
+                ✅ **Pipeline ETL completado exitosamente**
+                
+                **Resumen del procesamiento:**
+                - 📅 Fecha procesada: {fecha}
+                - � Directorio: {directorio_base}/{fecha_dir}/
+                - ✂️ Chunks generados: {stats.get('chunks_generados', 0):,}
+                - 🧠 Embeddings creados: {stats.get('embeddings_creados', 0):,}
+                - 📊 Archivos indexados: {stats.get('indices_actualizados', 0)}
+                - ⏱️ Tiempo total: {stats.get('tiempo_total_segundos', 0):.1f} segundos
+                
+                **Archivos generados:**
+                - `{directorio_base}/{fecha_dir}/json/` → Sumario BOE
+                - `{directorio_base}/{fecha_dir}/parquet/` → Datos procesados
+                - `{directorio_base}/{fecha_dir}/chunks/` → Chunks de texto
+                - `{directorio_base}/{fecha_dir}/embeddings/` → Embeddings
+                - `indices/` → Índice FAISS actualizado
+                """)
+                
+                # Mostrar estadísticas detalladas
+                with st.expander("📊 Estadísticas Detalladas", expanded=False):
+                    st.json(stats)
+                
+                # Aviso de recarga automática
+                st.info("""
+                🔄 **Recargando aplicación para usar el nuevo índice...**
+                
+                La aplicación se reiniciará automáticamente para cargar el índice actualizado.
+                """)
+                
+                # Esperar un momento y recargar
+                import time
+                time.sleep(3)
+                
+                # Limpiar cache y recargar aplicación
+                st.cache_resource.clear()
+                st.rerun()
+                
+            except Exception as pipeline_error:
+                st.error(f"❌ Error durante el pipeline: {str(pipeline_error)}")
+                log_area.text(f"❌ Error detallado: {str(pipeline_error)}\n❌ Tipo: {type(pipeline_error).__name__}")
+                
+                # Mostrar información de debug
+                with st.expander("🔍 Información de Debug", expanded=False):
+                    import traceback
+                    st.code(traceback.format_exc())
+                
+                return
+        
+    except Exception as e:
+        st.error(f"❌ Error general en el pipeline: {str(e)}")
         
         # Área de debugging
         with st.expander("🔍 Información de Debug", expanded=False):
