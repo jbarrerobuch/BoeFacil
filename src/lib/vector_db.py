@@ -114,11 +114,13 @@ class VectorDatabase:
         if embeddings.dtype != np.float32:
             embeddings = embeddings.astype(np.float32)
         
-        # Para índices IVF, entrenar si no se ha hecho
+        # Para índices IVF, entrenar si no se ha hecho aún
+        # Nota: El entrenamiento estratificado se debe hacer en index_builder.py
         if self.index_type == "IVF" and not self.index.is_trained:
-            logger.info("Entrenando índice IVF...")
+            logger.warning("Índice IVF no entrenado, entrenando con datos actuales...")
+            logger.warning("Recomendación: usar entrenamiento estratificado en build_index_from_parquets()")
             self.index.train(embeddings)
-            logger.info("Entrenamiento de índice IVF completado")
+            logger.info("Entrenamiento básico de índice IVF completado")
         
         # Agregar vectores al índice
         start_time = time.time()

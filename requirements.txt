@@ -1,6 +1,9 @@
 # Data manipulation and analysis
 pandas
 
+# Machine Learning utilities
+scikit-learn
+
 # HTTP requests
 requests
 
