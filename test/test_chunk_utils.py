@@ -121,7 +121,7 @@ Este es el cuarto párrafo. Continúa expandiendo el texto para asegurar que se 
         # Verificar estructura de chunks
         for chunk in resultado:
             self.assertIn('texto', chunk)
-            self.assertIn('fila_original', chunk)
+            self.assertIn('item_id', chunk)
             self.assertIn('chunk_numero', chunk)
             self.assertIn('total_chunks_fila', chunk)
             self.assertIn('tokens_aproximados', chunk)
@@ -201,9 +201,9 @@ Este es el cuarto párrafo. Continúa expandiendo el texto para asegurar que se 
         self.assertGreater(len(resultado), 0)
         
         # Verificar que se procesaron las filas válidas
-        filas_procesadas = set(chunk['fila_original'] for chunk in resultado)
-        self.assertIn(0, filas_procesadas)  # Primera fila válida
-        self.assertIn(1, filas_procesadas)  # Segunda fila válida
+        item_ids_procesados = set(chunk['item_id'] for chunk in resultado)
+        self.assertIn('fila_0', item_ids_procesados)  # Primera fila válida
+        self.assertIn('fila_1', item_ids_procesados)  # Segunda fila válida
     
     def test_numeracion_chunks_desde_cero(self):
         """Test que verifica que los chunks empiecen en 0"""
@@ -220,7 +220,7 @@ Este es el cuarto párrafo. Continúa expandiendo el texto para asegurar que se 
         self.assertEqual(primer_chunk['chunk_numero'], 0)
         
         # Verificar secuencia consecutiva
-        numeros_chunks = sorted([chunk['chunk_numero'] for chunk in resultado if chunk['fila_original'] == 0])
+        numeros_chunks = sorted([chunk['chunk_numero'] for chunk in resultado if chunk['item_id'] == 'fila_0'])
         self.assertEqual(numeros_chunks, list(range(len(numeros_chunks))))
     
     def test_manejo_valores_nulos_y_no_string(self):
@@ -238,8 +238,8 @@ Este es el cuarto párrafo. Continúa expandiendo el texto para asegurar que se 
         resultado = chunk_utils.chunking_markdown_df(df_problematico, max_tokens=50)
         
         # Solo deben procesarse las filas válidas (0 y 4)
-        filas_procesadas = set(chunk['fila_original'] for chunk in resultado)
-        self.assertEqual(filas_procesadas, {0, 4})
+        item_ids_procesados = set(chunk['item_id'] for chunk in resultado)
+        self.assertEqual(item_ids_procesados, {'fila_0', 'fila_4'})
     
     def test_directorio_creacion_automatica(self):
         """Test que el directorio se crea automáticamente"""

@@ -46,7 +46,7 @@ class TestExtraerTablasMarkdown(unittest.TestCase):
         self.assertGreaterEqual(len(tablas), 2)
     
     def test_tabla_grande(self):
-        markdown = """
+        markdown = r"""
 | Puesto adjudicado | | | | | Puesto de procedencia | | | Datos personales adjudicatario/a | | | | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | N.º  Orden | Puesto | Localidad | Nivel | C. E. | Ministerio, Centro Directivo, Provincia | Nivel | C. E. | Apellidos y nombre | NRP | Grupo | Cuerpo o Escala | Situación |
