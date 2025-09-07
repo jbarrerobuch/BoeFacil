@@ -4,9 +4,6 @@ pandas
 # HTTP requests
 requests
 
-# AWS S3 integration
-boto3
-
 # HTML parsing
 beautifulsoup4
 

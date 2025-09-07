@@ -13,14 +13,14 @@ from . import utils
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_csv"):
+def extraer(fecha:str = "", s3_bucket:str = "", output_dir:str = "output_folder"):
     """
     Obtener datos del BOE para una fecha especifica y lo guarda en el entorno especificado (local o S3).
     
     Args:
         fecha (str, optional): fecha del BOE a descargar. string format "YYYYMMDD". Si no se define por defecto es hoy.
         s3_bucket (str, optional): S3 bucket para guardar los datos. Por defecto es "" (local).
-        csv_output_dir (str, optional): Directorio donde guardar el CSV. Por defecto es "output_csv".
+        output_dir (str, optional): Directorio donde guardar los archivos de salida. Por defecto es "output_folder".
         data (json, optional): The data to process. If provided, the function will not make an API request.
             Defaults to None. If data is provided, date is required.
     Returns:

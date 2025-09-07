@@ -1,0 +1,40 @@
+{
+  "vector_database_config": {
+    "dimension": 1024,
+    "index_type": "IVF",
+    "description": "Configuración para base de datos vectorial BOE con embeddings BGE-M3"
+  },
+  "input_config": {
+    "parquet_directory": "samples/",
+    "expected_columns": [
+      "sumario_id",
+      "item_id", 
+      "chunk_id",
+      "texto",
+      "embeddings",
+      "fecha_publicacion",
+      "item_titulo",
+      "seccion_codigo",
+      "seccion_nombre",
+      "departamento_codigo",
+      "departamento_nombre",
+      "epigrafe_nombre",
+      "tokens_aproximados",
+      "chunk_numero",
+      "total_chunks_fila",
+      "sumario_url_pdf",
+      "item_url_pdf"
+    ]
+  },
+  "output_config": {
+    "indices_directory": "indices/",
+    "index_filename": "boe_index.faiss",
+    "metadata_filename": "metadata.json",
+    "report_filename": "construction_report.json"
+  },
+  "processing_config": {
+    "validate_data": true,
+    "check_duplicates": true,
+    "log_level": "INFO"
+  }
+}

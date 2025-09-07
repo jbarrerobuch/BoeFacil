@@ -54,10 +54,11 @@ logger = logging.getLogger(__name__)
 
 def embed_texts(texts: List[str], model: Any, batch_size: int) -> List[List[float]]:
     """
-    Return list of embeddings (list of floats) for the input texts.
+    Devuelve una lista de embeddings (lista de floats) para los textos de entrada.
 
-    Uses SentenceTransformer.encode under the hood with the configured batch_size.
-    Includes retry logic for CUDA memory errors.
+    Utiliza SentenceTransformer.encode_document, funcion especifica para generar embeddings de documentos largos.
+    Internamente con el batch_size configurado.
+    Incluye lógica de reintentos para errores de memoria CUDA.
     """
     if model is None:
         raise RuntimeError("sentence_transformers not available; cannot produce embeddings")

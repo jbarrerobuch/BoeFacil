@@ -23,9 +23,6 @@ def contar_tokens(texto):
         return 0
     
     # Eliminar espacios extra y dividir por espacios y signos de puntuación
-    #tokenizer = AutoTokenizer.from_pretrained("pablosi/bge-m3-trained-2")
-    #tokens = re.findall(r'\w+|[.,!?;]', texto.strip())
-    #tokens = tokenizer.encode(texto, truncation=False)
     nltk.download('punkt_tab', quiet=True)  # Asegurarse de que el tokenizer de nltk esté disponible
     tokens = nltk.tokenize.word_tokenize(texto)
     return len(tokens)

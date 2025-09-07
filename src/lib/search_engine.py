@@ -100,9 +100,10 @@ class BOESearchEngine:
         
         # Generar embedding de la consulta
         try:
-            query_embedding = self.embedding_model.encode([query_text.strip()])[0]
+            # Usar encode_query para consultas (optimizado para retrieval asimétrico)
+            query_embedding = self.embedding_model.encode_query([query_text.strip()])[0]
             query_embedding = query_embedding.astype(np.float32)
-            logger.debug(f"Embedding generado: shape {query_embedding.shape}")
+            logger.debug(f"Embedding de consulta generado: shape {query_embedding.shape}")
         except Exception as e:
             logger.error(f"Error generando embedding para '{query_text}': {e}")
             return []
