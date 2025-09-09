@@ -68,15 +68,14 @@ def main():
         
         st.markdown("---")
         
-        st.markdown("### 📋 Fases Disponibles")
+        st.markdown("### 📋 Procesos disponibles")
         
-        # Selector de fase
-        fase_seleccionada = st.selectbox(
-            "Selecciona la fase:",
+        # Selector de proceso
+        proceso_seleccionado = st.selectbox(
+            "Selecciona el proceso:",
             [
-                "Fase 1: Construcción de Índice",
-                "Fase 2: Actualización Incremental",
-                "Fase 3: Procesamiento ETL Completo"
+                "Construcción de Índice",
+                "Actualización Incremental por día",
             ],
             index=0
         )
@@ -119,26 +118,24 @@ def main():
             parquet_files = list(samples_dir.rglob("*.parquet"))  # Búsqueda recursiva
             st.info(f"📁 Archivos parquet: {len(parquet_files)} (total)")
         else:
-            st.error("❌ Directorio de samples no encontrado")
-    
-    # Contenido principal basado en la fase seleccionada
-    if "Fase 1" in fase_seleccionada:
-        mostrar_fase_1()
-    elif "Fase 2" in fase_seleccionada:
-        mostrar_fase_2()
-    elif "Fase 3" in fase_seleccionada:
-        mostrar_fase_3()
+            st.error("❌ Directorio de origen de datos no encontrado")
 
-def mostrar_fase_1():
-    """Interfaz para la Fase 1: Construcción de Índice desde cero"""
-    
-    st.markdown("## 🏗️ Fase 1: Construcción de Índice desde Cero")
-    
+    # Contenido principal basado en el proceso seleccionado
+    if "Construcción de Índice" in proceso_seleccionado:
+        nueva_construccion()
+    elif "Actualización Incremental por día" in proceso_seleccionado:
+        actualizacion_dia()
+
+def nueva_construccion():
+    """Interfaz para la Construcción de Índice desde cero"""
+
+    st.markdown("## 🏗️ Construcción de Índice desde Cero")
+
     st.markdown("""
     <div style="background-color: #e8f4f8; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
-        <h4 style="color: #2c3e50; margin-top: 0;">📋 Descripción de la Fase</h4>
+        <h4 style="color: #2c3e50; margin-top: 0;">📋 Descripción del Proceso</h4>
         <p style="margin-bottom: 0;">
-            Esta fase construye un índice vectorial completamente nuevo desde los archivos parquet disponibles
+            Este proceso construye un índice vectorial completamente nuevo desde los archivos parquet disponibles
             en la carpeta especificada. Se eliminará cualquier índice existente y se creará uno nuevo.
         </p>
     </div>
@@ -218,28 +215,16 @@ def mostrar_fase_1():
         ):
             ejecutar_construccion_indice(carpeta_origen)
 
-def mostrar_fase_2():
-    """Interfaz para la Fase 2: Actualización Incremental"""
-    
-    st.markdown("## 🔄 Fase 2: Actualización Incremental")
-    
-    st.info("""
-    **🚧 Próximamente**
-    
-    Esta fase permitirá actualizar el índice existente con nuevos documentos
-    sin necesidad de reconstruir todo desde cero.
-    """)
+def actualizacion_dia():
+    """Interfaz para el procesamiento ETL Completo de un día específico del BOE"""
 
-def mostrar_fase_3():
-    """Interfaz para la Fase 3: Procesamiento ETL Completo"""
-    
-    st.markdown("## 🔄 Fase 3: Procesamiento ETL Completo")
-    
+    st.markdown("## 🔄 Procesamiento ETL Completo de un día específico del BOE")
+
     st.markdown("""
     <div style="background-color: #e8f4f8; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
-        <h4 style="color: #2c3e50; margin-top: 0;">📋 Descripción de la Fase</h4>
+        <h4 style="color: #2c3e50; margin-top: 0;">📋 Descripción del Proceso</h4>
         <p style="margin-bottom: 0;">
-            Esta fase ejecuta el pipeline completo para un día específico del BOE desde la descarga 
+            Este proceso ejecuta el pipeline completo para un día específico del BOE desde la descarga
             hasta la generación de embeddings e indexación FAISS. Los datos se organizan por fecha 
             en subdirectorios (YYYYMMDD).
         </p>
@@ -414,7 +399,7 @@ def ejecutar_construccion_indice(carpeta_origen):
             progress_bar.progress(25)
             log_area.text(f"📊 Iniciando construcción con {len(parquet_files)} archivos\n🗂️ Destino: {index_path}")
             
-            # LÓGICA REAL: Construir índice usando la función importada
+            # Construir índice usando la función importada
             if build_index_from_parquets and imports_ok:
                 try:
                     status_text.text("Construyendo índice FAISS...")
@@ -503,9 +488,9 @@ def ejecutar_construccion_indice(carpeta_origen):
             
             # Aviso de recarga automática
             st.info("""
-            🔄 **Recargando aplicación para usar el nuevo índice...**
-            
-            La aplicación se reiniciará automáticamente en unos segundos para cargar el nuevo índice vectorial.
+            🔄 **Reinicia la aplicación para usar el nuevo índice...**
+
+            La aplicación necesita reiniciarse para cargar el nuevo índice vectorial.
             """)
             
             # Esperar un momento para que el usuario lea el mensaje

@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 # Configuración de la página
 st.set_page_config(
-    page_title="BoeFacil - Buscador BOE",
+    page_title="Buscador BOE",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -38,7 +38,7 @@ st.set_page_config(
         'Get Help': 'https://github.com/jbarrerobuch/BoeFacil',
         'Report a bug': 'https://github.com/jbarrerobuch/BoeFacil/issues',
         'About': """
-        # BoeFacil 🔍
+        # BoeFácil 🔍
         
         Buscador semántico del BOE (Boletín Oficial del Estado).
         
@@ -47,8 +47,8 @@ st.set_page_config(
         - Filtros por fecha, ministerio y sección
         - Visualización de resultados detallada
         - Estadísticas del índice BOE
-        
-        Desarrollado con ❤️ usando Streamlit y FAISS por JBarrero 😎.
+
+        Desarrollado con Streamlit y FAISS por JBarrero como trabajo de fin de máster desarrollado con Ntic y la UCM.
         """
     }
 )
@@ -182,13 +182,13 @@ def main():
         
         with col1:
             st.metric(
-                label="📄 Chunks Indexados", 
+                label="📄 Chunks/Vectores Indexados", 
                 value=f"{total_docs:,}" if isinstance(total_docs, int) else total_docs
             )
         
         with col2:
             st.metric(
-                label="📰 BOEs Indexados", 
+                label="📰 BOEs procesados", 
                 value=f"{unique_boes:,}" if isinstance(unique_boes, int) else unique_boes
             )
         
@@ -233,7 +233,7 @@ def main():
         "Consulta de búsqueda:",
         value=default_query,
         placeholder="Ej: Real decreto sobre impuestos, ministerio hacienda presupuesto...",
-        help="Introduce cualquier consulta en lenguaje natural. El sistema entiende conceptos, fechas, ministerios y más.",
+        help="Introduce cualquier consulta en lenguaje natural.",
         label_visibility="collapsed"
     )
     
