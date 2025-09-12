@@ -1,0 +1,67 @@
+{
+  "experiment_summary": {
+    "total_queries": 100,
+    "execution_time": "2025-09-10T00:07:58.223975",
+    "config": {
+      "index_path": "indices/boe_index.faiss",
+      "metadata_path": "indices/metadata.json",
+      "model_name": "pablosi/bge-m3-trained-2",
+      "experiment_name": "BGE-M3_vs_TFIDF_Comparative_Study"
+    }
+  },
+  "comparative_metrics": {
+    "bge_m3": {
+      "avg_precision_at_1": 0.17,
+      "std_precision_at_1": 0.375632799419859,
+      "avg_precision_at_5": 0.12999999999999998,
+      "std_precision_at_5": 0.2389560629069704,
+      "avg_precision_at_10": 0.12100000000000001,
+      "std_precision_at_10": 0.2136796667912041,
+      "avg_precision_at_20": 0.10450000000000002,
+      "std_precision_at_20": 0.18222170562257395,
+      "avg_mrr": 0.0,
+      "std_mrr": 0.0,
+      "avg_average_precision": 0.059645178058955146,
+      "std_average_precision": 0.1290712114021041,
+      "avg_num_results": 20.0,
+      "std_num_results": 0.0,
+      "avg_has_results": 1.0,
+      "std_has_results": 0.0,
+      "avg_search_time": 0.5205401849746704,
+      "median_search_time": 0.38839828968048096,
+      "std_search_time": 0.9940393148359237,
+      "total_queries": 100,
+      "successful_queries": 100
+    },
+    "tfidf": {
+      "avg_precision_at_1": 0.24,
+      "std_precision_at_1": 0.4270831300812525,
+      "avg_precision_at_5": 0.23,
+      "std_precision_at_5": 0.3479942528261063,
+      "avg_precision_at_10": 0.207,
+      "std_precision_at_10": 0.32779719339860125,
+      "avg_precision_at_20": 0.1815,
+      "std_precision_at_20": 0.29779649091283794,
+      "avg_mrr": 0.0,
+      "std_mrr": 0.0,
+      "avg_average_precision": 0.14225006207028265,
+      "std_average_precision": 0.27551513626665597,
+      "avg_num_results": 20.0,
+      "std_num_results": 0.0,
+      "avg_has_results": 1.0,
+      "std_has_results": 0.0,
+      "avg_search_time": 4.9905204939842225,
+      "median_search_time": 4.6373361349105835,
+      "std_search_time": 1.1051430156903868,
+      "total_queries": 100,
+      "successful_queries": 100
+    },
+    "improvements": {
+      "avg_precision_at_1_improvement_percent": -29.166666666666657,
+      "avg_precision_at_5_improvement_percent": -43.478260869565226,
+      "avg_precision_at_10_improvement_percent": -41.545893719806756,
+      "avg_average_precision_improvement_percent": -58.07019189243956,
+      "speed_ratio_bge_vs_tfidf": 0.10430579046857953
+    }
+  }
+}
