@@ -281,7 +281,9 @@ Se realizó una evaluación rigurosa comparando **BGE-M3** (embeddings semántic
 | **Precision@5** | 0.130 ± 0.239 | **0.230 ± 0.348** | TF-IDF |
 | **MAP** | 0.060 ± 0.129 | **0.142 ± 0.276** | TF-IDF |
 | **Tiempo promedio** | **0.521s** | 4.991s | BGE-M3 |
-| **Eficiencia** | **0.2497** | 0.0461 | BGE-M3 |
+| **Eficiencia*** | **0.2497** | 0.0461 | BGE-M3 |
+
+*Eficiencia = Precisión / Tiempo (mayor es mejor)
 
 **Hallazgos clave**:
 - ⚡ **BGE-M3 es 9.6x más rápido** que TF-IDF
